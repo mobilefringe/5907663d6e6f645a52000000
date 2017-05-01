@@ -159,17 +159,15 @@
                             <a href="//twitter.com/CarlingwoodSCTR" target="_blank">
                                 <div id="topTwitter"></div>
                             </a>
-                        <a href="//www.pinterest.com/carlingwood/" target="_blank">
-                            <div id="topPinterest"></div>
-                        </a>
-                        <a href="//www.youtube.com/user/carlingwoodsc" target="_blank">
-                            <!--<img alt="yt" id="topYT" src="https://www.mallmaverick.com/system/site_images/photos/000/002/734/original/social_youtube.png?1401307823">-->
-                            <div id="topYoutube"></div>
-                        </a>    
-                       <a href="//instagram.com/carlingwoodsctr" target="_blank">
-                            <!--<img alt="instagram" id="topIT" src="https://www.mallmaverick.com/system/site_images/photos/000/003/192/original/social_instagram.png?1406649749">-->
-                            <div id="topInstagram"></div>
-                        </a> 
+                            <a href="//www.pinterest.com/carlingwood/" target="_blank">
+                                <div id="topPinterest"></div>
+                            </a>
+                            <a href="//www.youtube.com/user/carlingwoodsc" target="_blank">
+                                <div id="topYoutube"></div>
+                            </a>    
+                            <a href="//instagram.com/carlingwoodsctr" target="_blank">
+                                <div id="topInstagram"></div>
+                            </a> 
                        <a href="/newsletter" target="_self">
                             <!--<img alt="newsletter" id="topT" src="https://www.mallmaverick.com/system/site_images/photos/000/012/756/original/newsletter.jpg?1442949976">-->
                             <div id="topNewsletter"></div>
