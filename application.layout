@@ -154,23 +154,27 @@
                         <a class="accessible" href="#main">[Skip to Content]</a>
                         <div class="top_social_div">
                             <a href="//www.facebook.com/Carlingwood" target="_blank">
-                                <!--<img id="topFB" src="https://www.mallmaverick.com/system/site_images/photos/000/002/728/original/social_facebook.png?1401307635" alt="fb">-->
                                 <div id="topFB"></div>
                             </a>
                             <a href="//twitter.com/CarlingwoodSCTR" target="_blank">
-                                <img alt="twitter" id="topTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/002/730/original/social_twit.png?1401307770">
+                                <!--<img alt="twitter" id="topTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/002/730/original/social_twit.png?1401307770">-->
+                                <div id="topTwitter"></div>
                             </a>
                         <a href="//www.pinterest.com/carlingwood/" target="_blank">
-                            <img  alt="pinterest" id="topPin" src="https://www.mallmaverick.com/system/site_images/photos/000/002/732/original/social_pin.png?1401307800">
+                            <!--<img  alt="pinterest" id="topPin" src="https://www.mallmaverick.com/system/site_images/photos/000/002/732/original/social_pin.png?1401307800">-->
+                            <div id="TopPinterest"></div>
                         </a>
                         <a href="//www.youtube.com/user/carlingwoodsc" target="_blank">
-                            <img alt="yt" id="topYT" src="https://www.mallmaverick.com/system/site_images/photos/000/002/734/original/social_youtube.png?1401307823">
+                            <!--<img alt="yt" id="topYT" src="https://www.mallmaverick.com/system/site_images/photos/000/002/734/original/social_youtube.png?1401307823">-->
+                            <div id="topYoutube"></div>
                         </a>    
                        <a href="//instagram.com/carlingwoodsctr" target="_blank">
-                            <img alt="instagram" id="topIT" src="https://www.mallmaverick.com/system/site_images/photos/000/003/192/original/social_instagram.png?1406649749">
+                            <!--<img alt="instagram" id="topIT" src="https://www.mallmaverick.com/system/site_images/photos/000/003/192/original/social_instagram.png?1406649749">-->
+                            <div id="topInstagram"></div>
                         </a> 
                        <a href="/newsletter" target="_self">
-                            <img alt="newsletter" id="topT" src="https://www.mallmaverick.com/system/site_images/photos/000/012/756/original/newsletter.jpg?1442949976">
+                            <!--<img alt="newsletter" id="topT" src="https://www.mallmaverick.com/system/site_images/photos/000/012/756/original/newsletter.jpg?1442949976">-->
+                            <div id="topNewsletter"></div>
                         </a> 
                     </div>
                     
