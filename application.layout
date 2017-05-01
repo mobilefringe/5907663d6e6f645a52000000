@@ -298,189 +298,84 @@
                 <div class="social_box hidden-phone"></div>
                 <div class="nav_site_map">
                     <div class="container-fluid trim_screen hidden-phone">
-                        <div class="row-fluid" align="left">
+                        <div class="row-fluid">
                                             
                             <div class="site_map_table">
-                                <table role="presentation">
-                                    <tr>
-                                        <td align="left" class="bottom_nav_header">
-                                        
-                                            WHAT'S NEW
-                                        
-                                        </td>
-                                    </tr>
+                                <div align="left" class="bottom_nav_header">WHAT'S NEW</div>
+                                <div class="bottom_nav_list">
+                                    <a href='/promotions' target='_self'>Store Sales</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/events' target='_self'>Mall Events</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/new_stores' target='_self'>New Stores</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/posts' target='_self'>Get the Look</a>
+                                </div>
+                            </div>                  
+                            <div class="site_map_table">
+                                <div class="bottom_nav_header">SHOPPING</div>
+                                <divclass="bottom_nav_list">
+                                    <a href='/stores' target='_self'>Directory</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-gift-cards' target='_self'>Gift Cards</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-tv' target='_self'>Carlingwood TV</a>
+                                </div>
+                            </div>                  
+                            <div class="site_map_table">
+                                <div class="bottom_nav_header">SERVICES</div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-customer-services' target='_self'>Customer Services</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-security' target='_self'>Security</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-community-services' target='_self'>Community Services</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-green-initiatives' target='_self'>Green Initiative</a>
+                                </div>
+                            </div>                  
+                            <div class="site_map_table">
+                                <div class="bottom_nav_header">VISIT US</div>
+                                <div class="bottom_nav_list">
+                                    <a href='/hours' target='_self'>Hours</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-about-us' target='_self'>About Us</a>
+                                </div>
+                                <div class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-directions' target='_self'>Directions</a>
+                                </div>
+                            </div>                  
+                            <div class="site_map_table">
+                                <div align="left" class="bottom_nav_header">CONTACTS</div>
                                 
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/promotions' target='_self'>Store Sales</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/events' target='_self'>Mall Events</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/new_stores' target='_self'>New Stores</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/posts' target='_self'>Get the Look</a>
-                                        </td>
-                                    </tr>
-                                
-                            </table>
-                        </div>                  
-                                            
-                        <div class="site_map_table">
-                            <table role="presentation">
-                                <tr>
-                                    <td align="left" class="bottom_nav_header">
-                                    
-                                        SHOPPING
-                                    
-                                    </td>
-                                </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/stores' target='_self'>Directory</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-gift-cards' target='_self'>Gift Cards</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-tv' target='_self'>Carlingwood TV</a>
-                                        </td>
-                                    </tr>
-                                
-                            </table>
-                        </div>                  
-                                            
-                        <div class="site_map_table">
-                            <table role="presentation">
-                                <tr>
-                                    <td align="left" class="bottom_nav_header">
-                                    
-                                        SERVICES
-                                    
-                                    </td>
-                                </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-customer-services' target='_self'>Customer Services</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-security' target='_self'>Security</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-community-services' target='_self'>Community Services</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-green-initiatives' target='_self'>Green Initiative</a>
-                                        </td>
-                                    </tr>
-                                
-                            </table>
-                        </div>                  
-                                            
-                        <div class="site_map_table">
-                            <table role="presentation">
-                                <tr>
-                                    <td align="left" class="bottom_nav_header">
-                                    
-                                        VISIT US
-                                    
-                                    </td>
-                                </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/hours' target='_self'>Hours</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-about-us' target='_self'>About Us</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-directions' target='_self'>Directions</a>
-                                        </td>
-                                    </tr>
-                                
-                            </table>
-                        </div>                  
-                                            
-                        <div class="site_map_table">
-                            <table role="presentation">
-                                <tr>
-                                    <td align="left" class="bottom_nav_header">
-                                    
-                                        CONTACTS
-                                    
-                                    </td>
-                                </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/jobs' target='_self'>Jobs</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-privacy-policy' target='_self'>Privacy Policy</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-leasing' target='_self'>Leasing</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='/pages/carlingwood-speciality-leasing' target='_self'>Speciality Leasing</a>
-                                        </td>
-                                    </tr>
-                                
-                                    <tr>
-                                        <td align="left" class="bottom_nav_list">
-                                            <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>
-                                        </td>
-                                    </tr>
-                                
-                            </table>
-                        </div>                  
-                    
+                                <div align="left" class="bottom_nav_list">
+                                    <a href='/jobs' target='_self'>Jobs</a>
+                                </div>
+                                <div align="left" class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-privacy-policy' target='_self'>Privacy Policy</a>
+                                </div>
+                                <div align="left" class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-leasing' target='_self'>Leasing</a>
+                                </div>
+                                <div align="left" class="bottom_nav_list">
+                                    <a href='/pages/carlingwood-speciality-leasing' target='_self'>Speciality Leasing</a>
+                                </div>
+                                <div align="left" class="bottom_nav_list">
+                                    <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>
+                                </div>
+                            </div>                  
+                        </div>
+                    </div>   
                 </div>
-            </div>   
             
             
             <div class="newsletter_box">                
