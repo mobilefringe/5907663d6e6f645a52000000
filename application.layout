@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="">
+    <meta property="og:title" content="{{meta_title}}">
+    <meta property="og:description" content="{{meta_description}}">
+    <meta property="og:image" content="{{meta_image}}">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="{{meta_description}}">
+    <meta name="keywords" content="{{meta_keywords}}">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,initial-scale=1">
+    <title>{{meta_title}}</title>
+    
+    <!-- Bootstrap Core CSS - Uses Bootswatch Flatly Theme: //bootswatch.com/flatly/ -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom Fonts -->
+    
+    
+    <!-- Custom CSS -->
+    <link href="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/flexslider.css" rel="stylesheet">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="//cdn-images.mailchimp.com/embedcode/classic-10_7.css" rel="stylesheet" type="text/css">
+    <link href="/standardize.css" rel="stylesheet">
+    <link href="/index-grid.css" rel="stylesheet">
+    <link href="/index.css" rel="stylesheet">
+    <link href="/application.css" rel="stylesheet">
+    <link href="/site.css" rel="stylesheet">
+    
+    <!-- js-->
+    <!-- jQuery Version 1.11.0 -->
+    <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery-ajaxtransport-xdomainrequest/1.0.2/jquery.xdomainrequest.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/mustache.js/0.8.1/mustache.min.js"></script>
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/flexslider/2.5.0/jquery.flexslider.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/5639075d6e6f647b9f020000/text/javascript/1446569669000/instafeed.min.js"></script>
+    <script src="//www.google.com/recaptcha/api.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507772000/moment.min.js"></script>
+    <script src="//codecloud.cdn.speedyrails.net/sites/579231876e6f6467cf000000/application/x-javascript/1468507661000/moment-timezone-with-data.min.js"></script>
+    
+    <!--MallMaverick SDK-->
+    <script src="//mallmaverick.codecloudapp.com/mallmaverick_v3.js"></script>
+    <script src="//mallmaverick.codecloudapp.com/mustache_mallmaverick.js?v=0.3"></script>
+    
+    <script src="/application.js" type="text/javascript"></script>
+    <script src="/helper.js" type="text/javascript"></script>
+    
+    <script>
+        setEndPoint('//lansdowne.mallmaverick.com/api/v3/lansdowne/all.json');
+    </script>
+</head>
+
+<body>
+    <header>
+        <!--Header -->
+        <div class="header">
+            <!-- iphone header -->
+            <div class="mobile_header visible-phone top_nav row-fluid" >                
+                <a id="mobile_logo" href="/">
+                    <img  alt="mobile logo" class="mobile_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/051/original/Carlingwood_Logo_New.png?1493234827" />
+                </a>
+                <div class="background_bar">
+                    <button type="button" onclick="toggle_dropdown();" class="pull-right">
+                        <img alt="toggle dropdown" src="https://www.mallmaverick.com/system/site_images/photos/000/002/055/original/menu.png?1395250451" class="mobile_menu_icon">
+                    </button>    
+                </div>
+                <div>
+                    <ul class="dropdown-menu bottom">                                
+                        <div class="mobile_menu_header">
+                            <a href='' >WHAT'S NEW</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/promotions'>Store Sales</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/events'>Mall Events</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/new_stores'>New Stores</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/posts'> Get the Look</a>
+                        </div>
+                        <div class="mobile_menu_header" >
+                            <a href='' >SHOPPING</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/stores'>Directory</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-gift-cards'>Gift Cards</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-tv'>Carlingwood TV</a>
+                        </div>
+                        <div class="mobile_menu_header" >
+                            <a href='' >SERVICES</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-customer-services'>Customer Services</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-security'>Security</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-community-services'>Community Services</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-green-initiatives'>Green Initiative</a>
+                        </div>
+                        <div class="mobile_menu_header" >
+                            <a href='' >VISIT US</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/hours'>Hours</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-about-us'>About Us</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-directions'>Directions</a>
+                        </div>
+                        <div class="mobile_menu_header" >
+                            <a href='' >CONTACTS</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/jobs'>Jobs</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-privacy-policy'>Privacy Policy</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-leasing'>Leasing</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='/pages/carlingwood-speciality-leasing'>Speciality Leasing</a>
+                        </div>
+                        <div class="mobile_menu_item">
+                            <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>
+                        </div>
+                    </ul>
+                </div>
+            </div>
+            <!-- iphone header END --> 
+            <!--Top Nav Dynamic-->
+            <div class="top_nav hidden-phone custom_dropdown full_header">
+                <div class="container-fluid trim_screen nav_container">              
+                    <div class="top_search_div">
+                        <a class="accessible" href="#main">[Skip to Content]</a>
+                        <div class="top_social_div">
+                            <a href="https://www.facebook.com/Carlingwood" target="_blank">
+                                <img id="topFB" src="https://www.mallmaverick.com/system/site_images/photos/000/002/728/original/social_facebook.png?1401307635" alt="fb">
+                            </a>
+                            <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
+                                <img alt="twitter" id="topTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/002/730/original/social_twit.png?1401307770">
+                            </a>
+                        <a href="http://www.pinterest.com/carlingwood/" target="_blank">
+                            <img  alt="pinterest" id="topPin" src="https://www.mallmaverick.com/system/site_images/photos/000/002/732/original/social_pin.png?1401307800">
+                        </a>
+                        <a href="https://www.youtube.com/user/carlingwoodsc" target="_blank">
+                            <img alt="yt" id="topYT" src="https://www.mallmaverick.com/system/site_images/photos/000/002/734/original/social_youtube.png?1401307823">
+                        </a>    
+                       <a href="http://instagram.com/carlingwoodsctr" target="_blank">
+                            <img alt="instagram" id="topIT" src="https://www.mallmaverick.com/system/site_images/photos/000/003/192/original/social_instagram.png?1406649749">
+                        </a> 
+                       <a href="/newsletter" target="_self">
+                            <img alt="newsletter" id="topT" src="https://www.mallmaverick.com/system/site_images/photos/000/012/756/original/newsletter.jpg?1442949976">
+                        </a> 
+                    </div>
+                    
+                    <div id="search-form" class="search-form" >                
+                        <div class="input_box">
+                            <input title="search" class="input_text" id="SearchTerms" placeholder="Search" 
+                            onkeydown="if (event.keyCode ==13) document.getElementById('search_button').click()"/>                    
+                            <button id="search_button" class="search_button" onclick="search_site();"> 
+                                <img alt="search button" class="search button" src="https://www.mallmaverick.com/system/site_images/photos/000/002/047/original/search_icon.png?1395175100"> 
+                            </button>
+                        </div>
+                        <div class="input submit"></div>
+                    </div>   
+                </div>
+                <div class="row-fluid" id="site_nav">  
+                    <div class="logo_container">
+                        <a href="/">
+                            <img alt="logo centre" id="centre_logo" src="https://www.mallmaverick.com/system/sites/logo_images/000/000/051/original/Carlingwood_Logo_New.png?1493234827"/>
+                        </a>
+                    </div>
+                    <ul>                
+                        <li class="dropdown top_dropdown">
+                            <button id = "btn-new" class="btn-nav" ONFOCUS="animate_dropdown('new')"  onmouseover="animate_dropdown('new')">WHAT'S NEW</button>                                                     
+                            <ul class="dropdown-menu">                            
+                                <div id="new" class="dd_animated">
+                                    <li>
+                                        <a class="nav_a" href='/promotions' target='_self'><span>Store Sales</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/events' target='_self'><span>Mall Events</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/new_stores' target='_self'><span>New Stores</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/posts' target='_self'><span>Get the Look</span></a>                                
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>  
+                        <li class="dropdown top_dropdown">
+                            <button id = "btn-shop" class="btn-nav" ONFOCUS="animate_dropdown('shop')"  onmouseover="animate_dropdown('shop')">SHOPPING</button>                                                     
+                            <ul class="dropdown-menu">                            
+                                <div id="shop" class="dd_animated">
+                                    <li>
+                                        <a class="nav_a" href='/stores' target='_self'><span>Directory</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-gift-cards' target='_self'><span>Gift Cards</span></a>                    
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-tv' target='_self'><span>Carlingwood TV</span></a>                         
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>  
+                        <li class="dropdown top_dropdown">
+                            <button id = "btn-guest" class="btn-nav" ONFOCUS="animate_dropdown('guest')"  onmouseover="animate_dropdown('guest')">SERVICES</button>                                                     
+                            <ul class="dropdown-menu">                            
+                                <div id="guest" class="dd_animated">
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-customer-services' target='_self'><span>Customer Services</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-security' target='_self'><span>Security</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-community-services' target='_self'><span>Community Services</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>        
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>  
+                        <li class="dropdown top_dropdown">
+                            <button id = "btn-visit" class="btn-nav" ONFOCUS="animate_dropdown('visit')"  onmouseover="animate_dropdown('visit')">VISIT US</button>                                                     
+                            <ul class="dropdown-menu">                            
+                                <div id="visit" class="dd_animated">
+                                    <li>
+                                        <a class="nav_a" href='/hours' target='_self'><span>Hours</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-about-us' target='_self'><span>About Us</span></a>                         
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-directions' target='_self'><span>Directions</span></a>
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>  
+                        <li class="dropdown top_dropdown">
+                            <button id = "btn-contacts" class="btn-nav" ONFOCUS="animate_dropdown('contacts')"  onmouseover="animate_dropdown('contacts')">CONTACTS</button>                                                     
+                            <ul class="dropdown-menu" style="right:0px; left:auto;">                            
+                                <div id="contacts" class="dd_animated">
+                                    <li>
+                                        <a class="nav_a" href='/jobs' target='_self'><span>Jobs</span></a>                                
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-privacy-policy' target='_self'><span>Privacy Policy</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-leasing' target='_self'><span>Leasing</span></a>                           
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
+                                    </li>
+                                </div>
+                            </ul>
+                        </li>  
+                    </ul>
+                    <hr>
+                </div>                 
+            </div>          
+        </div>
+    </header>
+    <section id="content">
+        <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
+        {{yield}}
+    </section>
+    <footer>
+        <!--Footer Content-->
+    </footer>
+</body>
+
+</html>
