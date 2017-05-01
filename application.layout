@@ -294,7 +294,272 @@
         {{yield}}
     </section>
     <footer>
-        <!--Footer Content-->
+        <!--Bottom Nav Dynamic-->
+        <div class="bottom_nav trim_screen">
+            <div class="container-fluid trim_screen">
+                <div class="social_box hidden-phone">
+
+                </div>
+                <div class="nav_site_map">
+                    <div class="container-fluid trim_screen hidden-phone">
+                        <div class="row-fluid" align="left">
+                                            
+                            <div class="site_map_table">
+                                <table role="presentation">
+                                    <tr>
+                                        <td align="left" class="bottom_nav_header">
+                                        
+                                            WHAT'S NEW
+                                        
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/promotions' target='_self'>Store Sales</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/events' target='_self'>Mall Events</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/new_stores' target='_self'>New Stores</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/posts' target='_self'>Get the Look</a>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>                  
+                                            
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tr>
+                                    <td align="left" class="bottom_nav_header">
+                                    
+                                        SHOPPING
+                                    
+                                    </td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/stores' target='_self'>Directory</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-gift-cards' target='_self'>Gift Cards</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-tv' target='_self'>Carlingwood TV</a>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>                  
+                                            
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tr>
+                                    <td align="left" class="bottom_nav_header">
+                                    
+                                        SERVICES
+                                    
+                                    </td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-customer-services' target='_self'>Customer Services</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-security' target='_self'>Security</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-community-services' target='_self'>Community Services</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-green-initiatives' target='_self'>Green Initiative</a>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>                  
+                                            
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tr>
+                                    <td align="left" class="bottom_nav_header">
+                                    
+                                        VISIT US
+                                    
+                                    </td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/hours' target='_self'>Hours</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-about-us' target='_self'>About Us</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-directions' target='_self'>Directions</a>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>                  
+                                            
+                        <div class="site_map_table">
+                            <table role="presentation">
+                                <tr>
+                                    <td align="left" class="bottom_nav_header">
+                                    
+                                        CONTACTS
+                                    
+                                    </td>
+                                </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/jobs' target='_self'>Jobs</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-privacy-policy' target='_self'>Privacy Policy</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-leasing' target='_self'>Leasing</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='/pages/carlingwood-speciality-leasing' target='_self'>Speciality Leasing</a>
+                                        </td>
+                                    </tr>
+                                
+                                    <tr>
+                                        <td align="left" class="bottom_nav_list">
+                                            <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>
+                                        </td>
+                                    </tr>
+                                
+                            </table>
+                        </div>                  
+                    
+                </div>
+            </div>   
+            
+            
+            <div class="newsletter_box">                
+                <span>
+                    <p class="subscribe_label">SUBSCRIBE AND GET UPDATES</p>
+                </span>
+                <form action="/newsletter" method="get" >
+                    <input title="email" name="email" class="sub_input_text" id="subscribe_email" placeholder="Your Email" required/>                                         
+                    <input  title="submit" type="submit" value="Submit" class="btn" />          
+                    
+                </form>
+                <div class="social_links">
+                    <a href="https://www.facebook.com/Carlingwood" target="_blank">
+                        <img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582" 
+                        onmouseout="javascript:mouse_out('bottomFB','https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582')" 
+                        onmouseover="javascript:mouse_over('bottomFB', 'https://www.mallmaverick.com/system/site_images/photos/000/002/746/original/social_footer_facebook_clicked.png?1401377096')"
+                        ONBLUR="javascript:mouse_out('bottomFB','https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582')" 
+                        ONFOCUS="javascript:mouse_over('bottomFB', 'https://www.mallmaverick.com/system/site_images/photos/000/002/746/original/social_footer_facebook_clicked.png?1401377096')">
+                    </a>
+                    <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
+                        <img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520" 
+                        onmouseout="javascript:mouse_out('bottomTwtr','https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520')" 
+                        onmouseover="javascript:mouse_over('bottomTwtr', 'https://www.mallmaverick.com/system/site_images/photos/000/002/748/original/social_footer_twit_clicked.png?1401377181')"
+                        ONBLUR="javascript:mouse_out('bottomTwtr','https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520')" 
+                        ONFOCUS="javascript:mouse_over('bottomTwtr', 'https://www.mallmaverick.com/system/site_images/photos/000/002/748/original/social_footer_twit_clicked.png?1401377181')">
+                    </a>
+                    <a href="http://www.pinterest.com/carlingwood/" target="_blank">
+                        <img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466" 
+                        onmouseout="javascript:mouse_out('bottomPin','https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466')" 
+                        onmouseover="javascript:mouse_over('bottomPin', 'https://www.mallmaverick.com/system/site_images/photos/000/002/750/original/social_footer_pin_clicked.png?1401377210')"
+                        ONBLUR="javascript:mouse_out('bottomPin','https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466')" 
+                        ONFOCUS="javascript:mouse_over('bottomPin', 'https://www.mallmaverick.com/system/site_images/photos/000/002/750/original/social_footer_pin_clicked.png?1401377210')">
+                    </a>
+                    <a href="http://www.youtube.com/user/carlingwoodsc" target="_blank">
+                        <img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460" 
+                        onmouseout="javascript:mouse_out('bottomYT','https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460')" 
+                        onmouseover="javascript:mouse_over('bottomYT', 'https://www.mallmaverick.com/system/site_images/photos/000/002/752/original/social_footer_youtube_clicked.png?1401377237')"
+                        ONBLUR="javascript:mouse_out('bottomYT','https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460')" 
+                        ONFOCUS="javascript:mouse_over('bottomYT', 'https://www.mallmaverick.com/system/site_images/photos/000/002/752/original/social_footer_youtube_clicked.png?1401377237')">
+                    </a>  
+                    <a href="http://instagram.com/carlingwoodsctr" target="_blank">
+                        <img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507" 
+                        onmouseout="javascript:mouse_out('bottomIT','https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507')" 
+                        onmouseover="javascript:mouse_over('bottomIT', 'https://www.mallmaverick.com/system/site_images/photos/000/003/195/original/social_instagram_clicked.png?1406649794')"
+                        ONBLUR="javascript:mouse_out('bottomIT','https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507')" 
+                        ONFOCUS="javascript:mouse_over('bottomIT', 'https://www.mallmaverick.com/system/site_images/photos/000/003/195/original/social_instagram_clicked.png?1406649794')">
+                    </a>  
+                </div>
+                
+                <br />
+                <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
+            
+ 
+                
+            </div>
+              
+        </div>
+    </div>
+    
+
+</div>    
+
+
+
+<!--Footer -->
+<div class="footer trim_screen">
+    <span>
+    &copy; 2014 Carlingwood | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
+    </span>
+    <span><a href="/retail_users/sign_in">Tenant Login</a></span>
+    <a target="_blank" href="http://get.adobe.com/reader/">&nbsp;&nbsp;Get Acrobat Reader</a>
+</div>
+
+<div id="fb-root"></div>
+
     </footer>
 </body>
 
