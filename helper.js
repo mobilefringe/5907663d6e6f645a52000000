@@ -1,3 +1,5 @@
-$(".btn-nav").hover(function() {
-    $(".dd_animated").css({"display": "block"});    
-});
+function init() {
+    $(".btn-nav").hover(function() {
+        $(".dd_animated").css({"display": "block"});    
+    });
+}
