@@ -492,74 +492,37 @@
                     <p class="subscribe_label">SUBSCRIBE AND GET UPDATES</p>
                 </span>
                 <form action="/newsletter" method="get" >
-                    <input title="email" name="email" class="sub_input_text" id="subscribe_email" placeholder="Your Email" required/>                                         
+                    <input title="email" name="email" class="sub_input_text" id="subscribe_email" placeholder="Your Email" required/>                   
                     <input  title="submit" type="submit" value="Submit" class="btn" />          
-                    
                 </form>
                 <div class="social_links">
                     <a href="https://www.facebook.com/Carlingwood" target="_blank">
-                        <img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582" 
-                        onmouseout="javascript:mouse_out('bottomFB','https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582')" 
-                        onmouseover="javascript:mouse_over('bottomFB', 'https://www.mallmaverick.com/system/site_images/photos/000/002/746/original/social_footer_facebook_clicked.png?1401377096')"
-                        ONBLUR="javascript:mouse_out('bottomFB','https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582')" 
-                        ONFOCUS="javascript:mouse_over('bottomFB', 'https://www.mallmaverick.com/system/site_images/photos/000/002/746/original/social_footer_facebook_clicked.png?1401377096')">
+                        <img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582">
                     </a>
                     <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
-                        <img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520" 
-                        onmouseout="javascript:mouse_out('bottomTwtr','https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520')" 
-                        onmouseover="javascript:mouse_over('bottomTwtr', 'https://www.mallmaverick.com/system/site_images/photos/000/002/748/original/social_footer_twit_clicked.png?1401377181')"
-                        ONBLUR="javascript:mouse_out('bottomTwtr','https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520')" 
-                        ONFOCUS="javascript:mouse_over('bottomTwtr', 'https://www.mallmaverick.com/system/site_images/photos/000/002/748/original/social_footer_twit_clicked.png?1401377181')">
+                        <img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520">
                     </a>
                     <a href="http://www.pinterest.com/carlingwood/" target="_blank">
-                        <img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466" 
-                        onmouseout="javascript:mouse_out('bottomPin','https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466')" 
-                        onmouseover="javascript:mouse_over('bottomPin', 'https://www.mallmaverick.com/system/site_images/photos/000/002/750/original/social_footer_pin_clicked.png?1401377210')"
-                        ONBLUR="javascript:mouse_out('bottomPin','https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466')" 
-                        ONFOCUS="javascript:mouse_over('bottomPin', 'https://www.mallmaverick.com/system/site_images/photos/000/002/750/original/social_footer_pin_clicked.png?1401377210')">
+                        <img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466">
                     </a>
                     <a href="http://www.youtube.com/user/carlingwoodsc" target="_blank">
-                        <img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460" 
-                        onmouseout="javascript:mouse_out('bottomYT','https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460')" 
-                        onmouseover="javascript:mouse_over('bottomYT', 'https://www.mallmaverick.com/system/site_images/photos/000/002/752/original/social_footer_youtube_clicked.png?1401377237')"
-                        ONBLUR="javascript:mouse_out('bottomYT','https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460')" 
-                        ONFOCUS="javascript:mouse_over('bottomYT', 'https://www.mallmaverick.com/system/site_images/photos/000/002/752/original/social_footer_youtube_clicked.png?1401377237')">
+                        <img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460">
                     </a>  
                     <a href="http://instagram.com/carlingwoodsctr" target="_blank">
-                        <img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507" 
-                        onmouseout="javascript:mouse_out('bottomIT','https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507')" 
-                        onmouseover="javascript:mouse_over('bottomIT', 'https://www.mallmaverick.com/system/site_images/photos/000/003/195/original/social_instagram_clicked.png?1406649794')"
-                        ONBLUR="javascript:mouse_out('bottomIT','https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507')" 
-                        ONFOCUS="javascript:mouse_over('bottomIT', 'https://www.mallmaverick.com/system/site_images/photos/000/003/195/original/social_instagram_clicked.png?1406649794')">
+                        <img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507">
                     </a>  
                 </div>
-                
-                <br />
+                <br/>
                 <span id="success_subscribe">Thank you for subscribing to our newsletter.</span>
-            
- 
-                
             </div>
-              
         </div>
-    </div>
-    
-
-</div>    
-
-
-
-<!--Footer -->
-<div class="footer trim_screen">
-    <span>
-    &copy; 2014 Carlingwood | Powered By <a href="http://www.mallmaverick.com/" target="_blank">Mall Maverick</a>     
-    </span>
-    <span><a href="/retail_users/sign_in">Tenant Login</a></span>
-    <a target="_blank" href="http://get.adobe.com/reader/">&nbsp;&nbsp;Get Acrobat Reader</a>
-</div>
-
-<div id="fb-root"></div>
-
+        <!--Footer -->
+        <div class="footer trim_screen">
+            <span>&copy; 2017 Carlingwood | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a></span>
+            <span><a href="/retail_users/sign_in">Tenant Login</a></span>
+            <a target="_blank" href="//get.adobe.com/reader/">&nbsp;&nbsp;Get Acrobat Reader</a>
+        </div>
+        <div id="fb-root"></div>
     </footer>
 </body>
 
