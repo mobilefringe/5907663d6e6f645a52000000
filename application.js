@@ -358,7 +358,7 @@ function renderPromotions(container, template, collection){
             val.dates = start.format("MMM D")
         }
         else{
-            val.dates = "Starts " + start.format("MMM D") + " - Ends " + end.format("MMM D")
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
         if (val.description.length  >= 175) {
