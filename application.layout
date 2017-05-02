@@ -340,9 +340,10 @@
                     </script>
                 </p>
                 <p id="prop_details_container">
-                    <span class="hour_title"><br>CALL US</span>
+                    
                     <script id="prop_details_template" type="x-tmpl-mustache/text">
                         {%raw%}
+                            <span class="hour_title"><br>CALL US</span>
                         
                         <span class="hour_info hidden-phone">{{phone}}</span>
                         <span class="hour_info visible-phone">
