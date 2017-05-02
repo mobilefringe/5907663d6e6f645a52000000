@@ -340,11 +340,9 @@
                     </script>
                 </p>
                 <p id="prop_details_container">
-                    
                     <script id="prop_details_template" type="x-tmpl-mustache/text">
                         {%raw%}
-                            <span class="hour_title"><br>CALL US</span>
-                        
+                        <span class="hour_title"><br>CALL US</span>
                         <span class="hour_info hidden-phone">{{phone}}</span>
                         <span class="hour_info visible-phone">
                             <a href="tel:{{phone}}">{{phone}}</a>    
@@ -352,7 +350,7 @@
                         {%endraw%}
                     </script>
                 </p>
-                <a href="/hours" class="check_hours" style="color:#000;text-decoration:underline">HOLIDAY HOURS</a>
+                <a href="/hours" class="check_hours">HOLIDAY HOURS</a>
             </div>
         <div>
             <a href="/events">
