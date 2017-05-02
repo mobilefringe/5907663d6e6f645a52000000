@@ -1,3 +1,390 @@
+<div class="hours_page">
+     
+    <label class="page_headers">Mall Hours</label>
+    <div class="hour_table">
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                10:00am -  6:00pm
+            </span>
+            <span class="hour_date">
+                
+                SUNDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                MONDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                TUESDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                WEDNESDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                THURSDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                FRIDAY
+            </span>            
+        </div>
+        
+        <div class="hour_row">
+            <span class="hour_time pull-right">
+                 9:30am -  9:00pm
+            </span>
+            <span class="hour_date">
+                
+                SATURDAY
+            </span>            
+        </div>
+    
+    </div>
+        <div class="line_break ">&nbsp;</div>
+	    
+        <label class="page_headers">
+        Carlingwood Holiday Hours
+             
+        </label>
+        <br>
+	    <div class="hour_table">
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        FAMILY DAY, 
+                        
+                            Feb 20
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        GOOD FRIDAY, 
+                        
+                            Apr 14
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        EASTER SUNDAY, 
+                        
+                            Apr 16
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        VICTORIA DAY, 
+                        
+                            May 22
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        CANADA DAY, 
+                        
+                            Jul 01
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                         9:30am -  6:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        CIVIC HOLIDAY MONDAY, 
+                        
+                            Aug 07
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        LABOUR DAY, 
+                        
+                            Sep 04
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        THANKSGIVING DAY, 
+                        
+                            Oct 09
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        12:30pm -  9:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        REMEMBRANCE DAY, 
+                        
+                            Nov 11
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                         8:00am -  9:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        BLACK FRIDAY, 
+                        
+                            Nov 24
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                         9:00am -  5:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        CHRISTMAS EVE DECEMBER 24TH, 
+                        
+                            Dec 24
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        CHRISTMAS DAY , 
+                        
+                            Dec 25
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                         9:00am -  6:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        BOXING DAY, 
+                        
+                            Dec 26
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                         9:30am -  5:00pm
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        NEW YEAR'S EVE, 
+                        
+                            Dec 31
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+            <div class="hour_row">    
+                <span class="hour_time pull-right">
+                    
+                        Closed
+                        
+                </span>
+                
+                <span class="hour_date">
+                    
+                    
+                    
+                        NEW YEAR'S DAY, 
+                        
+                            Jan 01
+                        
+                      
+                    
+                </span>  
+            </div>
+        
+    </div>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
