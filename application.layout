@@ -297,96 +297,28 @@
                 <p class="container_labels">STORE SALES</p>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                 <a class="accessible" href="#main">[Skip to Content]</a>
-                <div class="feed_box">
-                                        
-
-                     
-                    <a href="/stores/carlingwood-things-engraved">
-                        <div class="feed_box_name" style="cursor:pointer">THINGS ENGRAVED </div>
-                    </a>
-                    <div>
-                        <p class="feed_box_title">"TO MOM WITH LOVE" SALE!</p>
-                        <p class="feed_box_date">APR 18 TILL MAY 16</p>
-                    </div>
-                    
-                    <p class="feed_box_desc"><p>Visit&nbsp;Things Engraved for our&nbsp;&ldquo;to Mom with Love&rdquo; Sale: April 18th &ndash; May 15th.</p>
-
-<p>Select gift for those special ladies at 25% off plus gifts for all occasions.</p>
-
-<p>Engraved Gifts Create Lasting Memories.</p>
-
-<p>Personalize it to make it unique!</p>
-
-<p>We Engrave Gifts Purchased Anywhere.&nbsp;&nbsp;</p>
-
-<p>Corporate, Military, Senior &amp; Wedding Party Discounts Available.&nbsp;</p>
-
-<p style="margin-left: 36pt;">We are online! Find us here: <a href="http://www.thingsengraved.ca/" title="http://www.thingsengraved.ca/">www.thingsengraved.ca</a> / <a href="http://www.facebook.com/thingsengraved" title="http://www.facebook.com/thingsengraved&#10;outbind://12/www.facebook.com/thingsengraved">www.facebook.com/thingsengraved</a> / <a href="http://www.twitter.com/thingsengraved%20/">www.twitter.com/thingsengraved /</a> <a href="http://www.pinterest.com/thingsengraved" title="http://www.pinterest.com/thingsengraved">www.pinterest.com/thingsengraved</a> / <a href="http://www.instagram.com/thingsengraved" title="http://www.instagram.com/thingsengraved">www.instagram.com/thingsengraved</a></p>
-</p>
-                    <a href="/promotions#carlingwood-carlingwood-things-engraved-to-mom-with-love-sale--3">
-                        <div class="read_more">read more</div>
-                    </a>
-                    
-                    <img  alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
-                </div>
-                
-            
-                <a class="accessible" href="#main">[Skip to Content]</a>
-                <div class="feed_box">
-                                                  
-                        <a href="https://res.cloudinary.com/mallmaverick/image/upload/v1493037502/znbiaaldrjzxtat8ym4c.jpg" rel="lightbox-gallery" title="Mother's Day collection now available ">
-                            <img  alt="promo" class="promo_page_img" src="https://res.cloudinary.com/mallmaverick/image/upload/v1493037502/znbiaaldrjzxtat8ym4c.jpg">
+                <div class="feed_box" id="side_promo_container">
+                    <script id="contest_template" type="x-tmpl-mustache/text">
+                        <a href="" rel="lightbox-gallery" title="">
+                            <img  alt="promo" class="promo_page_img" src="">
                         </a>
-                     
-                    <a href="/stores/carlingwood-purdys-chocolatier">
-                        <div class="feed_box_name" style="cursor:pointer">PURDYS CHOCOLATIER  </div>
-                    </a>
-                    <div>
-                        <p class="feed_box_title">MOTHER'S DAY COLLECTION NOW AVAILABLE </p>
-                        <p class="feed_box_date">APR 21 TILL MAY 15</p>
-                    </div>
-                    
-                    <p class="feed_box_desc"><p><span style="font-family:times new roman,serif; font-size:12pt">Surprise your mom with our Majestic Mother&rsquo;s Day Gift Box, she will be sure to enjoy! Crafted from only 100% sustainable cocoa that helps support women farmers (including single mothers) in cocoa-growing communities.</span></p>
-</p>
-                    <a href="/promotions#carlingwood-carlingwood-purdys-chocolatier-mother-s-day-collection-now-available">
-                        <div class="read_more">read more</div>
-                    </a>
-                    
-                    <img  alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
-                </div>
-                
-            
-                <a class="accessible" href="#main">[Skip to Content]</a>
-                <div class="feed_box">
-                                                  
-                        <a href="https://res.cloudinary.com/mallmaverick/image/upload/v1492787450/rva39tuzvmgs8r7xfbqu.png" rel="lightbox-gallery" title="The Perfect Fit for the Perfect Night - Prom 2017 @ Stitch It ">
-                            <img  alt="promo" class="promo_page_img" src="https://res.cloudinary.com/mallmaverick/image/upload/v1492787450/rva39tuzvmgs8r7xfbqu.png">
+                        <a href="{{store_slug}}">
+                            <div class="feed_box_name">{{store_name}}</div>
                         </a>
-                     
-                    <a href="/stores/carlingwood-stitch-it">
-                        <div class="feed_box_name" style="cursor:pointer">STITCH IT</div>
-                    </a>
-                    <div>
-                        <p class="feed_box_title">THE PERFECT FIT FOR THE PERFECT NIGHT - PROM 2017 @ STITCH IT </p>
-                        <p class="feed_box_date">APR 21 TILL JUN 01</p>
-                    </div>
+                        <div>
+                            <p class="feed_box_title">{{name}}</p>
+                            <p class="feed_box_date">{{dates}}</p>
+                        </div>
+                        <p class="feed_box_desc"></p>
+                        <a href="/promotions/{{slug}}">
+                            <div class="read_more">read more</div>
+                        </a>
                     
-                    <p class="feed_box_desc"><p><span style="font-family:times new roman,serif; font-size:12pt">Bring a friend (or 3) in to receive special promotion to help you look and feel your best for Prom. </span></p>
-
-<p>&nbsp;</p>
-
-<p><img alt="" class="uploaded-img-responsive" height="569" src="https://www.mallmaverick.com/system/site_images/photos/000/028/157/original/The_Perfect_Fit_for_the_Perfect_Night_-_Prom_2017___Stitch_It__1080x1080_31_English.png?1492787375" width="569" /></p>
-</p>
-                    <a href="/promotions#carlingwood-carlingwood-stitch-it-the-perfect-fit-for-the-perfect-night-prom-2017-stitch-it">
-                        <div class="read_more">read more</div>
-                    </a>
-                    
-                    <img  alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
+                        <img  alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
+                    </script>
                 </div>
-                
-            
-    </div>
-</div>
+            </div>
+        </div>
 
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
