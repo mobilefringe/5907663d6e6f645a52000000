@@ -287,7 +287,7 @@
             </div>          
         </div>
     </header>
-    <section id="content">
+    <section id="content" class="container-fluid trim_screen">
         <div class="left_side_bar">
             <div class="left_event_container">
                 <a href="/pages/carlingwood-gift-cards">
