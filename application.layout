@@ -298,7 +298,7 @@
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                 <a class="accessible" href="#main">[Skip to Content]</a>
                 <div class="feed_box" id="side_promo_container">
-                    <script id="contest_template" type="x-tmpl-mustache/text">
+                    <script id="side_promo_template" type="x-tmpl-mustache/text">
                         {%raw%}
                         <a href="" rel="lightbox-gallery" title="">
                             <img  alt="promo" class="promo_page_img" src="">
