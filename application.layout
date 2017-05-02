@@ -357,7 +357,7 @@
                     <script id="feature_item_template" type="x-tmpl-mustache/text">
                         {%endraw%}
                         <a href="{{slug}}">
-                            <img alt="ev" class="side_bar_image" src="{{}}">
+                            <img alt="ev" class="side_bar_image" src="{{img}}">
                         </a>
                         {%endraw%}
                     </script>
