@@ -301,7 +301,7 @@
                     <script id="side_promo_template" type="x-tmpl-mustache/text">
                         {%raw%}
                         <a href="" rel="lightbox-gallery" title="">
-                            <img  alt="promo" class="promo_page_img" src="">
+                            <img  alt="promo" class="promo_page_img" src="{{promo_img}}">
                         </a>
                         <a href="{{store_slug}}">
                             <div class="feed_box_name">{{store_name}}</div>
