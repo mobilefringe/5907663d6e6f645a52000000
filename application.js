@@ -187,10 +187,7 @@ function renderHomeHours(container, template, collection){
     Mustache.parse(template_html);   // optional, speeds up future uses
     item_list.push(collection);    
     $.each( item_list , function( key, val ) {
-        val.day = get_day(val.day_of_week);
-        var d = new Date();
-        val.month = get_month(d.getMonth());
-        val.weekday = addZero(d.getDate());
+        val.day = moment().day();
         if (val.open_time && val.close_time && (val.is_closed == false || val.is_closed == null)){
             var open_time = in_my_time_zone(moment(val.open_time), "h:mma");
             var close_time = in_my_time_zone(moment(val.close_time), "h:mma");
