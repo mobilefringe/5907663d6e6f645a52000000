@@ -355,9 +355,11 @@
             <div>
                 <div id="feature_item_container">
                     <script id="feature_item_template" type="x-tmpl-mustache/text">
-                        <a href="/events">
-                            <img  alt="ev" class="side_bar_image" src="https://www.mallmaverick.com/system/site_images/photos/000/008/166/original/spring_horizontal_Events.jpg?1493155557">
+                        {%endraw%}
+                        <a href="{{}}">
+                            <img alt="ev" class="side_bar_image" src="{{}}">
                         </a>
+                        {%endraw%}
                     </script>
                 </div>
             </div>
