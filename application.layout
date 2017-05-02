@@ -322,8 +322,10 @@
             </div>
         </div>
 
-        <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
-        {{yield}}
+        <a class="accessible" href="#main">[Skip to Content]</a>
+        <div class="container_body">
+            {{yield}}
+        </div>
         
         <div class="right_side_bar">
             <div class="side_hour_box">
