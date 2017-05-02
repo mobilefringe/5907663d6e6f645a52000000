@@ -333,9 +333,9 @@
                         {%raw%}
                         <p class="hour_title">
                             <p class="hour_title">TODAYS HOURS</p>
-                            <p class="day_label" style="font-size:16pt">TUESDAY</p>
+                            <p class="day_label" style="font-size:16pt">{{day}}</p>
                         </p>
-                        <span class="hour_info">9:30am -  9:00pm</span>
+                        <span class="hour_info">{{h}}</span>
                         {%endraw%}
                     </script>
                 </p>
