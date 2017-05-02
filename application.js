@@ -344,7 +344,7 @@ function renderPromotions(container, template, collection){
         }
         else{
             val.store_name = "Carlingwood";
-            val.image_url = "//codecloud.cdn.speedyrails.net/sites/58f66c9b6e6f647d46000000/image/jpeg/1492633527000/img_default.jpg";
+            val.image_url = "//codecloud.cdn.speedyrails.net/ ";
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
