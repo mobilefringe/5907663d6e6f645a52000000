@@ -324,6 +324,59 @@
 
         <!--Pages that use this file as a layout will have their content replaced in the 'yield'-->
         {{yield}}
+        
+        <div class="right_side_bar">
+            <div class="side_hour_box">
+                <p class="side_hour_box_label">MALL HOURS</p>
+                <p id="side_hours_container">
+                    <script id="side_hours_template" type="x-tmpl-mustache/text">
+                        {%raw%}
+                        <p class="hour_title">
+                            <p class="hour_title">TODAYS HOURS</p>
+                            <p class="day_label" style="font-size:16pt">TUESDAY</p>
+                        </p>
+                        <span class="hour_info">9:30am -  9:00pm</span>
+                        {%endraw%}
+                    </script>
+                </p>
+                <p id="prop_details_container">
+                    <script id="prop_details_template" type="x-tmpl-mustache/text">
+                        {%raw%}
+                        <span class="hour_title"><br>CALL US</span>
+                        <span class="hour_info hidden-phone">613.725.1551</span>
+                        <span class="hour_info visible-phone">
+                            <a href="tel:613.725.1551">613.725.1551</a>    
+                        </span>
+                        {%endraw%}
+                    </script>
+                </p>
+                <a href="/hours" class="check_hours" style="color:#000;text-decoration:underline">HOLIDAY HOURS</a>
+            </div>
+        <div>
+            <a href="/events">
+                <img  alt="ev" class="side_bar_image" src="https://www.mallmaverick.com/system/site_images/photos/000/008/166/original/spring_horizontal_Events.jpg?1493155557">
+            </a>
+            <a href="/new_stores">
+                <img alt="new store" class="side_bar_image" src="https://www.mallmaverick.com/system/site_images/photos/000/008/170/original/spring_horizontal_New.jpg?1493155562">
+            </a>
+            <a href="/pages/carlingwood-gift-cards">
+                <img  alt="carlingwood tv" class="side_bar_image" src="https://www.mallmaverick.com/system/site_images/photos/000/008/168/original/spring_horizontal_GiftCards.jpg?1493155575">
+            </a>
+            <a href="/stores">
+                <img  alt="carlingwood stores" class="side_bar_image" src="https://www.mallmaverick.com/system/site_images/photos/000/008/169/original/spring_horizontal_Stores.jpg?1493155568">
+            </a>
+        </div>
+        <div class="side_newsletter_box">
+            <p class="subscribe_label" style="font-size:11px;padding-left:5px">SUBSCRIBE AND GET UPDATES</p>
+            <form style="margin-left: 2px;" action="http://mobilefringe.createsend.com/t/d/s/yujthl/" method="post" onsubmit="return validate_newsletter_bottom();">
+                <input title="email" style="width:95%" name="cm-yujthl-yujthl" class="sub_input_text" id="side_subscribe_email" placeholder="Your Email" required/>                                                   
+                <p style="color:#fff;font-size: 11px;"><input title="agree terms" style="margin-top:-3px;margin-right:5px;" type="checkbox" id="agree-newsletter_bottom">I agree to recieve newsletters from Carlingwood</p>
+                <input  title="submit" type="submit" value="Submit" class="btn" />  
+            </form>
+        </div>
+</div>
+
+
     </section>
     <footer>
         <!--Bottom Nav Dynamic-->
