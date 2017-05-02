@@ -299,6 +299,7 @@
                 <a class="accessible" href="#main">[Skip to Content]</a>
                 <div class="feed_box" id="side_promo_container">
                     <script id="contest_template" type="x-tmpl-mustache/text">
+                        {%raw%}
                         <a href="" rel="lightbox-gallery" title="">
                             <img  alt="promo" class="promo_page_img" src="">
                         </a>
@@ -315,6 +316,7 @@
                         </a>
                     
                         <img  alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
+                        {%endraw%}
                     </script>
                 </div>
             </div>
