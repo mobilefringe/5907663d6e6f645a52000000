@@ -310,7 +310,7 @@
                             <p class="feed_box_title">{{name}}</p>
                             <p class="feed_box_date">{{dates}}</p>
                         </div>
-                        <p class="feed_box_desc"></p>
+                        <p class="feed_box_desc">{{description_short}}</p>
                         <a href="/promotions/{{slug}}">
                             <div class="read_more">read more</div>
                         </a>
