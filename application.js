@@ -361,8 +361,8 @@ function renderPromotions(container, template, collection){
             val.dates = start.format("MMM D") + " - " + end.format("MMM D");
         }
         
-        if (val.description.length  >= 175) {
-            val.description = val.description.substring(0, 174) + "...";
+        if (val.description.length  >= 100) {
+            val.description_short = val.description.substring(0, 99) + "...";
         }
         
         var rendered = Mustache.render(template_html,val);
