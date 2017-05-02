@@ -5,5 +5,6 @@ function init() {
     
     var promo_list = getPromotionsList();
     console.log(promo_list);
+    var side_promos = promo_list.slice(0,2);
     renderPromotions("#side_promo_container", "#side_promo_template", promo_list);
 }
