@@ -1,0 +1,28 @@
+<link href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" rel="stylesheet" type="text/css"media="screen"/>
+<script src="//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js"></script>
+<div class="store_promotions" style="width:100%">
+    <span class="page_headers label_sub">STORE SALES</span>
+    <div id="promos_container">
+        <script id="promos_template" type="x-tmpl-mustache/text">
+            <div id="carlingwood-faces-of-canada-contest" class="promo_page_box">
+                <a href="{{event_image_url_abs}}" rel="lightbox-gallery" title="{{name}}">
+                    <img alt="promo image" class="promo_page_img" src="{{event_image_url_abs}}" />
+                </a>
+                <span class="promo_page_store_name label_sub">{{name}}</span>
+                <span class="promo_page_date label_sub">{{dates}}</span>
+                <span class="promo_page_desc label_sub">{{{rich_description}}}</span>
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        init();
+        function renderPage(){
+            var promos = getPromotionsList();
+            console.log(promos);
+            renderEvents('#promos_container','#promos_template', promos);
+        }
+        loadMallDataCached(renderPage);
+    });
+</script>
