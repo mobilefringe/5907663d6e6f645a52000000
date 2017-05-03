@@ -26,8 +26,8 @@
         function renderPage(){
             var repo = getRepoDetailsByName("images");
             console.log(repo);
+            
             var promos = getPromotionsList();
-            console.log(promos);
             renderPromotions('#promos_container','#promos_template', promos);
         }
         loadMallDataCached(renderPage);
