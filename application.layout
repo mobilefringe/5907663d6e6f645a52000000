@@ -330,10 +330,9 @@
                 <p class="side_hour_box_label">MALL HOURS</p>
                 <p id="side_hours_container">
                     <script id="side_hours_template" type="x-tmpl-mustache/text">
-                        
+                        {%raw%}
                         <p class="hour_title">
                             <p class="hour_title">TODAYS HOURS</p>
-                            {%raw%}
                             <p class="day_label">{{day}}</p>
                         </p>
                         <span class="hour_info">{{h}}</span>
