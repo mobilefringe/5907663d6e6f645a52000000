@@ -2,7 +2,7 @@
     <label class="page_headers">Jobs</label>
     <br>
     <div id="no_jobs" class="hidden_now">
-        <p class="text">There are currently no job postings available. Please check back soon.</p>
+        <p>There are currently no job postings available. Please check back soon.</p>
     </div>
     <div id="retail_jobs" class="hidden_now">
         <div id="retail_jobs_container">
