@@ -1,4 +1,14 @@
 function init() {
+    function search_site(){
+        if($("#SearchTerms").val() != ""){
+            window.location.href = "/search?query=" + $("#SearchTerms").val();
+        }
+    }
+    
+    function toggle_dropdown(){
+        $(".dropdown-menu").toggle();
+    }
+
     function animate_dropdown(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
