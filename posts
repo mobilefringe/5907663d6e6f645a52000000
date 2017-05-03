@@ -1,0 +1,14 @@
+<div class="blog_body">
+    <h1>Get the Look</h1>
+</div>
+
+<script>
+    $(document).ready(function(){
+        init();
+
+        function renderPage(){
+            
+        }
+        loadMallDataCached(renderPage);
+    });
+</script>
