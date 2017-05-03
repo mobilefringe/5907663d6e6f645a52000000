@@ -53,7 +53,7 @@
             				<div class="col-md-12 stores_table_headers">
                     	    	<a id="{{initial}}"></a>{{initial}}
                                 <a href="#tabs" class="pull-right">Go to Top</a>
-                			</th>
+                			</div>
                 		
             				<div class="col-md-6 stores_row store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a> <br/>
