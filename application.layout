@@ -333,7 +333,7 @@
                         {%raw%}
                         <p class="hour_title">
                             <p class="hour_title">TODAYS HOURS</p>
-                            <p class="day_label" style="font-size:16pt">{{day}}</p>
+                            <p class="day_label">{{day}}</p>
                         </p>
                         <span class="hour_info">{{h}}</span>
                         {%endraw%}
