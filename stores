@@ -59,7 +59,9 @@
                                 <a href="/stores/{{slug}}">{{name}}</a> <br/>
                             </div>
                             <div class="col-md-2 stores_row">
-                                <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
+                                <span style="{{promotion_exist}}">
+                                    <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
+                                </span>
                             </div>
             				<div class="stores_row stores_row_phone" >                                                                           
                                 <span class="hidden-phone">613-729-9865</span>
