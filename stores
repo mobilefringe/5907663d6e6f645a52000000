@@ -6,6 +6,8 @@
     $(document).ready(function(){
         init();
         function renderPage(){
+            var stores = getStoresList();
+            
             $("#mapsvg").show();
             regions = {}
             $.each(stores, function(key, val) {
