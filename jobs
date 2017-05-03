@@ -24,6 +24,29 @@
             </div>
         </script>
     </div>
+    <div id="mall_jobs_container">
+        <script id="mall_jobs_template" type="x-tmpl-mustache/text">
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">            
+                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
+                            <i style="font-size:30px; line-height:2;"class="fa fa-arrow-circle-down pull-right"></i>
+                            <label class="job_store_name">{{store_name}}</label>                    
+                            <label class="job_title">{{name}}</label>                        
+                        </div>
+                    </div>
+                    <div id="collapse{{id}}" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <p><strong>Closing Date: </strong>{{end_date}}</p>
+                            <p><strong class="job_type">{{job_type}}</strong></p>
+                            <p>{{{rich_description}}}</p>
+                            <a href="/stores/{{store_slug}}">View Store</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </script>
+    </div>
 </div>
 <script>
     $(document).ready(function(e){
