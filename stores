@@ -48,28 +48,28 @@
                 </div>
                 <div class="store_list" id="store_list_alpha_container">
                     <script id="store_list_alpha_template" type="x-tmpl-mustache/text">
-                        <table class="stores_table" width="100%">                    
-                            <tbody>
-                				<div class='col-md-12 stores_table_headers'>
-                        	    	<a id="{{initial}}"></a>{{initial}}
-                                    <a href="#tabs" class="pull-right">Go to Top</a>
-                    			</th>
-                    		
-                				<div class="col-md-6 stores_row store_row_name">
-                                    <a href="/stores/carlingwood-a-w">A&W</a> <br/>
-                                </div>
-                                <div class="col-md-2 stores_row">
-                                    <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
-                                </div>
-                				<div class="stores_row stores_row_phone" >                                                                           
-                                    <span class="hidden-phone">613-729-9865</span>
-                                    <a class="visible-phone store_list_phone pull-right" href="tel:613-729-9865">
-                                        <img ALT="store.phone" src="https://www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
-                                    </a>                        
-                                </div>                				
+                        <div class="row stores_table">                    
+                 
+            				<div class='col-md-12 stores_table_headers'>
+                    	    	<a id="{{initial}}"></a>{{initial}}
+                                <a href="#tabs" class="pull-right">Go to Top</a>
+                			</th>
+                		
+            				<div class="col-md-6 stores_row store_row_name">
+                                <a href="/stores/carlingwood-a-w">A&W</a> <br/>
+                            </div>
+                            <div class="col-md-2 stores_row">
+                                <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
+                            </div>
+            				<div class="stores_row stores_row_phone" >                                                                           
+                                <span class="hidden-phone">613-729-9865</span>
+                                <a class="visible-phone store_list_phone pull-right" href="tel:613-729-9865">
+                                    <img ALT="store.phone" src="https://www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
+                                </a>                        
+                            </div>                				
                 
-                    		</tbody>
-                    	</table>
+                    
+                    	</div>
                     </script>
                 </div>
             </div>
