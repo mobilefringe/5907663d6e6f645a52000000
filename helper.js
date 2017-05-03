@@ -62,7 +62,7 @@ function init() {
     
     var todays_hours = getTodaysHours();
     console.log(todays_hours);
-    renderHomeHours("#side_hours_container", "side_hours_template", todays_hours);
+    renderHomeHours("#side_hours_container", "#side_hours_template", todays_hours);
     
     var prop_details = getPropertyDetails();
     console.log(prop_details);
