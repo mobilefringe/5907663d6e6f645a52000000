@@ -7,7 +7,7 @@
         init();
 
         function renderPage(){
-            var blog = getBlogDataBySlug("carlingwood-shop-the-look");
+            var blog = getBlogDataBySlug("carlingwood-shop-the-look").posts;
             console.log(blog);
         }
         loadMallDataCached(renderPage);
