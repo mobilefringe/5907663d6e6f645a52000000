@@ -26,7 +26,32 @@ function init() {
             }
         }
     }
-
+    
+    function side_subscribe_email(){ 
+        if (isValidEmailAddress($("#side_subscribe_email").val())){            
+            var data = {}
+            var contest = {}
+            contest["email"] = $("#side_subscribe_email").val();
+            contest["newsletter"] = true;
+            contest["property_id"] = 51;
+            data["contest"] = contest
+            data["notice"] = "false"
+            $.ajax({
+                url: "/newsletter_no_captcha",
+                type: "POST",
+                data: data,
+                success: function(response){                    
+                    alert("Thank you for signing up.");
+                },
+                error: function(xhr, ajaxOptions, thrownError){
+                    alert("Please try again later.");
+                }
+            })    
+        } else {
+            alert("Please enter a valid email address. ")
+        }
+    }
+    
     var promo_list = getPromotionsList();
     var side_promos = promo_list.slice(0,3);
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
