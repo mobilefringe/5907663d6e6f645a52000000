@@ -57,9 +57,9 @@
             				<div class="col-md-6 store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a> <br/>
                             </div>
-                            <div class="col-md-3">
+                            <div class="col-md-3 stores_row_phone">
                                 <span style="{{promotion_exist}}">
-                                    <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png" class="pull-right" />
+                                    <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png"/>
                                 </span>
                             </div>
             				<div class="col-md-3 stores_row_phone"> 
