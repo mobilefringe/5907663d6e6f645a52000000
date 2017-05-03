@@ -9,14 +9,9 @@
                 <a href="https://www.mallmaverick.com/system/events/event_images/000/008/536/original/CWD-17-061_23x28_CDA150ContestRulesPos_r2.jpg?1493410095" rel="lightbox-gallery" title="FACES OF CANADA CONTEST!">
                     <img alt="promo image" class="promo_page_img" src="https://www.mallmaverick.com/system/events/event_images/000/008/536/original/CWD-17-061_23x28_CDA150ContestRulesPos_r2.jpg?1493410095" />
                 </a>
-                <span class="promo_page_store_name label_sub">FACES OF CANADA CONTEST!</span>
-                <span class="promo_page_date label_sub"> May 01 - May 31 </span>
-                <span class="promo_page_desc label_sub">
-                
-                    <p><img alt="" class="uploaded-img-responsive" height="793" src="https://www.mallmaverick.com/system/site_images/photos/000/028/466/original/CWD-17-061_23x28_CDA150ContestRulesPos_r2.jpg?1493409728" width="652" /></p>
-        
-                    <p>&nbsp;</p>
-                </span>
+                <span class="promo_page_store_name label_sub">{{name}}</span>
+                <span class="promo_page_date label_sub">{{dates}}</span>
+                <span class="promo_page_desc label_sub">{{description}}</span>
             </div>
         </script>
     </div>
