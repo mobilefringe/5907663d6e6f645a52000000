@@ -89,7 +89,7 @@
                 renderJobs("#mall_jobs_container","#mall_jobs_template", mall_published_jobs);
                 $("#prop_jobs").show();
             }
-            if(mall_published_jobs.length < 10 && retail_jobs.length < 10){
+            if(mall_published_jobs.length < 1 && retail_jobs.length < 1){
                 $("#no_jobs").show();   
             }
         }
