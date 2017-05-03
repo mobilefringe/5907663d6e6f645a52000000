@@ -19,6 +19,7 @@
         init();
         function renderPage(){
             var events = getEventsList();
+            console.log(events);
             renderEvents('#events_container','#events_template', events);
         }
         loadMallDataCached(renderPage);
