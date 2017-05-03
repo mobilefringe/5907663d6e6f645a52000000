@@ -12,8 +12,9 @@
         init();
 
         function renderPage(){
-            var blog = getBlogDataBySlug("carlingwood-shop-the-look").posts.reverse();
-            console.log(blog);
+            var blog_posts = getBlogDataBySlug("carlingwood-shop-the-look").posts.reverse();
+            var current_post = blog_posts[0];
+            console.log(current_post);
             renderGeneral("#post_container", "#post_template", blog);
         }
         loadMallDataCached(renderPage);
