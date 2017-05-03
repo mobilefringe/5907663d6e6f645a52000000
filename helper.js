@@ -65,7 +65,7 @@ function init() {
     
     var prop_details = getPropertyDetails();
     console.log(prop_details);
-    renderGeneral("#prop_details_container", "#prop_details_template", prop_details);
+    renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
     var feature_items = getRepoDetailsByName("feauture items").images;
     console.log(feature_items)
