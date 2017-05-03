@@ -21,7 +21,7 @@
             
             var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#d0e4ff"},
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#000"},
                 disableAll: false,
                 regions: regions,
                 tooltipsMode:'custom',
@@ -31,8 +31,7 @@
                 pan:true,
                 cursor:'pointer',
                 responsive:true,
-                zoomLimit: [0, 5],
-                // viewBox:[350,-180,1600,870]
+                zoomLimit: [0, 10],
             });
         }
         loadMallDataCached(renderPage);
