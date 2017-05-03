@@ -60,13 +60,13 @@
                             </div>
                             <div class="col-md-2 stores_row">
                                 <span style="{{promotion_exist}}">
-                                    <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
+                                    <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png" class="pull-right" />
                                 </span>
                             </div>
             				<div class="stores_row stores_row_phone" >                                                                           
                                 <span class="hidden-phone">{{phone}}</span>
-                                <a class="visible-phone store_list_phone pull-right" href="tel:613-729-9865">
-                                    <img ALT="store.phone" src="https://www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
+                                <a class="visible-phone store_list_phone pull-right" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845760000/icon_call_stores.png" />
                                 </a>                        
                             </div>                				
                 
