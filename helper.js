@@ -8,7 +8,7 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-    $(".btn-nav + .dd_animated").hover(function() {
+    $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
         console.log(id);
         animate_dropdown(id);
