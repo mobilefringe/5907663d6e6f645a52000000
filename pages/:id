@@ -1,0 +1,24 @@
+<div>
+    <span class="page_headers label_sub"></span>
+    <div class="page_content"></div>
+</div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            var pathArray = window.location.pathname.split( '/' );
+            var slug = pathArray[pathArray.length-1];
+            var prefix = get_prefix();
+            var pages_json = prefix + "/pages/" + slug + ".json"
+            $.getJSON(pages_json).done(function(data) {
+                $('.page-headers').html(data.title);
+                $('.page_content').html(data.body);
+            }).fail(function(jqXHR) {
+                if (jqXHR.status == 404) {
+                    $("#404_msg").fadeIn("fast");
+                }
+            }); 
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
