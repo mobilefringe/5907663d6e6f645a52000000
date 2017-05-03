@@ -79,8 +79,8 @@
                     }     
                 } 
             });
-            if(retail_jobs.length > 0){
-                renderJobs("#retail_jobs_container","#retail_jobs_template", retail_jobs);
+            if(retailer_published_jobs.length > 0){
+                renderJobs("#retail_jobs_container","#retail_jobs_template", retailer_published_jobs);
                 $("#retail_jobs").show();
             }
             if(mall_published_jobs.length > 0){
