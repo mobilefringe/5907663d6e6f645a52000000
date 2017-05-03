@@ -2,11 +2,15 @@
 <script src="//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js"></script>
 <div class="store_promotions" style="width:100%">
     <span class="page_headers label_sub">STORE SALES</span>
+    <img alt="banner" class="promo_page_banner" src="{{3004 | get_image_url}}">
     <div id="promos_container">
         <script id="promos_template" type="x-tmpl-mustache/text">
             <div id="{{slug}" class="promo_page_box">
                 <a href="{{image_url}}" rel="lightbox-gallery" title="{{name}}">
                     <img alt="promo image" class="promo_page_img" src="{{image_url}}" />
+                </a>
+                <a href="/stores/{{store_slug}}">
+                    <div class="promo_page_title">{{store_name}}</div>
                 </a>
                 <span class="promo_page_store_name label_sub">{{name}}</span>
                 <span class="promo_page_date label_sub">{{dates}}</span>
