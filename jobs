@@ -60,7 +60,6 @@
         init(e);
         function renderAll(){
             var jobs = getJobsList();
-            console.log(jobs)
             var mall_published_jobs = [];
             var retailer_published_jobs = [];
             $.each(jobs, function(key, val){
