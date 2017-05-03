@@ -14,7 +14,7 @@
         function renderPage(){
             var blog = getBlogDataBySlug("carlingwood-shop-the-look").posts.reverse();
             console.log(blog);
-            renderPosts("#post_container", "#post_template", blog);
+            renderGeneral("#post_container", "#post_template", blog);
         }
         loadMallDataCached(renderPage);
     });
