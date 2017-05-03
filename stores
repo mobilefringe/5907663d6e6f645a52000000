@@ -50,7 +50,7 @@
                     <script id="store_list_alpha_template" type="x-tmpl-mustache/text">
                         <div class="">                    
                  
-            				<div class="col-md-12 stores_table_headers">
+            				<div class="col-md-12 stores_table_headers" style="{{show}}">
                     	    	<a id="{{initial}}"></a>{{initial}}
                                 <a href="#tabs" class="pull-right">Go to Top</a>
                 			</div>
