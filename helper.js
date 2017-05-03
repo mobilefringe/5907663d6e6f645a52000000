@@ -8,7 +8,9 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-
+    $(".btn-nav").hover(function() {
+        animate_dropdown(id);
+    })
     function animate_dropdown(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
