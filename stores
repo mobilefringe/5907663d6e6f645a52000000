@@ -50,13 +50,13 @@
                     <script id="store_list_alpha_template" type="x-tmpl-mustache/text">
                         <div class="">                    
                  
-            				<div class='col-md-12 stores_table_headers'>
+            				<div class="col-md-12 stores_table_headers">
                     	    	<a id="{{initial}}"></a>{{initial}}
                                 <a href="#tabs" class="pull-right">Go to Top</a>
                 			</th>
                 		
             				<div class="col-md-6 stores_row store_row_name">
-                                <a href="/stores/carlingwood-a-w">A&W</a> <br/>
+                                <a href="/stores/{{slug}}">{{name}}</a> <br/>
                             </div>
                             <div class="col-md-2 stores_row">
                                 <img ALT="store_promo" src="https://www.mallmaverick.com/system/site_images/photos/000/000/771/original/btn_promo.png?1381264332" class="pull-right" />
