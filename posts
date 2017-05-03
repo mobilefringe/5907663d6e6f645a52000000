@@ -1,5 +1,10 @@
 <div class="blog_body">
     <h1>Get the Look</h1>
+    <div id="post_container">
+        <script id="post_template" type="x-tmpl-mustache/text">
+        
+        </script>
+    </div>
 </div>
 
 <script>
@@ -7,7 +12,7 @@
         init();
 
         function renderPage(){
-            var blog = getBlogDataBySlug("carlingwood-shop-the-look").posts;
+            var blog = getBlogDataBySlug("carlingwood-shop-the-look").posts.reverse();
             console.log(blog);
         }
         loadMallDataCached(renderPage);
