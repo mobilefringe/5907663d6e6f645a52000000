@@ -8,13 +8,11 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-    $(".btn-nav").hover(function() {
-        $(".dd_animated", this).click(function(){
-            var id = $(this).find(".dd_animated").attr('id'); 
-            console.log(id);
-            animate_dropdown(id);
-        });
-    });
+    $(".btn-nav" + ".dd_animated").hover(function() {
+        var id = $(this).find(".dd_animated").attr('id'); 
+        console.log(id);
+        animate_dropdown(id);
+    })
     function animate_dropdown(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
