@@ -40,11 +40,11 @@ function renderEvents(container, template, collection){
             var store_details = getStoreDetailsByID(val.eventable_id);
             val.store_detail_btn = store_details.slug ;
             val.store_name = store_details.name;
-            val.image_url = "background-image: url(" + store_details.store_front_url_abs + ");";
+            val.image_url = store_details.store_front_url_abs;
         }
         else{
-            val.store_name = "Lansdowne Place";
-            val.image_url = "background-image: url(" + val.event_image_url_abs + ");"; 
+            val.store_name = "Carlingwood";
+            val.image_url = val.event_image_url_abs; 
         }
         
         if(val.image_url.indexOf('missing.png') > 0){
