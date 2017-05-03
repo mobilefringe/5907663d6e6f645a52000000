@@ -12,70 +12,15 @@
             </div>
             <div id="collapse{{id}}" class="accordion-body collapse">
                 <div class="accordion-inner">
-                    
-                    <p><strong>Closing Date:</strong> May 04</p>
-                    <p><strong class="job_type">Part Time</strong></p>
+                    <p><strong>Closing Date:</strong>{{end_date}}</p>
+                    <p><strong class="job_type">{{job_type}}</strong></p>
                     <p>&nbsp;</p>
-
-<p><img alt="" class="uploaded-img-responsive" src="https://www.mallmaverick.com/system/site_images/photos/000/027/694/original/2017_04_04_20_56_371.png?1491339403" /></p>
-
-<p>&nbsp;</p>
-
-<p><strong>Have a passion for fashion?<br />
-Love working with people?<br />
-Are you outgoing and ready to build your career in a fun &amp; friendly atmosphere?</strong></p>
-
-<p><strong>Then we&#39;ve got opportunities for you!</strong></p>
-
-<p>&nbsp;</p>
-
-<p>We value commitment, professionalism, team work, and passion. &nbsp;&nbsp;</p>
-
-<p>We promote a spirited culture of performance, fun, and creativity.</p>
-
-<p>Come work with us!&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>Now Hiring:&nbsp;</p>
-
-<ul>
-	<li><strong>Shift Manager &ndash; Part Time</strong></li>
-</ul>
-
-<p>&nbsp;</p>
-
-<p>You are an individual who is:&nbsp;&nbsp;&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Results- Oriented</strong><strong> -</strong>Generating results through a collaborative partnership with the Management Team. Anticipates and meets the needs of the customer by providing a great customer experience through actions and behaviors.</p>
-
-<p>&nbsp;</p>
-
-<p><strong>Team-Player</strong> - Fosters the culture of teamwork through ownership and accountability.&nbsp; Supports maintaining a team focused on providing a great experience (service &amp; environment).&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>If you are interested in joining our team, apply in person to the Ricki&#39;s Carlingwood location or apply online at <a href="http://www.rickis.com/">www.rickis.com</a> or to <a href="mailto:jobs@rickis.com">jobs@rickis.com</a>.</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-<p>&nbsp;</p>
-
-                    
-                    
-                    
-                    
-                    
-                    
-                    <a href="/stores/carlingwood-ricki-s">View Store</a>                    
+                    <a href="/stores/{{store_slug}}">View Store</a> 
                 </div>
             </div>
         </div>
-        
+    </div>
+</div>
 <script>
     $(document).ready(function(e){
         init(e);
