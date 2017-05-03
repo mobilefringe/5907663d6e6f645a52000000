@@ -4,13 +4,13 @@
     <div class="accordion" id="accordion2">
         <div class="accordion-group">
             <div class="accordion-heading">            
-                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{}}" href="#collapse{{}}">
+                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
                     <i style="font-size:30px; line-height:2;"class="fa fa-arrow-circle-down pull-right"></i>
-                    <label class="job_store_name">Ricki's</label>                    
-                    <label class="job_title">Shift Manager – Part Time</label>                        
+                    <label class="job_store_name">{{store_name}}</label>                    
+                    <label class="job_title">{{name}}</label>                        
                 </div>
             </div>
-            <div id="collapse16604" class="accordion-body collapse">
+            <div id="collapse{{id}}" class="accordion-body collapse">
                 <div class="accordion-inner">
                     
                     <p><strong>Closing Date:</strong> May 04</p>
