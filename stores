@@ -64,7 +64,7 @@
                                 </span>
                             </div>
             				<div class="stores_row stores_row_phone" >                                                                           
-                                <span class="hidden-phone">613-729-9865</span>
+                                <span class="hidden-phone">{{phone}}</span>
                                 <a class="visible-phone store_list_phone pull-right" href="tel:613-729-9865">
                                     <img ALT="store.phone" src="https://www.mallmaverick.com/system/site_images/photos/000/000/834/original/icon_call_stores.png?1381872730" />
                                 </a>                        
