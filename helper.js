@@ -1,56 +1,56 @@
 function init() {
-    // function search_site(){
-    //     if($("#SearchTerms").val() != ""){
-    //         window.location.href = "/search?query=" + $("#SearchTerms").val();
-    //     }
-    // }
+    function search_site(){
+        if($("#SearchTerms").val() != ""){
+            window.location.href = "/search?query=" + $("#SearchTerms").val();
+        }
+    }
     
-    // function toggle_dropdown(){
-    //     $(".dropdown-menu").toggle();
-    // }
+    function toggle_dropdown(){
+        $(".dropdown-menu").toggle();
+    }
 
-    // function animate_dropdown(id){
-    //     if ($("#"+id).is(":visible")){
-    //         $("#"+id).slideUp();
-    //     } else {
-    //         if ($(".dd_animated").is(":visible")){
-    //             $(".dd_animated").slideUp();
-    //             $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
+    function animate_dropdown(id){
+        if ($("#"+id).is(":visible")){
+            $("#"+id).slideUp();
+        } else {
+            if ($(".dd_animated").is(":visible")){
+                $(".dd_animated").slideUp();
+                $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
                
-    //             $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
-    //              $("#"+id).slideDown();
-    //         } else {
+                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
+                 $("#"+id).slideDown();
+            } else {
                 
-    //             $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
-    //             $("#"+id).slideDown(); 
-    //         }
-    //     }
-    // }
+                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
+                $("#"+id).slideDown(); 
+            }
+        }
+    }
     
-    // function side_subscribe_email(){ 
-    //     if (isValidEmailAddress($("#side_subscribe_email").val())){            
-    //         var data = {}
-    //         var contest = {}
-    //         contest["email"] = $("#side_subscribe_email").val();
-    //         contest["newsletter"] = true;
-    //         contest["property_id"] = 51;
-    //         data["contest"] = contest
-    //         data["notice"] = "false"
-    //         $.ajax({
-    //             url: "/newsletter_no_captcha",
-    //             type: "POST",
-    //             data: data,
-    //             success: function(response){                    
-    //                 alert("Thank you for signing up.");
-    //             },
-    //             error: function(xhr, ajaxOptions, thrownError){
-    //                 alert("Please try again later.");
-    //             }
-    //         })    
-    //     } else {
-    //         alert("Please enter a valid email address. ")
-    //     }
-    // }
+    function side_subscribe_email(){ 
+        if (isValidEmailAddress($("#side_subscribe_email").val())){            
+            var data = {}
+            var contest = {}
+            contest["email"] = $("#side_subscribe_email").val();
+            contest["newsletter"] = true;
+            contest["property_id"] = 51;
+            data["contest"] = contest
+            data["notice"] = "false"
+            $.ajax({
+                url: "/newsletter_no_captcha",
+                type: "POST",
+                data: data,
+                success: function(response){                    
+                    alert("Thank you for signing up.");
+                },
+                error: function(xhr, ajaxOptions, thrownError){
+                    alert("Please try again later.");
+                }
+            })    
+        } else {
+            alert("Please enter a valid email address. ")
+        }
+    }
     
     var promo_list = getPromotionsList();
     var side_promos = promo_list.slice(0,3);
