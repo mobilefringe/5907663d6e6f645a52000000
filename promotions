@@ -2,7 +2,7 @@
 <script src="//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js"></script>
 <div class="store_promotions" style="width:100%">
     <span class="page_headers label_sub">STORE SALES</span>
-    <img alt="banner" class="promo_page_banner" src="{{3004 | get_image_url}}">
+    <img alt="banner" class="promo_page_banner" src="">
     <div id="promos_container">
         <script id="promos_template" type="x-tmpl-mustache/text">
             <div id="{{slug}" class="promo_page_box">
