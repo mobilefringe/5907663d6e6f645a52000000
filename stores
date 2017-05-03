@@ -46,7 +46,7 @@
                     <a href="#Y" class="btn-secondary">Y</a>
                     <a href="#Z" class="btn-secondary">Z</a>
                 </div>
-                <div class="stores_table" id="store_list_alpha_container">
+                <div class="" id="store_list_alpha_container">
                     <script id="store_list_alpha_template" type="x-tmpl-mustache/text">
                         <div class="row ">                    
                  
