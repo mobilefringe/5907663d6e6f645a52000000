@@ -9,7 +9,7 @@ function init() {
         $(".dropdown-menu").toggle();
     }
     $(".btn-nav" + ".dd_animated").hover(function() {
-        var id = $(this).find(".dd_animated").attr('id'); 
+        var id = $(this).attr('id'); 
         console.log(id);
         animate_dropdown(id);
     })
