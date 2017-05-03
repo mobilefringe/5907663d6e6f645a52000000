@@ -8,7 +8,8 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-    $(".btn-nav" + this"#").hover(function() {
+    $(".btn-nav").hover(function() {
+        var id = this "#"
         animate_dropdown(id);
     })
     function animate_dropdown(id){
