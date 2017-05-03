@@ -47,9 +47,9 @@ function renderEvents(container, template, collection){
             val.image_url = val.event_image_url_abs; 
         }
         
-        if(val.image_url.indexOf('missing.png') > 0){
-            val.image_url  = "//codecloud.cdn.speedyrails.net/sites/58f66c9b6e6f647d46000000/image/jpeg/1492633527000/img_default.jpg";
-        }
+        // if(val.image_url.indexOf('missing.png') > 0){
+        //     val.image_url  = "//codecloud.cdn.speedyrails.net/sites/58f66c9b6e6f647d46000000/image/jpeg/1492633527000/img_default.jpg";
+        // }
         var show_date = moment(val.show_on_web_date);
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
