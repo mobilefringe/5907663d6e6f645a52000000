@@ -1,3 +1,5 @@
+<link href="//cdn.jsdelivr.net/slimbox/2.0.5/css/slimbox2.css" rel="stylesheet" type="text/css"media="screen"/>
+<script src="//cdn.jsdelivr.net/slimbox/2.0.5/js/slimbox2.js"></script>
 <div class="store_promotions" style="width:100%">
     <!-- events -->
     <span class="page_headers label_sub">MALL EVENTS</span>
