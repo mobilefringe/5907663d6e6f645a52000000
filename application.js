@@ -57,7 +57,7 @@ function renderEvents(container, template, collection){
             val.dates = start.format("MMM D")
         }
         else{
-            val.dates = "STARTS " + start.format("MMM D") + " - ENDS " + end.format("MMM D")
+            val.dates = start.format("MMM D") + " - " + end.format("MMM D")
         }
         
         // if (val.description.length  >= 190) {
