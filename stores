@@ -54,7 +54,6 @@
                     	    	<a id="{{initial}}"></a>{{initial}}
                                 <a href="#tabs" class="pull-right">Go to Top</a>
                 			</div>
-                		
             				<div class="col-md-6 stores_row store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a> <br/>
                             </div>
@@ -69,8 +68,6 @@
                                     <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845760000/icon_call_stores.png" />
                                 </a>                        
                             </div>                				
-                
-                    
                     	</div>
                     </script>
                 </div>
