@@ -14,9 +14,9 @@ function init() {
         animate_dropdown(id);
     })
     function animate_dropdown(id){
-        if ($("#"+id).is(":visible")){
-            $("#"+id).slideUp();
-        } else {
+        // if ($("#"+id).is(":visible")){
+        //     $("#"+id).slideUp();
+        // } else {
             if ($(".dd_animated").is(":visible")){
                 $(".dd_animated").slideUp();
                 $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
@@ -28,7 +28,7 @@ function init() {
                 $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
                 $("#"+id).slideDown(); 
             }
-        }
+        // }
     }
     
     function side_subscribe_email(){ 
