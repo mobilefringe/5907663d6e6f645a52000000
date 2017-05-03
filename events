@@ -6,7 +6,7 @@
     <div id="events_container">
         <script id="events_template" type="x-tmpl-mustache/text">
             <div id="carlingwood-faces-of-canada-contest" class="promo_page_box">
-                <a href="https://www.mallmaverick.com/system/events/event_images/000/008/536/original/CWD-17-061_23x28_CDA150ContestRulesPos_r2.jpg?1493410095" rel="lightbox-gallery" title="FACES OF CANADA CONTEST!">
+                <a href="" rel="lightbox-gallery" title="FACES OF CANADA CONTEST!">
                     <img alt="promo image" class="promo_page_img" src="https://www.mallmaverick.com/system/events/event_images/000/008/536/original/CWD-17-061_23x28_CDA150ContestRulesPos_r2.jpg?1493410095" />
                 </a>
                 <span class="promo_page_store_name label_sub">{{name}}</span>
@@ -21,6 +21,7 @@
         init();
         function renderPage(){
             var events = getPropertyHours();
+            console.log(events);
             renderEvents('#events_container','#events_template', events);
         }
         loadMallDataCached(renderPage);
