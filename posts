@@ -2,7 +2,7 @@
     <h1>Get the Look</h1>
     <div id="post_container">
         <script id="post_template" type="x-tmpl-mustache/text">
-        
+            <div>{{{html_body}}}</div>
         </script>
     </div>
 </div>
