@@ -19,7 +19,7 @@
                 }
             });
             
-            var map = $('#mapsvg_main').mapSvg({
+            var map = $('#mapsvg').mapSvg({
                 source: getSVGMapURL(),    // Path to SVG map
                 colors: {stroke: '#aaaaaa', selected: -20, hover: "#d0e4ff"},
                 disableAll: false,
