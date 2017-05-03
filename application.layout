@@ -354,12 +354,21 @@
             </div>
             <div>
                 <div id="feature_item_container">
-                    <script id="feature_item_template" type="x-tmpl-mustache/text">
-                        {%raw%}
-                        <a href="{{url}}">
+                    // <script id="feature_item_template" type="x-tmpl-mustache/text">
+                    //     {%raw%}
+                        <a href="/events">
                             <img class="side_bar_image" src="{{photo_url_abs}}"/>
                         </a>
-                        {%endraw%}
+                        <a href="/promotions">
+                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
+                        </a>
+                        <a href="/pages/carlingwood-gift-cards">
+                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
+                        </a>
+                        <a href="/stores">
+                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
+                        </a>
+                        // {%endraw%}
                     </script>
                 </div>
             </div>
