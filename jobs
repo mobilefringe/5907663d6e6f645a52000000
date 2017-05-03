@@ -1,5 +1,5 @@
 <div class="store_jobs">
-    <label class="page_headers">Jobs</label>
+    <label class="page_headers">JOBS</label>
     <br>
     <div id="no_jobs" class="hidden_now">
         <p>There are currently no job postings available. Please check back soon.</p>
