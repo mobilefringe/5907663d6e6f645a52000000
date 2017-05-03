@@ -24,8 +24,9 @@
     $(document).ready(function(){
         init();
         function renderPage(){
-            var repo = getRepoDetailsByName("images").sortBy(function(o){ return o.name});
-            console.log(repo);
+            var repo = getRepoDetailsByName("images");
+            var repo_images = repo.sortBy(function(o){ return o.name});
+            console.log(repo_images);
             var promos = getPromotionsList();
             console.log(promos);
             renderPromotions('#promos_container','#promos_template', promos);
