@@ -13,8 +13,8 @@
     <div class="hour_table" id="holiday_container">
         <script id="holiday_template" type="x-tmpl-mustache/text">
             <div class="hour_row">    
-                <span class="hour_time pull-right">Closed</span>
-                <span class="hour_date">FAMILY DAY, Feb 20</span>  
+                <span class="hour_time pull-right">{{h}}</span>
+                <span class="hour_date">{{holiday_name}}, {{formatted_date}}</span>  
             </div>
         </script>
     </div>
@@ -24,6 +24,7 @@
         init();
         function renderPage(){
             var hours = getPropertyHours();
+            console
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
         }
