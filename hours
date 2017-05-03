@@ -20,13 +20,13 @@
     </div>
 </div>
 <script>
-    $(document).ready(function(){
-        init();
+    $(document).ready(function(e){
+        init(e);
         function renderAll(){
             var hours = getPropertyHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours');
         }
-        loadMallDataCached(renderAll); 
+        loadMallData(renderAll); 
     });
 </script>
