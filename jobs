@@ -16,7 +16,6 @@
                         <div class="accordion-inner">
                             <p><strong>Closing Date: </strong>{{end_date}}</p>
                             <p><strong class="job_type">{{job_type}}</strong></p>
-                            <p>&nbsp;</p>
                             <p>{{{rich_description}}}</p>
                             <a href="/stores/{{store_slug}}">View Store</a> 
                         </div>
