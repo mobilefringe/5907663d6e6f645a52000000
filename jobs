@@ -1,24 +1,28 @@
 <div class="store_jobs">
     <label class="page_headers">Jobs</label>
     <br>
-    <div class="accordion" id="accordion2">
-        <div class="accordion-group">
-            <div class="accordion-heading">            
-                <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
-                    <i style="font-size:30px; line-height:2;"class="fa fa-arrow-circle-down pull-right"></i>
-                    <label class="job_store_name">{{store_name}}</label>                    
-                    <label class="job_title">{{name}}</label>                        
+    <div id="retail_jobs_container">
+        <script id="retail_jobs_template" type="x-tmpl-mustache/text">
+            <div class="accordion" id="accordion2">
+                <div class="accordion-group">
+                    <div class="accordion-heading">            
+                        <div class="accordion-toggle" data-toggle="collapse" data-parent="#accordion{{id}}" href="#collapse{{id}}">
+                            <i style="font-size:30px; line-height:2;"class="fa fa-arrow-circle-down pull-right"></i>
+                            <label class="job_store_name">{{store_name}}</label>                    
+                            <label class="job_title">{{name}}</label>                        
+                        </div>
+                    </div>
+                    <div id="collapse{{id}}" class="accordion-body collapse">
+                        <div class="accordion-inner">
+                            <p><strong>Closing Date:</strong>{{end_date}}</p>
+                            <p><strong class="job_type">{{job_type}}</strong></p>
+                            <p>&nbsp;</p>
+                            <a href="/stores/{{store_slug}}">View Store</a> 
+                        </div>
+                    </div>
                 </div>
             </div>
-            <div id="collapse{{id}}" class="accordion-body collapse">
-                <div class="accordion-inner">
-                    <p><strong>Closing Date:</strong>{{end_date}}</p>
-                    <p><strong class="job_type">{{job_type}}</strong></p>
-                    <p>&nbsp;</p>
-                    <a href="/stores/{{store_slug}}">View Store</a> 
-                </div>
-            </div>
-        </div>
+        </script>
     </div>
 </div>
 <script>
@@ -58,7 +62,6 @@
             if(mall_published_jobs.length < 1 && retail_jobs.length < 1){
                 $("#no_jobs").show();   
             }
-            show_content();
         }
         loadMallData(renderAll); 
     });
