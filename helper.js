@@ -9,10 +9,12 @@ function init() {
         $(".dropdown-menu").toggle();
     }
     $(".btn-nav").hover(function() {
-        var id = $(this).find(".dd_animated").attr('id'); 
-        console.log(id);
-        animate_dropdown(id);
-    })
+        $(".dd_animated", this).click(function(){
+            var id = $(this).find(".dd_animated").attr('id'); 
+            console.log(id);
+            animate_dropdown(id);
+        });
+    });
     function animate_dropdown(id){
         if ($("#"+id).is(":visible")){
             $("#"+id).slideUp();
