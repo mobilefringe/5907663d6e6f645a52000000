@@ -24,7 +24,6 @@
         init();
         function renderPage(){
             var hours = getPropertyHours();
-            console
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
         }
