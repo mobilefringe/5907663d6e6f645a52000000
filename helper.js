@@ -67,6 +67,7 @@ function init() {
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
     var feature_items = getRepoDetailsByName("feauture items").images;
-    console.log(feature_items)
-    renderFeatureItems("#feature_item_container", "#feature_item_template", feature_items);
+    // console.log(feature_items)
+    
+    // renderFeatureItems("#feature_item_container", "#feature_item_template", feature_items);
 }
