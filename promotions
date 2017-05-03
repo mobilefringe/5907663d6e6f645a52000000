@@ -12,6 +12,7 @@
                 <span class="promo_page_date label_sub">{{dates}}</span>
                 <span class="promo_page_desc label_sub">{{{rich_description}}}</span>
             </div>
+            <<img src="codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png" class="" alt="">
         </script>
     </div>
 </div>
