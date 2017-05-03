@@ -4,8 +4,8 @@
     <span class="page_headers label_sub">STORE SALES</span>
     <div id="promos_container">
         <script id="promos_template" type="x-tmpl-mustache/text">
-            <div id="carlingwood-faces-of-canada-contest" class="promo_page_box">
-                <a href="{{}}" rel="lightbox-gallery" title="{{name}}">
+            <div id="{{slug}" class="promo_page_box">
+                <a href="{{image_url}}" rel="lightbox-gallery" title="{{name}}">
                     <img alt="promo image" class="promo_page_img" src="{{image_url}}" />
                 </a>
                 <span class="promo_page_store_name label_sub">{{name}}</span>
