@@ -117,7 +117,7 @@
             
             $("#legend_label").click(function() {
                 show_legend();
-            })
+            });
         }
         
         function show_legend() { 
