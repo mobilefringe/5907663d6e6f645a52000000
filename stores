@@ -1,5 +1,5 @@
 <div class="store_list">
-    <img alt="legend" class="legend" src="https://www.mallmaverick.com/system/site_images/photos/000/002/092/original/pencentre_legend.png?1395363898">
+    <img alt="legend" class="legend" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493906844000/map_legend.png">
     <div class="hidden-phone" id="legend_button">
         <input id="legend_label" value="SHOW LEGEND" type="button">
     </div>
