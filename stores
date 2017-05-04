@@ -72,7 +72,7 @@
                 </div>
             </div>
             <div id="category" class="tab-pane">
-                <div class="hidden_now" id="store_list_cat_container">
+                <div class="" id="store_list_cat_container">
                     <script id="store_list_cat_template" type="x-tmpl-mustache/text">
         				<div class="col-md-12 stores_table_headers" style="{{show}}">
                 	    	<a id="{{block}}"></a>{{header}}
