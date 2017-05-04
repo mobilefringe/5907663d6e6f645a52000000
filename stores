@@ -112,6 +112,8 @@
                 responsive:true,
                 zoomLimit: [0, 10],
             });
+            
+            show_content();
         }
         loadMallDataCached(renderPage);
     });
