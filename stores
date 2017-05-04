@@ -75,6 +75,7 @@
                 <div class="alphabet_bg" id="category_container">
                     <script id="category_template" type="x-tmpl-mustache/text">
                         <a href="#{{id}}" class="btn-secondary">{{name}}</a>
+                        <span class="category_divider hidden-phone"> | </span>
                     </script>
                 </div>
                 <div class="" id="store_list_cat_container">
