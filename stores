@@ -1,7 +1,7 @@
 <div class="store_list">
     <img alt="legend" class="legend" src="https://www.mallmaverick.com/system/site_images/photos/000/002/092/original/pencentre_legend.png?1395363898">
     <div class="hidden-phone" id="legend_button">
-        <input id="legend_label" value="SHOW LEGEND" onclick="location.href='javascript:show_legend();'" type="button">
+        <input id="legend_label" value="SHOW LEGEND" type="button">
     </div>
     <div id="tabs" class="tabbable">
         <ul class="nav nav-tabs store_tabs">
@@ -115,6 +115,17 @@
             
             show_content();
         }
+        
+        function show_legend() { 
+            if($(".legend").is(":hidden")){
+                $(".legend").slideDown();
+                $("#legend_label").val('HIDE LEGEND');
+            } else {
+                $(".legend").slideUp();
+                $("#legend_label").val('SHOW LEGEND');
+            }
+        }
+        
         loadMallDataCached(renderPage);
     });
 </script>
