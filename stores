@@ -53,7 +53,7 @@
                             <a href="#tabs" class="pull-right">Go to Top</a>
             			</div>
             			<div class="row-fluid stores_row">
-            				<div class="col-md-6 store_row_name">
+            				<div class="col-md-5 store_row_name">
                                 <a href="/stores/{{slug}}">{{name}}</a> <br/>
                             </div>
                             <div class="col-md-2 stores_row_phone">
@@ -61,7 +61,7 @@
                                     <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png"/>
                                 </span>
                             </div>
-            				<div class="col-md-4 stores_row_phone"> 
+            				<div class="col-md-5 stores_row_phone"> 
                                 <span class="hidden-phone">{{phone}}</span>
                                 <a class="visible-phone store_list_phone pull-right" href="tel:{{phone}}">
                                     <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845760000/icon_call_stores.png" />
