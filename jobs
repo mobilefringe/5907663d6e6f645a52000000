@@ -90,6 +90,8 @@
             if(mall_published_jobs.length < 1 && retailer_published_jobs.length < 1){
                 $("#no_jobs").show();   
             }
+            
+            show_content();
         }
         loadMallData(renderAll); 
     });
