@@ -29,6 +29,8 @@
             
             var promos = getPromotionsList();
             renderPromotions('#promos_container','#promos_template', promos);
+            
+            show_content();
         }
         loadMallDataCached(renderPage);
     });
