@@ -132,7 +132,7 @@
                 if(val.assets[0] != undefined) {
                     var assets_img = val.assets[0];
                     console.log(assets_img);
-                    var store_front_image =     
+                    // var store_front_image =     
                 }
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
