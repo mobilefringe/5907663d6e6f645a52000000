@@ -72,6 +72,11 @@
                 </div>
             </div>
             <div id="category" class="tab-pane">
+                <div class="alphabet_bg" id="category_container">
+                    <script id="category_template" type="x-tmpl-mustache/text">
+                        <a href="#{{id}}" class="btn-secondary">{{name}}</a>
+                    </script>
+                </div>
                 <div class="" id="store_list_cat_container">
                     <script id="store_list_cat_template" type="x-tmpl-mustache/text">
         				<div class="col-md-12 stores_table_headers" style="{{show}}">
