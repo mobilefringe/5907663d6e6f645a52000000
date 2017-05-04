@@ -6,12 +6,12 @@
     <div id="tabs" class="tabbable">
         <ul class="nav nav-tabs store_tabs">
             <li class="active tab_color store_tab">
-                <a href="javascript:show_stores();" data-toggle="tab">
+                <a href="" data-toggle="tab">
                     <span> STORES A-Z </span>                    
                 </a>
             </li>
             <li class="category_tab">
-                <a href="javascript:show_cats();" data-toggle="tab">
+                <a href="" data-toggle="tab">
                     <span>CATEGORIES</span>
                 </a>                
             </li>
@@ -70,6 +70,8 @@
                     	</div>
                     </script>
                 </div>
+            </div>
+            <div id="category" class="tab-pane">
                 <div class="hidden_now" id="store_list_cat_container">
                     <script id="store_list_cat_template" type="x-tmpl-mustache/text">
         				<div class="col-md-12 stores_table_headers" style="{{show}}">
@@ -143,6 +145,15 @@
             
             $("#legend_label").click(function() {
                 show_legend();
+            });
+            
+            $(".store_tab").click(function() {
+                $("#category").removeClass("active");
+                $("#list").addClass("active");
+            });
+            $(".category_tab").click(function() {
+                $("#list").removeClass("active");
+                $("#category").addClass("active");
             });
         }
         
