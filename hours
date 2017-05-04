@@ -21,8 +21,9 @@
 </div>
 <script>
     $(document).ready(function(){
-        init();
+        
         function renderPage(){
+            init();
             var hours = getPropertyHours();
             renderHours('#hours_container','#hours_template', hours, 'reg_hours');
             renderHours('#holiday_container','#holiday_template', hours, 'holiday_hours'); 
