@@ -74,8 +74,10 @@
             <div id="category" class="tab-pane">
                 <div class="alphabet_bg" id="category_container">
                     <script id="category_template" type="x-tmpl-mustache/text">
-                        <a href="#{{id}}" class="btn-secondary">{{name}}</a>
-                        <span class="category_divider hidden-phone"> | </span>
+                        <div>
+                            <a href="#{{id}}" class="btn-secondary">{{name}}</a>
+                            <span class="category_divider hidden-phone"> | </span>
+                        </div>
                     </script>
                 </div>
                 <div class="" id="store_list_cat_container">
