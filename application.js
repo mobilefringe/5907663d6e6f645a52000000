@@ -564,7 +564,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
 
         var cat_list = val.categories;
-        val.category_list = getCategoryDetails(cat_list);
+        val.category_list = getCategoryDetails(categories);
         
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:inline-block";
