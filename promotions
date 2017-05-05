@@ -25,7 +25,6 @@
         init();
         function renderPage(){
             var repo = getRepoDetailsByName("images");
-            console.log(repo);
             
             var promos = getPromotionsList();
             renderPromotions('#promos_container','#promos_template', promos);
