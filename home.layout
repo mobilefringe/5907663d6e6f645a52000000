@@ -310,7 +310,6 @@
             
         <div class="row-fluid">
             <div class="features_container hidden-phone">
-                <div class="left_side_bar" display="hidden"></div>
                 <div class="feature_boxes"> 
                     <span class ="hour_box_label label_sub">QUICK LINKS</span> 
                     <div class="feature_box long_feature_box">     
