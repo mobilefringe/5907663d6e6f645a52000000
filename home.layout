@@ -290,24 +290,25 @@
     <section id="content" class="container-fluid trim_screen">
         <a class="accessible" href="#main">[Skip to Content]</a>
         {{yield}}
-        <div class="row">
-            <div class="hour_box visible-phone">
-                <span class="hour_box_label label_sub" style="font-size: 12pt;">MALL HOURS</span>
-                <p>       
-                    <span class="hour_title">
-                        <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>
-                        <span>MONDAY</span>
-                    </span>
-                    <span class="hour_info">9:30am -  9:00pm</span>
-                </p>
-                <p>
-                    <span class="hour_title" style="color:black">CALL US</span>
-                    <span class="hour_info hidden-phone">613.725.1551</span>
-                    <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
-                </p>
-                <a href="/hours"><span class="check_hours label_sub">FULL MALL HOURS</span></a>
-            </div>
-
+        
+        <div class="hour_box visible-phone">
+            <span class="hour_box_label label_sub" style="font-size: 12pt;">MALL HOURS</span>
+            <p>       
+                <span class="hour_title">
+                    <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>
+                    <span>MONDAY</span>
+                </span>
+                <span class="hour_info">9:30am -  9:00pm</span>
+            </p>
+            <p>
+                <span class="hour_title" style="color:black">CALL US</span>
+                <span class="hour_info hidden-phone">613.725.1551</span>
+                <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
+            </p>
+            <a href="/hours"><span class="check_hours label_sub">FULL MALL HOURS</span></a>
+        </div>
+            
+        <div class="row-fluid">
             <div class="features_container hidden-phone">
                 <div class="left_side_bar" display="hidden"></div>
                 <div class="feature_boxes"> 
