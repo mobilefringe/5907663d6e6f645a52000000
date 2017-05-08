@@ -65,6 +65,7 @@ function show_content() {
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
     
     var todays_hours = getTodaysHours();
+    renderHomeHours("#home_hours_container", "#home_hours_template", todays_hours);
     renderHomeHours("#side_hours_container", "#side_hours_template", todays_hours);
     
     var prop_details = getPropertyDetails();
