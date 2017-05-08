@@ -325,7 +325,7 @@
                     </div>
                 </div>
                 <div class="hour_box hidden-phone">
-                    <p class="side_hour_box_label">MALL HOURS</p>
+                    <span class="hour_box_label label_sub">MALL HOURS</span>
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
                             {%raw%}
