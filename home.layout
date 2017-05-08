@@ -312,11 +312,17 @@
             <div class="features_container hidden-phone">
                 <div class="feature_boxes"> 
                     <span class ="hour_box_label label_sub">QUICK LINKS</span> 
-                    <div class="feature_box long_feature_box">     
-                        <a href="/events">               
-                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/219/original/spring_vertical_Events.jpg?1493149244" />
-                        </a>
-                    </div>            
+                    <div id="feature_item_container">
+                        <script id="feature_item_template" type="x-tmpl-mustache/text">
+                            {%raw%}
+                            <div class="feature_box long_feature_box">     
+                                <a href="{{}}">               
+                                    <img alt="feature image" src="{{}}" />
+                                </a>
+                            </div>  
+                            {%endraw%}
+                        </script>
+                    </div>
                     <div class="feature_box long_feature_box">     
                         <a href="http://carlingwood.mallmaverick.com/promotions">               
                             <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/220/original/spring_vertical_New.jpg?1493149255" />
