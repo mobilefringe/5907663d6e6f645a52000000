@@ -121,7 +121,6 @@
             renderGeneral('#category_container', '#category_template', categories);
             var new_stores = getNewStoresList();
             var stores = getStoresList();
-            console.log(stores)
             renderStoreList('#store_list_alpha_container','#store_list_alpha_template', new_stores, "stores");
             renderStoreListCatetories('#store_list_cat_container','#store_list_cat_template', categories, new_stores);
             
