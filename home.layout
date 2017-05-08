@@ -290,6 +290,68 @@
     <section id="content" class="container-fluid trim_screen">
         <a class="accessible" href="#main">[Skip to Content]</a>
         {{yield}}
+        <div class="row">
+            <div class="hour_box visible-phone">
+                <span class="hour_box_label label_sub" style="font-size: 12pt;">MALL HOURS</span>
+                <p>       
+                    <span class="hour_title">
+                        <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>
+                        <span>MONDAY</span>
+                    </span>
+                    <span class="hour_info">9:30am -  9:00pm</span>
+                </p>
+                <p>
+                    <span class="hour_title" style="color:black">CALL US</span>
+                    <span class="hour_info hidden-phone">613.725.1551</span>
+                    <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
+                </p>
+                <a href="/hours"><span class="check_hours label_sub">FULL MALL HOURS</span></a>
+            </div>
+
+            <div class="features_container hidden-phone">
+                <div class="left_side_bar" display="hidden"></div>
+                <div class="feature_boxes"> 
+                    <span class ="hour_box_label label_sub">QUICK LINKS</span> 
+                    <div class="feature_box long_feature_box">     
+                        <a href="/events">               
+                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/219/original/spring_vertical_Events.jpg?1493149244" />
+                        </a>
+                    </div>            
+                    <div class="feature_box long_feature_box">     
+                        <a href="http://carlingwood.mallmaverick.com/promotions">               
+                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/220/original/spring_vertical_New.jpg?1493149255" />
+                        </a>
+                    </div>            
+                    <div class="feature_box long_feature_box">     
+                        <a href="/pages/carlingwood-gift-cards">               
+                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/221/original/spring_vertical_GiftCards.jpg?1493149269" />
+                        </a>
+                    </div>            
+                    <div class="feature_box long_feature_box">     
+                        <a href="/stores">               
+                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/222/original/spring_vertical_Stores.jpg?1493149280" />
+                        </a>
+                    </div>            
+                </div>
+                <div class="hour_box hidden-phone">
+            
+                    <span class="hour_box_label  label_sub" style="font-size: 12pt;">MALL HOURS</span>
+                    <p>       
+                        <span class="hour_title">
+                            <span class="hour_title label_sub">TODAY'S HOURS</span>
+                            <span class="day_label label_sub">MONDAY</span>
+                        </span>
+                        <span class="hour_info">9:30am -  9:00pm</span>
+                    </p>
+                    <p>
+                        <span class="hour_title">CALL US</span>
+                        <span class="hour_info hidden-phone">613.725.1551</span>
+                        <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
+                    </p>
+                    <a href="/hours" class="check_hours" style="color:#000">[ HOLIDAY HOURS ]</a>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <!--Bottom Nav Dynamic-->
