@@ -323,21 +323,6 @@
                             {%endraw%}
                         </script>
                     </div>
-                    <div class="feature_box long_feature_box">     
-                        <a href="http://carlingwood.mallmaverick.com/promotions">               
-                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/220/original/spring_vertical_New.jpg?1493149255" />
-                        </a>
-                    </div>            
-                    <div class="feature_box long_feature_box">     
-                        <a href="/pages/carlingwood-gift-cards">               
-                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/221/original/spring_vertical_GiftCards.jpg?1493149269" />
-                        </a>
-                    </div>            
-                    <div class="feature_box long_feature_box">     
-                        <a href="/stores">               
-                            <img alt="feature image" src="https://www.mallmaverick.com/system/feature_items/feature_images/000/000/222/original/spring_vertical_Stores.jpg?1493149280" />
-                        </a>
-                    </div>            
                 </div>
                 <div class="hour_box hidden-phone">
             
