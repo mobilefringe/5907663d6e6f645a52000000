@@ -562,11 +562,14 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if ((val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/58f66c9b6e6f647d46000000/image/jpeg/1492633527000/img_default.jpg";
+            val.alt_store_front_url = "";
         } else {
             val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
-
+        
+        var store_detail_img = val.assets[0].url;
+        console.log(store_detail_img);
+        
         var cat_list = getCategoryDetails(val.categories);
         val.category_list = cat_list.name;
         
