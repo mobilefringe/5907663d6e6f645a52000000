@@ -354,10 +354,12 @@ function renderPromotions(container, template, collection){
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         if (start.format("DMY") == end.format("DMY")){
-            val.dates = start.format("MMM D")
+            val.dates = start.format("MMM D");
+            val.store_dates = start.format("MMM D");
         }
         else{
             val.dates = start.format("MMM D") + " - " + end.format("MMM D");
+            val.store_dates = "STARTS " + start.format("MMM D") + " - ENDS " + end.format("MMM D");
         }
         
         if (val.description.length  >= 100) {
