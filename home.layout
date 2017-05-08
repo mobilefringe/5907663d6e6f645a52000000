@@ -316,8 +316,8 @@
                         <script id="home_feature_item_template" type="x-tmpl-mustache/text">
                             {%raw%}
                             <div class="feature_box long_feature_box">     
-                                <a href="{{}}">               
-                                    <img alt="feature image" src="{{}}" />
+                                <a href="{{url}}">               
+                                    <img alt="feature image" src="{{image_url}}" />
                                 </a>
                             </div>  
                             {%endraw%}
