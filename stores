@@ -126,7 +126,7 @@
             $("#mapsvg").show();
             regions = {}
             $.each(stores, function(key, val) {
-                if(val.assets[0] != undefined) {
+                if(val.assets != undefined) {
                     var assets_img = val.assets[0].url;
                     console.log(assets_img);
                     // var store_front_image =     
