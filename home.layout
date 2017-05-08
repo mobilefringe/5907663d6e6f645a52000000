@@ -348,11 +348,6 @@
                             {%endraw%}
                         </script>
                     </p>
-                    <p>
-                        <span class="hour_title">CALL US</span>
-                        <span class="hour_info hidden-phone">613.725.1551</span>
-                        <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
-                    </p>
                     <a href="/hours" class="check_hours" style="color:#000">[ HOLIDAY HOURS ]</a>
                 </div>
             </div>
