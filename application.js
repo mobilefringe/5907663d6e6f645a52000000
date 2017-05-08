@@ -569,6 +569,8 @@ function renderStoreDetails(container, template, collection, slug){
         
         var store_detail_img = val.assets[0].url;
         console.log(store_detail_img);
+        var store_detail_url = getImageURL(store_detail_img);
+        console.log(store_detail_url);
         
         var cat_list = getCategoryDetails(val.categories);
         val.category_list = cat_list.name;
