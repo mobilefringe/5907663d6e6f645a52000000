@@ -289,6 +289,7 @@ function renderJobs(container, template, collection){
         
         var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
+        val.start_date = start.format("MMM D");
         val.end_date = end.format("MMM D");
 
         
