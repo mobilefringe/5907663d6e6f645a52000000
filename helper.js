@@ -58,6 +58,8 @@ function init() {
 }
 
 function show_content() {
+    var home_feature_items = getFeatureList();
+    renderFeatureItems("#home_feature_item_container", "#home_feature_item_template", home_feature_items);
     var promo_list = getPromotionsList();
     var side_promos = promo_list.slice(0,3);
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
