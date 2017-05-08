@@ -6,7 +6,7 @@
     <div id="events_container">
         <script id="events_template" type="x-tmpl-mustache/text">
             <div id="carlingwood-faces-of-canada-contest" class="promo_page_box">
-                <a href="{{event_image_url_abs}}" rel="lightbox-gallery" title="{{name}}">
+                <a href="{{event_image_url_abs}}" data-lightbox="{{name}}" title="{{name}}">
                     <img alt="promo image" class="promo_page_img" src="{{event_image_url_abs}}" />
                 </a>
                 <span class="promo_page_store_name label_sub">{{name}}</span>
