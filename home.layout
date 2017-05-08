@@ -325,8 +325,7 @@
                     </div>
                 </div>
                 <div class="hour_box hidden-phone">
-            
-                    <span class="hour_box_label  label_sub" style="font-size: 12pt;">MALL HOURS</span>
+                    <span class="hour_box_label  label_sub">MALL HOURS</span>
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
                             {%raw%}
@@ -338,7 +337,17 @@
                             {%endraw%}
                         </script>
                     </p>
-
+                    <p id="home_details_container">
+                        <script id="home_details_template" type="x-tmpl-mustache/text">
+                            {%raw%}
+                            <span class="hour_title"><br>CALL US</span>
+                            <span class="hour_info hidden-phone">{{contact_phone}}</span>
+                            <span class="hour_info visible-phone">
+                                <a href="tel:{contact_{phone}}">{{contact_phone}}</a>    
+                            </span>
+                            {%endraw%}
+                        </script>
+                    </p>
                     <p>
                         <span class="hour_title">CALL US</span>
                         <span class="hour_info hidden-phone">613.725.1551</span>
