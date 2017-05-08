@@ -564,7 +564,7 @@ function renderStoreDetails(container, template, collection, slug){
         if ((val.store_front_url).indexOf('missing.png') > -1){
             val.alt_store_front_url = "";
         } else {
-            val.alt_store_front_url = "background: url(" + getImageURL(val.store_front_url) + ");"; 
+            val.alt_store_front_url = getImageURL(val.store_front_url); 
         }
         
         var store_detail_img = val.assets[0].url;
