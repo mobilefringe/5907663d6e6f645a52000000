@@ -289,9 +289,9 @@
     </header>
     <section id="content" class="container-fluid trim_screen">
         <a class="accessible" href="#main">[Skip to Content]</a>
-        <div class="container_body">
+        
             {{yield}}
-        </div>
+        
     </section>
     <footer>
         <!--Bottom Nav Dynamic-->
