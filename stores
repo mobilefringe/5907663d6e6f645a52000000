@@ -131,7 +131,7 @@
                     var assets_img = val.assets[0].url;
                     var assets_url = getImageURL(assets_img);
                 } else {
-                    var assets_url =     
+                    // var assets_url =     
                 }
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
