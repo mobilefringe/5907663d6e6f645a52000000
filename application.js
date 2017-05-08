@@ -287,6 +287,7 @@ function renderJobs(container, template, collection){
             val.store_name = "Lansdowne Place";
         }
         
+        var start = moment(val.start_date).tz(getPropertyTimeZone());
         var end = moment(val.end_date).tz(getPropertyTimeZone());
         val.end_date = end.format("MMM D");
 
