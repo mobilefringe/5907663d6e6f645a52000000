@@ -120,6 +120,7 @@
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             var stores = getStoresList();
+            console.log(stores)
             renderStoreList('#store_list_alpha_container','#store_list_alpha_template', stores, "stores");
             renderStoreListCatetories('#store_list_cat_container','#store_list_cat_template', categories, stores);
             
@@ -129,8 +130,8 @@
                 if(val.assets != undefined) {
                     var assets_img = val.assets[0].url;
                     var assets_url = getImageURL(assets_img);
-                    console.log(assets_url);
-                    // var store_front_image =     
+                } else {
+                    var assets_url =     
                 }
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
