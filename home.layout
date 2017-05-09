@@ -353,7 +353,7 @@
             </div>
         </div>
         <div class="row-fluid">
-            <div class="event_container">
+            <div class="event_container col-md-4">
                 <span class="container_labels label_sub">LATEST EVENTS</span>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
             
