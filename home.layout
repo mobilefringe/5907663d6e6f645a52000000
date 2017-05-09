@@ -318,7 +318,7 @@
             
         <div class="row-fluid">
             <div class="features_container hidden-phone">
-                <div class="feature_boxes"> 
+                <div class="feature_boxes col-md-9"> 
                     <span class ="hour_box_label label_sub">QUICK LINKS</span> 
                     <div id="home_feature_item_container">
                         <script id="home_feature_item_template" type="x-tmpl-mustache/text">
@@ -332,7 +332,7 @@
                         </script>
                     </div>
                 </div>
-                <div class="hour_box hidden-phone">
+                <div class="hour_box hidden-phone col-md-3">
                     <span class="hour_box_label label_sub">MALL HOURS</span>
                     <p id="home_hours_container">
                         <script id="home_hours_template" type="x-tmpl-mustache/text">
