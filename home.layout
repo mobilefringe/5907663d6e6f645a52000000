@@ -372,10 +372,10 @@
                 <div class="feed_box" id="home_events_container">
                     <script id="home_events_template" type="x-tmpl-mustache/text">
                         {%raw%}
-                        <a href="" rel="lightbox-gallery" title="{{name}}">
-                            <img  alt="promo image" class="promo_page_img" src="{{event_image_url_abs}}" />
-                        </a> 
                         <div>
+                            <a href="" rel="lightbox-gallery" title="{{name}}">
+                                <img  alt="promo image" class="promo_page_img" src="{{event_image_url_abs}}" />
+                            </a> 
                             <a href="/events/{{slug}}">
                                 <div class="feed_box_name">{{name}}</div>
                             </a>
