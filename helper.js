@@ -68,7 +68,7 @@ function show_content() {
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
     
     var events = getEventsList();
-    console.log(evenys);
+    console.log(events);
     renderEvents("home_events_container", "#home_events_template", events);
     
     var todays_hours = getTodaysHours();
