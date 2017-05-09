@@ -401,7 +401,7 @@
             </div>
             <div class="social_feed col-md-4">
                 <span class="container_labels label_sub">SOCIAL FEED</span>
-                <img alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
+                <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                 <div class="fb-like-box" data-href="http://www.facebook.com/Carlingwood" 
                     data-colorscheme="light" data-show-faces="false" data-header="false" data-stream="true" data-show-border="false">
                 </div>
