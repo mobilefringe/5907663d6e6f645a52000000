@@ -318,18 +318,20 @@
             
         <div class="row-fluid">
             <div class="features_container hidden-phone">
-                <div class="feature_boxes col-md-9"> 
-                    <span class ="hour_box_label label_sub">QUICK LINKS</span> 
-                    <div id="home_feature_item_container">
-                        <script id="home_feature_item_template" type="x-tmpl-mustache/text">
-                            {%raw%}
-                            <div class="feature_box long_feature_box">     
-                                <a href="{{url}}">               
-                                    <img alt="feature image" src="{{image_url}}" />
-                                </a>
-                            </div>  
-                            {%endraw%}
-                        </script>
+                <div class="col-md-9">
+                    <div class="feature_boxes"> 
+                        <span class ="hour_box_label label_sub">QUICK LINKS</span> 
+                        <div id="home_feature_item_container">
+                            <script id="home_feature_item_template" type="x-tmpl-mustache/text">
+                                {%raw%}
+                                <div class="feature_box long_feature_box">     
+                                    <a href="{{url}}">               
+                                        <img alt="feature image" src="{{image_url}}" />
+                                    </a>
+                                </div>  
+                                {%endraw%}
+                            </script>
+                        </div>
                     </div>
                 </div>
                 <div class="col-md-3">
