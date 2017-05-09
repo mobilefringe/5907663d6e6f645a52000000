@@ -376,7 +376,7 @@
                             <img  alt="promo image" class="promo_page_img" src="{{}}" />
                         </a> 
                         <div>
-                            <a style="cursor:pointer" href="/events#carlingwood-faces-of-canada-contest">
+                            <a href="/events#carlingwood-faces-of-canada-contest">
                                 <div class="feed_box_name">FACES OF CANADA CONTEST!</div>
                             </a>
                             <p class="feed_box_date">MAY 01 TILL MAY 31 </p>
