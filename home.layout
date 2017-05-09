@@ -396,15 +396,17 @@
                     <div class="feed_box" id="home_promo_container">
                         <script id="home_promo_template" type="x-tmpl-mustache/text">
                             {%raw%}
-                            <a href="{{image_url}}" data-lightbox="{{name}}" title="{{name}}">
-                                <img alt="promo image" class="promo_page_img" src="{{image_url}}"/>
-                            </a>
-                            <a href="/stores/{{}}">
-                                <div class="feed_box_name">{{store_name}}</div>    
-                            </a>
-                            <span class="feed_box_title label_sub">{{name}}</span>
+                            <div>
+                                <a href="{{image_url}}" data-lightbox="{{name}}" title="{{name}}">
+                                    <img alt="promo image" class="promo_page_img" src="{{image_url}}"/>
+                                </a>
+                                <a href="/stores/{{}}">
+                                    <div class="feed_box_name">{{store_name}}</div>    
+                                </a>
+                                <span class="feed_box_title label_sub">{{name}}</span>
+                            </div>
                             <p class="feed_box_date">{{dates}}</p>
-                            <span class="feed_box_desc label_sub">{{description}}</span>
+                            <div class="feed_box_desc label_sub">{{description}}</div>
                             <a href="/promotions/{{slug}}">
                                 <div class="read_more">read more</div>
                             </a>
