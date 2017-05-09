@@ -355,7 +355,7 @@
         <div class="row-fluid">
             <div class="event_container">
                 <span class="container_labels label_sub">LATEST EVENTS</span>
-                <img alt="line" class="feed_line_img" src="/system/site_images/photos/000/002/737/original/black_line.png?1401308793">
+                <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
             
                 <div class="feed_box" id="home_events_container">
                     <script id="home_events_template" type="x-tmpl-mustache/text">
