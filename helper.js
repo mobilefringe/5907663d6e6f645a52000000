@@ -63,6 +63,7 @@ function show_content() {
     
     var promo_list = getPromotionsList();
     var side_promos = promo_list.slice(0,3);
+    console.log(side_promos);
     renderPromotions("#home_promo_container", "#home_promo_template", side_promos);
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
     
