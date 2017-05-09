@@ -318,7 +318,7 @@
             
         <div class="row">
             <div class="features_container hidden-phone">
-                <div class="col-md-9">
+                <div class="col-md-8">
                     <div class="feature_boxes"> 
                         <span class ="hour_box_label label_sub">QUICK LINKS</span> 
                         <div id="home_feature_item_container">
@@ -334,7 +334,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-3">
+                <div class="col-md-4">
                     <div class="hour_box hidden-phone">
                         <span class="hour_box_label label_sub">MALL HOURS</span>
                         <p id="home_hours_container">
