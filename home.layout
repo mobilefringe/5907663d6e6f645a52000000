@@ -363,8 +363,6 @@
                         <a href="" rel="lightbox-gallery" title="{{name}}">
                             <img  alt="promo image" class="promo_page_img" src="{{}}" />
                         </a> 
-                        
-                    
                         <div>
                             <a style="cursor:pointer" href="/events#carlingwood-faces-of-canada-contest">
                                 <div class="feed_box_name">FACES OF CANADA CONTEST!</div>
