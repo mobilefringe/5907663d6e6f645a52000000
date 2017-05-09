@@ -67,6 +67,10 @@ function show_content() {
     renderPromotions("#home_promo_container", "#home_promo_template", side_promos);
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
     
+    var events = getEventsList();
+    console.log(evenys);
+    renderEvents("home_events_container", "#home_events_template", events);
+    
     var todays_hours = getTodaysHours();
     renderHomeHours("#home_hours_container", "#home_hours_template", todays_hours);
     renderHomeHours("#side_hours_container", "#side_hours_template", todays_hours);
