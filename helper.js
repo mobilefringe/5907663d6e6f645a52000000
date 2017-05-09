@@ -69,7 +69,7 @@ function show_content() {
     
     var events = getEventsList();
     console.log(events);
-    renderEvents("home_events_container", "#home_events_template", events);
+    renderEvents("#home_events_container", "#home_events_template", events);
     
     var todays_hours = getTodaysHours();
     renderHomeHours("#home_hours_container", "#home_hours_template", todays_hours);
