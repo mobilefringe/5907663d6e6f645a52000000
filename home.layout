@@ -373,7 +373,7 @@
                     <script id="home_events_template" type="x-tmpl-mustache/text">
                         {%raw%}
                         <div class="promo_header">
-                            <a href="" rel="lightbox-gallery" title="{{name}}">
+                            <a href="{{event_image_url_abs}}" data-lightbox="{{name}}" title="{{name}}"
                                 <img  alt="promo image" class="promo_page_img" src="{{event_image_url_abs}}" />
                             </a> 
                             <a href="/events/{{slug}}">
