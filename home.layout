@@ -332,31 +332,33 @@
                         </script>
                     </div>
                 </div>
-                <div class="hour_box hidden-phone col-md-3">
-                    <span class="hour_box_label label_sub">MALL HOURS</span>
-                    <p id="home_hours_container">
-                        <script id="home_hours_template" type="x-tmpl-mustache/text">
-                            {%raw%}
-                            <p class="hour_title">
-                                <p class="hour_title">TODAYS HOURS</p>
-                                <p class="day_label">{{day}}</p>
-                            </p>
-                            <span class="hour_info">{{h}}</span>
-                            {%endraw%}
-                        </script>
-                    </p>
-                    <p id="home_details_container">
-                        <script id="home_details_template" type="x-tmpl-mustache/text">
-                            {%raw%}
-                            <span class="hour_title"><br>CALL US</span>
-                            <span class="hour_info hidden-phone">{{contact_phone}}</span>
-                            <span class="hour_info visible-phone">
-                                <a href="tel:{contact_{phone}}">{{contact_phone}}</a>    
-                            </span>
-                            {%endraw%}
-                        </script>
-                    </p>
-                    <a href="/hours" class="check_hours" style="color:#000">[ HOLIDAY HOURS ]</a>
+                <div class="col-md-3">
+                    <div class="hour_box hidden-phone">
+                        <span class="hour_box_label label_sub">MALL HOURS</span>
+                        <p id="home_hours_container">
+                            <script id="home_hours_template" type="x-tmpl-mustache/text">
+                                {%raw%}
+                                <p class="hour_title">
+                                    <p class="hour_title">TODAYS HOURS</p>
+                                    <p class="day_label">{{day}}</p>
+                                </p>
+                                <span class="hour_info">{{h}}</span>
+                                {%endraw%}
+                            </script>
+                        </p>
+                        <p id="home_details_container">
+                            <script id="home_details_template" type="x-tmpl-mustache/text">
+                                {%raw%}
+                                <span class="hour_title"><br>CALL US</span>
+                                <span class="hour_info hidden-phone">{{contact_phone}}</span>
+                                <span class="hour_info visible-phone">
+                                    <a href="tel:{contact_{phone}}">{{contact_phone}}</a>    
+                                </span>
+                                {%endraw%}
+                            </script>
+                        </p>
+                        <a href="/hours" class="check_hours" style="color:#000">[ HOLIDAY HOURS ]</a>
+                    </div>
                 </div>
             </div>
         </div>
