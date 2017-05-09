@@ -404,7 +404,7 @@
                             </a>
                             <span class="feed_box_title label_sub">{{name}}</span>
                             <p class="feed_box_date">{{dates}}</p>
-                            <span class="feed_box_desc label_sub">{{description}}</span>
+                            <div class="feed_box_desc label_sub">{{description}}</div>
                             <a href="/promotions/{{slug}}">
                                 <div class="read_more">read more</div>
                             </a>
