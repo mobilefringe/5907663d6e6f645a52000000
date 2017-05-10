@@ -10,7 +10,6 @@ function init() {
     }
     $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
-        console.log(id);
         animate_dropdown(id);
     })
     function animate_dropdown(id){
@@ -63,12 +62,10 @@ function show_content() {
     
     var promo_list = getPromotionsList();
     var side_promos = promo_list.slice(0,3);
-    console.log(side_promos);
     renderPromotions("#home_promo_container", "#home_promo_template", side_promos);
     renderPromotions("#side_promo_container", "#side_promo_template", side_promos);
     
     var events = getEventsList();
-    console.log(events);
     renderEvents("#home_events_container", "#home_events_template", events);
     
     var todays_hours = getTodaysHours();
