@@ -316,7 +316,7 @@
             <a href="/hours"><span class="check_hours label_sub">FULL MALL HOURS</span></a>
         </div>
             
-        <div class="row">
+        <div class="row-fluid">
             <div class="features_container hidden-phone">
                 <div class="col-md-8">
                     <div class="feature_boxes"> 
