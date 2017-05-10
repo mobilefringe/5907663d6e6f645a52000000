@@ -120,7 +120,6 @@
             var categories = getStoreCategories();
             renderGeneral('#category_container', '#category_template', categories);
             var stores = getStoresList();
-            console.log(stores)
             renderStoreList('#store_list_alpha_container','#store_list_alpha_template', stores, "stores");
             renderStoreListCatetories('#store_list_cat_container','#store_list_cat_template', categories, stores);
             
