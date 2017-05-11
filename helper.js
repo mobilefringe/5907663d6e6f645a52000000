@@ -8,11 +8,16 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-    // $(".btn-nav").hover(function() {
-    //     var id = $(this).attr('id'); 
-    //     console.log(id);
-    //     animate_dropdown(id);
-    // });
+    $(".btn-nav").mouseover(function() {
+        var id = $(this).attr('id'); 
+        console.log(id);
+        animate_dropdown(id);
+    });
+    $(".btn-nav").focus(function() {
+        var id = $(this).attr('id'); 
+        console.log(id);
+        animate_dropdown(id);
+    });
     
     function animate_dropdown(id){
         if ($("#"+id).is(":visible")){
