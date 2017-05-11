@@ -22,9 +22,9 @@ function init() {
     });
     
     function animate_dropdown(id){
-        if ($("#" + id + "-dropdown").is(":visible")){
-            $("#" + id + "-dropdown").slideUp();
-        } else {
+        // if ($("#" + id + "-dropdown").is(":visible")){
+        //     $("#" + id + "-dropdown").slideUp();
+        // } else {
             // if ($(".dd_animated").is(":visible")){
             //     $(".dd_animated").slideUp();
             //      $("#" + id + "-dropdown").slideDown();
@@ -32,7 +32,7 @@ function init() {
         
                 $("#" + id + "-dropdown").slideDown(); 
             // }
-        }
+        // }
     }
 
     
