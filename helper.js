@@ -15,10 +15,14 @@ function init() {
     });
     $(".btn-nav").focus(function() {
         var id = $(this).attr('id'); 
-        console.log(id);
         // animate_dropdown(id);
-        
-        $("#" + id + "-dropdown").slideDown(); 
+        if($(".dd_animate").is(":visible")) {
+            $(".dd_animated").slideUp();
+            $("#" + id + "-dropdown").slideDown(); 
+        } else {
+            $("#" + id + "-dropdown").slideDown(); 
+        }
+        // $("#" + id + "-dropdown").slideDown(); 
     });
     
     function animate_dropdown(id){
