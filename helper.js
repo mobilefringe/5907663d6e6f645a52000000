@@ -17,11 +17,11 @@ function init() {
         // $("#"+ id + "-dropdown").slideDown(); 
     })
     function animate_dropdown(id){
-        if ($("#"+ id + "-dropdown").is(":visible")){
-            $("#"+ id + "-dropdown").slideUp();
-        } else {
-            // if ($(".dd_animated").is(":visible")){
-            //     $(".dd_animated").slideUp();
+        // if ($("#"+ id + "-dropdown").is(":visible")){
+        //     $("#"+ id + "-dropdown").slideUp();
+        // } else {
+            if ($(".dd_animated").is(":visible")){
+                $(".dd_animated").slideUp();
             //     $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
                
             //     $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
