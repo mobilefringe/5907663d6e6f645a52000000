@@ -352,15 +352,6 @@
                         <a href="/events">
                             <img class="side_bar_image" src="{{photo_url_abs}}"/>
                         </a>
-                        <a href="/promotions">
-                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
-                        </a>
-                        <a href="/pages/carlingwood-gift-cards">
-                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
-                        </a>
-                        <a href="/pages/carlingwood-gift-cards">
-                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
-                        </a>
                         {%endraw%}
                     </script>
                 </div>
