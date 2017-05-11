@@ -1,3 +1,14 @@
 <div>
     <h1>Search Results</h1>
 </div>
+<script>
+    $(document).ready(function(e){
+        init(e);
+        function renderAll(){
+            
+            
+            show_content();
+        }
+        loadMallDataCached(renderAll); 
+    });
+</script>
