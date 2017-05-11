@@ -12,28 +12,25 @@ function init() {
         var id = $(this).attr('id'); 
         console.log(id);
         animate_dropdown(id);
-        
-        // $(".dd_animated").slideUp();
-        // $("#"+ id + "-dropdown").slideDown(); 
-    })
+    });
+    
     function animate_dropdown(id){
-        // if ($("#"+ id + "-dropdown").is(":visible")){
-        //     $("#"+ id + "-dropdown").slideUp();
-        // } else {
+        if ($("#"+id).is(":visible")){
+            $("#"+id).slideUp();
+        } else {
             if ($(".dd_animated").is(":visible")){
                 $(".dd_animated").slideUp();
-            //     $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
+                $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
                
-            //     $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
-            //      $("#"+id).slideDown();
+                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
+                 $("#"+id).slideDown();
             } else {
-                
-                // $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
-                $("#"+ id + "-dropdown").slideDown(); 
-                $(".dd_animated").css({"display": "block"});
+                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
+                $("#"+id).slideDown(); 
             }
-        // }
+        }
     }
+
     
     function side_subscribe_email(){ 
         if (isValidEmailAddress($("#side_subscribe_email").val())){            
