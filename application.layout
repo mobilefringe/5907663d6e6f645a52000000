@@ -346,8 +346,17 @@
                 <a href="/hours" class="check_hours">HOLIDAY HOURS</a>
             </div>
             <div>
-                <div id="feature_item_container">
-                    <script id="feature_item_template" type="x-tmpl-mustache/text">
+                <div id="sfi_event_container">
+                    <script id="sfi_event_template" type="x-tmpl-mustache/text">
+                        {%raw%}
+                        <a href="{{url}}">
+                            <img class="side_bar_image" src="{{photo_url_abs}}" alt="{{name}}"/>
+                        </a>
+                        {%endraw%}
+                    </script>
+                </div>
+                <div id="sfi_new_container">
+                    <script id="sfi_new_template" type="x-tmpl-mustache/text">
                         {%raw%}
                         <a href="{{url}}">
                             <img class="side_bar_image" src="{{photo_url_abs}}" alt="{{name}}"/>
