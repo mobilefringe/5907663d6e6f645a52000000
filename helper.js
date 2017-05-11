@@ -13,7 +13,7 @@ function init() {
         console.log(id);
         animate_dropdown(id);
     });
-    $(".btn-nav").focus(function() {
+    $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
         // animate_dropdown(id);
         if($(".dd_animate").is(":visible")) {
