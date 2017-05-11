@@ -226,59 +226,53 @@
                             </li>  
                             <li class="dropdown top_dropdown">
                                 <button id="guest" class="btn-nav">SERVICES</button>                                                     
-                                <ul class="dropdown-menu">                            
-                                    <div id="guest" class="dd_animated">
-                                        <li>
-                                            <a class="nav_a" href='/pages/carlingwood-customer-services' target='_self'><span>Customer Services</span></a>
-                                        </li>
-                                        <li>
-                                            <a class="nav_a" href='/pages/carlingwood-security' target='_self'><span>Security</span></a>
-                                        </li>
-                                        <li>
-                                            <a class="nav_a" href='/pages/carlingwood-community-services' target='_self'><span>Community Services</span></a>
-                                        </li>
-                                        <li>
-                                            <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>
-                                        </li>
-                                    </div>
+                                <ul class="dropdown-menu dd_animated" id="guest-dropdown">                            
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-customer-services' target='_self'><span>Customer Services</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-security' target='_self'><span>Security</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-community-services' target='_self'><span>Community Services</span></a>
+                                    </li>
+                                    <li>
+                                        <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>
+                                    </li>
                                 </ul>
                             </li>  
                         <li class="dropdown top_dropdown">
                             <button id="visit" class="btn-nav">VISIT US</button>                                                     
-                            <ul class="dropdown-menu">                            
-                                <div id="visit-dropdown" class="dd_animated">
-                                    <li>
-                                        <a class="nav_a" href='/hours' target='_self'><span>Hours</span></a>                                
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='/pages/carlingwood-about-us' target='_self'><span>About Us</span></a>
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='/pages/carlingwood-directions' target='_self'><span>Directions</span></a>
-                                    </li>
-                                </div>
+                            <ul class="dropdown-menu dd_animated" id="visit-dropdown">                            
+                                <li>
+                                    <a class="nav_a" href='/hours' target='_self'><span>Hours</span></a>                                
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='/pages/carlingwood-about-us' target='_self'><span>About Us</span></a>
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='/pages/carlingwood-directions' target='_self'><span>Directions</span></a>
+                                </li>
                             </ul>
                         </li>  
                         <li class="dropdown top_dropdown">
                             <button id="contacts" class="btn-nav">CONTACTS</button>                                                     
                             <ul class="dropdown-menu dd_animated" id="contacts-dropdown">                            
-                                <div >
-                                    <li>
-                                        <a class="nav_a" href='/jobs' target='_self'><span>Jobs</span></a>                                
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='/pages/carlingwood-privacy-policy' target='_self'><span>Privacy Policy</span></a>
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='/pages/carlingwood-leasing' target='_self'><span>Leasing</span></a> 
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
-                                    </li>
-                                    <li>
-                                        <a class="nav_a" href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
-                                    </li>
-                                </div>
+                                <li>
+                                    <a class="nav_a" href='/jobs' target='_self'><span>Jobs</span></a>                                
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='/pages/carlingwood-privacy-policy' target='_self'><span>Privacy Policy</span></a>
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='/pages/carlingwood-leasing' target='_self'><span>Leasing</span></a> 
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
+                                </li>
+                                <li>
+                                    <a class="nav_a" href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
+                                </li>
                             </ul>
                         </li>  
                     </ul>
