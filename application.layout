@@ -260,7 +260,7 @@
                             </ul>
                         </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-contacts" class="btn-nav" ONFOCUS="animate_dropdown('contacts')"  onmouseover="animate_dropdown('contacts')">CONTACTS</button>                                                     
+                            <button id="btn-contacts" class="btn-nav">CONTACTS</button>                                                     
                             <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                                 <div id="contacts" class="dd_animated">
                                     <li>
