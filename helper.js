@@ -20,8 +20,8 @@ function init() {
     });
     
     function animate_dropdown(id){
-        if ($("#"+id).is(":visible")){
-            $("#"+id).slideUp();
+        if ($("#" + id + "-dropdown").is(":visible")){
+            $("#" + id + "-dropdown").slideUp();
         } else {
             if ($(".dd_animated").is(":visible")){
                 $(".dd_animated").slideUp();
