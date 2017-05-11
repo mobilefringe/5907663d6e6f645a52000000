@@ -190,7 +190,8 @@
                         </div>
                         <nav id="primary_nav">
                             <ul class="drop_down_menu">
-                                <li><a href="#">What's New</a>
+                                <li class="dropdown top_dropdown">
+                                    <a href="#">What's New</a>
                                     <ul class="drop_down">
                                         <li><a href="#">Store Sales</a></li>
                                         <li><a href="#">Mall Events</a></li>
