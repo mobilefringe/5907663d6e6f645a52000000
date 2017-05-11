@@ -26,7 +26,7 @@ function init() {
                
             //     $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
             //      $("#"+id).slideDown();
-            // } else {
+            } else {
                 
                 // $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
                 $("#"+ id + "-dropdown").slideDown(); 
