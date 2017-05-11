@@ -16,7 +16,9 @@ function init() {
     $(".btn-nav").focus(function() {
         var id = $(this).attr('id'); 
         console.log(id);
-        animate_dropdown(id);
+        // animate_dropdown(id);
+        
+        $("#" + id + "-dropdown").slideDown(); 
     });
     
     function animate_dropdown(id){
