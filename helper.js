@@ -5,10 +5,6 @@ function init() {
         }
     }
     
-    function toggle_dropdown(){
-        $(".dropdown-menu").toggle();
-    }
-
     // $(".btn-nav").hover(function() {
     //     var id = $(this).attr('id'); 
     //     // animate_dropdown(id);
@@ -30,7 +26,6 @@ function init() {
     //     }
     // }
 
-    
     function side_subscribe_email(){ 
         if (isValidEmailAddress($("#side_subscribe_email").val())){            
             var data = {}
