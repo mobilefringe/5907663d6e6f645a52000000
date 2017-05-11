@@ -349,8 +349,8 @@
                 <div id="feature_item_container">
                     <script id="feature_item_template" type="x-tmpl-mustache/text">
                         {%raw%}
-                        <a href="/events">
-                            <img class="side_bar_image" src="{{photo_url_abs}}"/>
+                        <a href="{{url}}">
+                            <img class="side_bar_image" src="{{photo_url_abs}}" alt="{{name}}"/>
                         </a>
                         {%endraw%}
                     </script>
