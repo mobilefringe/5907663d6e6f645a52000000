@@ -9,24 +9,26 @@ function init() {
         $(".dropdown-menu").toggle();
     }
 
-    $(".btn-nav").hover(function() {
-        var id = $(this).attr('id'); 
-        animate_dropdown(id);
-    });
-    
-    function animate_dropdown(id){
-        if ($("#" + id + "-dropdown").is(":visible")){
-            $("#" + id + "-dropdown").slideUp();
-        } else {
-            if ($(".dd_animated").is(":visible")){
-                $(".dd_animated").slideUp();
-                $("#" + id + "-dropdown").slideDown();
-            } else {
+    // $(".btn-nav").hover(function() {
+    //     var id = $(this).attr('id'); 
+    //     // animate_dropdown(id);
         
-                $("#" + id + "-dropdown").slideDown(); 
-            }
-        }
-    }
+    //     $(".dd_animated").slideUp();
+    // });
+    
+    // function animate_dropdown(id){
+    //     if ($("#" + id + "-dropdown").is(":visible")){
+    //         $("#" + id + "-dropdown").slideUp();
+    //     } else {
+    //         if ($(".dd_animated").is(":visible")){
+    //             $(".dd_animated").slideUp();
+    //             $("#" + id + "-dropdown").slideDown();
+    //         } else {
+        
+    //             $("#" + id + "-dropdown").slideDown(); 
+    //         }
+    //     }
+    // }
 
     
     function side_subscribe_email(){ 
