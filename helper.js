@@ -25,11 +25,10 @@ function init() {
         } else {
             if ($(".dd_animated").is(":visible")){
                 $(".dd_animated").slideUp();
-                $
-                 $("#"+id).slideDown();
+                 $("#" + id + "-dropdown").slideDown();
             } else {
         
-                $("#"+id).slideDown(); 
+                $("#" + id + "-dropdown").slideDown(); 
             }
         }
     }
