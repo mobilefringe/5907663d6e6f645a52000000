@@ -73,9 +73,4 @@ function show_content() {
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
     var feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
-    console.log(feature_items);
-    var feature_item_id = feature_items.sortBy(function(o){ return o.id});
-    if(feature_items.id == 29024) {
-        renderSimple("#sfi_event_container", "#sfi_event_template", feature_items);
-    }
 }
