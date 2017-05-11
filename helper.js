@@ -72,7 +72,7 @@ function show_content() {
     renderSimple("#home_details_container", "#home_details_template", prop_details);
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
-    var feature_items = getRepoDetailsByName("feauture items").images;
-    
+    var feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
+    consoole.log(feature_items);
     // renderFeatureItems("#feature_item_container", "#feature_item_template", feature_items);
 }
