@@ -14,19 +14,19 @@ function init() {
         animate_dropdown(id);
     })
     function animate_dropdown(id){
-        // if ($("#"+id).is(":visible")){
-        //     $("#"+id).slideUp();
-        // } else {
-            if ($(".dd_animated").is(":visible")){
-                $(".dd_animated").slideUp();
-                $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
+        if ($("#"+ id + "-dropdown").is(":visible")){
+            $("#"+ id + "-dropdown").slideUp();
+        } else {
+            // if ($(".dd_animated").is(":visible")){
+            //     $(".dd_animated").slideUp();
+            //     $(".btn-nav").css({"background-color":"#da5840", "font-family":"verdana"});
                
-                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
-                 $("#"+id).slideDown();
-            } else {
+            //     $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
+            //      $("#"+id).slideDown();
+            // } else {
                 
-                $("#btn-"+id).css({"background-color":"#a82911" ,"font-family":"verdana"});
-                $("#"+id).slideDown(); 
+                $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
+                $("#"+ id + "-dropdown").slideDown(); 
             }
         // }
     }
