@@ -11,7 +11,10 @@ function init() {
     $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
         console.log(id);
-        animate_dropdown(id);
+        // animate_dropdown(id);
+        
+        $(".dd_animated").slideUp();
+        $("#"+ id + "-dropdown").slideDown(); 
     })
     function animate_dropdown(id){
         if ($("#"+ id + "-dropdown").is(":visible")){
