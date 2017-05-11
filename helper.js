@@ -28,7 +28,7 @@ function init() {
             //      $("#"+id).slideDown();
             // } else {
                 
-                $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
+                // $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
                 $("#"+ id + "-dropdown").slideDown(); 
             }
         // }
