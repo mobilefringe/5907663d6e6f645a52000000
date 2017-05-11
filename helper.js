@@ -74,5 +74,5 @@ function show_content() {
     
     var feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
     console.log(feature_items);
-    // renderFeatureItems("#feature_item_container", "#feature_item_template", feature_items);
+    renderFeatureItems("#feature_item_container", "#feature_item_template", feature_items);
 }
