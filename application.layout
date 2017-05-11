@@ -238,7 +238,7 @@
                                             <a class="nav_a" href='/pages/carlingwood-community-services' target='_self'><span>Community Services</span></a>
                                         </li>
                                         <li>
-                                            <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>        
+                                            <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>
                                         </li>
                                     </div>
                                 </ul>
@@ -260,7 +260,7 @@
                             </ul>
                         </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-contacts" class="btn-nav">CONTACTS</button>                                                     
+                            <button id="btn-contacts" class="btn-nav" ONFOCUS="animate_dropdown('contacts')"  onmouseover="animate_dropdown('contacts')">CONTACTS</button>                                                     
                             <ul class="dropdown-menu" style="right:0px; left:auto;">                            
                                 <div id="contacts" class="dd_animated">
                                     <li>
