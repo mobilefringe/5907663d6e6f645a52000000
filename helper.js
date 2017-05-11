@@ -25,13 +25,13 @@ function init() {
         if ($("#" + id + "-dropdown").is(":visible")){
             $("#" + id + "-dropdown").slideUp();
         } else {
-            if ($(".dd_animated").is(":visible")){
-                $(".dd_animated").slideUp();
-                 $("#" + id + "-dropdown").slideDown();
-            } else {
+            // if ($(".dd_animated").is(":visible")){
+            //     $(".dd_animated").slideUp();
+            //      $("#" + id + "-dropdown").slideDown();
+            // } else {
         
                 $("#" + id + "-dropdown").slideDown(); 
-            }
+            // }
         }
     }
 
