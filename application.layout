@@ -191,7 +191,8 @@
                         <nav id="primary_nav">
                             <ul class="drop_down_menu">
                                 <li class="dropdown top_dropdown">
-                                    <a href="#">What's New</a>
+                                    <button id="btn-new" class="btn-nav">WHAT'S NEW</button> 
+                                    <!--<a href="#">What's New</a>-->
                                     <ul class="drop_down">
                                         <li><a href="#">Store Sales</a></li>
                                         <li><a href="#">Mall Events</a></li>
@@ -199,7 +200,9 @@
                                         <li><a href="#">Get the Look</a>
                                     </ul>
                                 </li>
-                                <li><a href="#">Shopping</a>
+                                <li>
+                                    <button id="btn-new" class="btn-nav">SHOPPING</button> 
+                                    <!--<a href="#">Shopping</a>-->
                                     <ul class="drop_down">
                                         <li><a href="#">Directory</a></li>
                                         <li><a href="#">Gift Cards</a></li>
