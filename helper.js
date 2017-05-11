@@ -8,11 +8,7 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-    $(".btn-nav").hover(function() {
-        var id = $(this).attr('id'); 
-        console.log(id);
-        animate_dropdown(id);
-    });
+
     $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
         // animate_dropdown(id);
@@ -22,7 +18,6 @@ function init() {
         } else {
             $("#" + id + "-dropdown").slideDown(); 
         }
-        // $("#" + id + "-dropdown").slideDown(); 
     });
     
     function animate_dropdown(id){
