@@ -26,7 +26,7 @@ function init() {
         //     $("#" + id + "-dropdown").slideUp();
         // } else {
             // if ($(".dd_animated").is(":visible")){
-                $(".dd_animated").slideUp();
+                // $(".dd_animated").slideUp();
             //      $("#" + id + "-dropdown").slideDown();
             // } else {
         
