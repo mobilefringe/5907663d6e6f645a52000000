@@ -11,27 +11,21 @@ function init() {
 
     $(".btn-nav").hover(function() {
         var id = $(this).attr('id'); 
-        // animate_dropdown(id);
-        if($(".dd_animate").is(":visible")) {
-            $(".dd_animated").slideUp();
-            $("#" + id + "-dropdown").slideDown(); 
-        } else {
-            $("#" + id + "-dropdown").slideDown(); 
-        }
+        animate_dropdown(id);
     });
     
     function animate_dropdown(id){
-        // if ($("#" + id + "-dropdown").is(":visible")){
-        //     $("#" + id + "-dropdown").slideUp();
-        // } else {
-            // if ($(".dd_animated").is(":visible")){
-                // $(".dd_animated").slideUp();
-            //      $("#" + id + "-dropdown").slideDown();
-            // } else {
+        if ($("#" + id + "-dropdown").is(":visible")){
+            $("#" + id + "-dropdown").slideUp();
+        } else {
+            if ($(".dd_animated").is(":visible")){
+                $(".dd_animated").slideUp();
+                $("#" + id + "-dropdown").slideDown();
+            } else {
         
                 $("#" + id + "-dropdown").slideDown(); 
-            // }
-        // }
+            }
+        }
     }
 
     
