@@ -225,7 +225,7 @@
                                 </ul>
                             </li>  
                             <li class="dropdown top_dropdown">
-                                <button id="btn-guest" class="btn-nav">SERVICES</button>                                                     
+                                <button id="guest" class="btn-nav">SERVICES</button>                                                     
                                 <ul class="dropdown-menu">                            
                                     <div id="guest" class="dd_animated">
                                         <li>
@@ -244,9 +244,9 @@
                                 </ul>
                             </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-visit" class="btn-nav">VISIT US</button>                                                     
+                            <button id="visit" class="btn-nav">VISIT US</button>                                                     
                             <ul class="dropdown-menu">                            
-                                <div id="visit" class="dd_animated">
+                                <div id="visit-dropdown" class="dd_animated">
                                     <li>
                                         <a class="nav_a" href='/hours' target='_self'><span>Hours</span></a>                                
                                     </li>
@@ -260,9 +260,9 @@
                             </ul>
                         </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-contacts" class="btn-nav">CONTACTS</button>                                                     
-                            <ul class="dropdown-menu" style="right:0px; left:auto;">                            
-                                <div id="contacts" class="dd_animated">
+                            <button id="contacts" class="btn-nav">CONTACTS</button>                                                     
+                            <ul class="dropdown-menu dd_animated" id="contacts-dropdown">                            
+                                <div >
                                     <li>
                                         <a class="nav_a" href='/jobs' target='_self'><span>Jobs</span></a>                                
                                     </li>
