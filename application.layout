@@ -190,9 +190,9 @@
                         </div>
                         <ul>                
                             <li class="dropdown top_dropdown">
-                                <button id="btn-new" class="btn-nav">WHAT'S NEW</button>                                                     
+                                <button id="new" class="btn-nav">WHAT'S NEW</button>                                                     
                                 <ul class="dropdown-menu">                            
-                                    <div id="new" class="dd_animated">
+                                    <div id="new-dropdown" class="dd_animated">
                                         <li>
                                             <a class="nav_a" href='/promotions' target='_self'><span>Store Sales</span></a>                              
                                         </li>
@@ -209,9 +209,9 @@
                                 </ul>
                             </li>  
                             <li class="dropdown top_dropdown">
-                                <button id="btn-shop" class="btn-nav">SHOPPING</button>                                                     
+                                <button id="shop" class="btn-nav">SHOPPING</button>                                                     
                                 <ul class="dropdown-menu">                            
-                                    <div id="shop" class="dd_animated">
+                                    <div id="shop-dropdown" class="dd_animated">
                                         <li>
                                             <a class="nav_a" href='/stores' target='_self'><span>Directory</span></a>                                
                                         </li>
@@ -225,9 +225,9 @@
                                 </ul>
                             </li>  
                             <li class="dropdown top_dropdown">
-                                <button id="btn-guest" class="btn-nav">SERVICES</button>                                                     
+                                <button id="guest" class="btn-nav">SERVICES</button>                                                     
                                 <ul class="dropdown-menu">                            
-                                    <div id="guest" class="dd_animated">
+                                    <div id="guest-dropdown" class="dd_animated">
                                         <li>
                                             <a class="nav_a" href='/pages/carlingwood-customer-services' target='_self'><span>Customer Services</span></a>
                                         </li>
@@ -238,15 +238,15 @@
                                             <a class="nav_a" href='/pages/carlingwood-community-services' target='_self'><span>Community Services</span></a>
                                         </li>
                                         <li>
-                                            <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>        
+                                            <a class="nav_a" href='/pages/carlingwood-green-initiatives' target='_self'><span>Green Initiative</span></a>
                                         </li>
                                     </div>
                                 </ul>
                             </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-visit" class="btn-nav">VISIT US</button>                                                     
+                            <button id="visit" class="btn-nav">VISIT US</button>                                                     
                             <ul class="dropdown-menu">                            
-                                <div id="visit" class="dd_animated">
+                                <div id="visit-dropdown" class="dd_animated">
                                     <li>
                                         <a class="nav_a" href='/hours' target='_self'><span>Hours</span></a>                                
                                     </li>
@@ -260,9 +260,9 @@
                             </ul>
                         </li>  
                         <li class="dropdown top_dropdown">
-                            <button id="btn-contacts" class="btn-nav">CONTACTS</button>                                                     
+                            <button id="contacts" class="btn-nav">CONTACTS</button>                                                     
                             <ul class="dropdown-menu" style="right:0px; left:auto;">                            
-                                <div id="contacts" class="dd_animated">
+                                <div id="contacts-dropdown" class="dd_animated">
                                     <li>
                                         <a class="nav_a" href='/jobs' target='_self'><span>Jobs</span></a>                                
                                     </li>
