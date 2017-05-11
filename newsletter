@@ -174,6 +174,21 @@
             
             
             show_content();
+            
+            
+
+            if(getUrlVars()["email"] !=undefined){
+                $("#email").val(getUrlVars()["email"].replace("%40", "@"));
+            }
+
+            $('#subForm').submit(function(){
+                $('#full_name').val($('#first_name').val() + " " + $('#last_name').val());
+                if ($('#agree_terms_nn').prop('checked') == false){
+                    alert("Please agree to terms");
+                    $('#agree_terms_nn').focus();
+                    return false
+                }
+            });
         }
         loadMallDataCached(renderAll); 
     });
