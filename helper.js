@@ -30,6 +30,7 @@ function init() {
                 
                 // $("#"+ id + "-dropdown").css({"background-color":"#a82911" ,"font-family":"verdana"});
                 $("#"+ id + "-dropdown").slideDown(); 
+                $(".dd_animated").css({"display": "block"});
             }
         // }
     }
