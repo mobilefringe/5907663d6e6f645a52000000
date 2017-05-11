@@ -175,8 +175,6 @@
             
             show_content();
             
-            
-
             if(getUrlVars()["email"] !=undefined){
                 $("#email").val(getUrlVars()["email"].replace("%40", "@"));
             }
