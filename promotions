@@ -1,6 +1,10 @@
 <div class="store_promotions">
     <span class="page_headers label_sub">STORE SALES</span>
-    <img alt="banner" class="promo_page_banner" src="">
+    <div id="promo_header_container">
+        <script id="promo_header_template" type="x-tmpl-mustache/text">
+            <img alt="banner" class="promo_page_banner" src="{{}}">
+        </script>
+    </div>
     <div id="promos_container">
         <script id="promos_template" type="x-tmpl-mustache/text">
             <div class="promo_page_box">
@@ -22,7 +26,9 @@
     $(document).ready(function(){
         init();
         function renderPage(){
-            var repo = getRepoDetailsByName("images");
+            var repo = getRepoDetailsByName("Promotions Header").images;
+            console.log(repo);
+            renderSimple("#promo_header_container", "#promo_header_template", repo)
             
             var promos = getPromotionsList();
             renderPromotions('#promos_container','#promos_template', promos);
