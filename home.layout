@@ -508,6 +508,7 @@
                 </form>
                 <div class="social_links">
                     <a href="https://www.facebook.com/Carlingwood" target="_blank">
+                        <div id="bottomFB"></div>
                         <img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582">
                     </a>
                     <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
