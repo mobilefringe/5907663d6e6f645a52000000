@@ -370,6 +370,26 @@
                 </form>
             </div>
         </div>
+        <div class="row .visible-xs-block">
+            <div class="features_container">
+                <div class="col-sm-8">
+                    <div class="feature_boxes"> 
+                        <span class ="hour_box_label label_sub">QUICK LINKS</span> 
+                        <div id="home_feature_item_container">
+                            <script id="home_feature_item_template" type="x-tmpl-mustache/text">
+                                {%raw%}
+                                <div class="feature_box long_feature_box">     
+                                    <a href="{{url}}">               
+                                        <img alt="feature image" src="{{image_url}}" />
+                                    </a>
+                                </div>  
+                                {%endraw%}
+                            </script>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </section>
     <footer>
         <!--Bottom Nav Dynamic-->
