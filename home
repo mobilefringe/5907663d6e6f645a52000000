@@ -21,7 +21,6 @@
             
             $('.flexslider').flexslider({
                 animation: "slide",
-                smoothHeight: true
             });
             $('.flex-next').html("");
         }
