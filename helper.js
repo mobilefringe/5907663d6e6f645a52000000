@@ -9,6 +9,7 @@ function init() {
             window.location.href = "/search?query=" + $("#SearchTerms").val();
         }
     }
+    // onkeydown="if (event.keyCode ==13) document.getElementById('search_button').click()"
     
     $("#mobile_menu").click(function() {
         toggle_dropdown();
