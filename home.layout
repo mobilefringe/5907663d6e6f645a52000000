@@ -72,7 +72,7 @@
                     <img  alt="mobile logo" class="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png"/>
                 </a>
                 <div class="background_bar">
-                    <button type="button" onclick="toggle_dropdown();" class="pull-right">
+                    <button id="mobile_menu" type="button" class="pull-right">
                         <img alt="toggle dropdown" src="https://www.mallmaverick.com/system/site_images/photos/000/002/055/original/menu.png?1395250451" class="mobile_menu_icon">
                     </button>    
                 </div>
