@@ -341,13 +341,16 @@ function renderPromotions(container, template, collection){
             val.store_slug = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = val.promo_image_url_abs;
+            if(val.image_url.indexOf('missing.png') > 0){
+                val.image_url  = store_details.store_front_url_abs;
+            }
         }
         else{
             val.store_name = "Carlingwood";
             // val.image_url = "//codecloud.cdn.speedyrails.net/ ";
         }
         
-        if(val.image_url.indexOf('missing.png') > 0 || val.image_url == undefined){
+        if(val.image_url.indexOf('missing.png') > 0){
             val.image_url  = store_details.store_front_url_abs;
         }
         
