@@ -148,7 +148,7 @@
                             <a href='/pages/carlingwood-speciality-leasing'>Speciality Leasing</a>
                         </div>
                         <div class="mobile_menu_item">
-                            <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>
+                            <a href=''>20 VIC Leasing</a>
                         </div>
                     </ul>
                 </div>
@@ -275,7 +275,7 @@
                                         <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
                                     </li>
                                     <li>
-                                        <a class="nav_a" href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
+                                        <a class="nav_a" href='' target='_blank'><span>20 VIC Leasing</span></a>                                
                                     </li>
                                 </ul>
                             </li>  
@@ -491,7 +491,7 @@
                                     <a href='/pages/carlingwood-speciality-leasing' target='_self'>Speciality Leasing</a>
                                 </div>
                                 <div align="left" class="bottom_nav_list">
-                                    <a href='http://cdn.mallmaverick.com/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>
+                                    <a href='' target='_blank'>20 VIC Leasing</a>
                                 </div>
                             </div>                  
                         </div>
@@ -514,13 +514,13 @@
                     <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
                         <img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520">
                     </a>
-                    <a href="http://www.pinterest.com/carlingwood/" target="_blank">
+                    <a href="https://www.pinterest.com/carlingwood/" target="_blank">
                         <img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466">
                     </a>
-                    <a href="http://www.youtube.com/user/carlingwoodsc" target="_blank">
+                    <a href="https://www.youtube.com/user/carlingwoodsc" target="_blank">
                         <img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460">
                     </a>  
-                    <a href="http://instagram.com/carlingwoodsctr" target="_blank">
+                    <a href="https://instagram.com/carlingwoodsctr" target="_blank">
                         <img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507">
                     </a>  
                 </div>
