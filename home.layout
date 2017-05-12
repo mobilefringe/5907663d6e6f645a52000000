@@ -509,19 +509,23 @@
                 <div class="social_links">
                     <a href="https://www.facebook.com/Carlingwood" target="_blank">
                         <div id="bottomFB"></div>
-                        <img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582">
+                        <!--<img  alt="fb" id="bottomFB" src="https://www.mallmaverick.com/system/site_images/photos/000/008/262/original/NEW_social_facebook.png?1467992582">-->
                     </a>
                     <a href="https://twitter.com/CarlingwoodSCTR" target="_blank">
-                        <img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520">
+                        <div id="bottomTwitter"></div>
+                        <!--<img alt="twitter" id="bottomTwtr" src="https://www.mallmaverick.com/system/site_images/photos/000/008/264/original/NEW_social_twit.png?1467992520">-->
                     </a>
                     <a href="https://www.pinterest.com/carlingwood/" target="_blank">
-                        <img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466">
+                        <!--<img alt="pinterest" id="bottomPin" src="https://www.mallmaverick.com/system/site_images/photos/000/008/261/original/NEW_social_pin.png?1467992466">-->
+                        <div id="bottomPinterest"></div>
                     </a>
                     <a href="https://www.youtube.com/user/carlingwoodsc" target="_blank">
-                        <img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460">
+                        <!--<img alt="yt" id="bottomYT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/260/original/NEW_social_youtube.png?1467992460">-->
+                        <div id="bottomYoutube"></div>
                     </a>  
                     <a href="https://instagram.com/carlingwoodsctr" target="_blank">
-                        <img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507">
+                        <!--<img alt="insta" id="bottomIT" src="https://www.mallmaverick.com/system/site_images/photos/000/008/263/original/NEW_social_instagram.png?1467992507">-->
+                        <div id="bottomInstagram"></div>
                     </a>  
                 </div>
                 <br/>
