@@ -347,7 +347,7 @@ function renderPromotions(container, template, collection){
             // val.image_url = "//codecloud.cdn.speedyrails.net/ ";
         }
         
-        if(val.image_url.indexOf('missing.png') > 0){
+        if(val.image_url.indexOf('missing.png') > 0 || val.image_url == undefined){
             val.image_url  = store_details.store_front_url_abs;
         }
         
