@@ -9,6 +9,14 @@ function init() {
             window.location.href = "/search?query=" + $("#SearchTerms").val();
         }
     }
+    
+    $("#mobile_menu").click(function() {
+        toggle_dropdown();
+    });   
+    function toggle_dropdown(){
+        $(".dropdown-menu").toggle();
+    }
+
    
     function subscribe_email(){ 
         if (isValidEmailAddress($("#subscribe_email").val())){            
