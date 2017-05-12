@@ -1,11 +1,25 @@
 <div>
     <span class="page_headers label_sub"></span>
+    <div id="directions" class="hidden_now">
+        <div id="address_container"> 
+	        <script id="address_template" type="x-tmpl-mustache/text">
+                <div class="hidden-xs">
+                    <iframe title="mall map" width="100%" height="480" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://maps.google.nl/maps?q={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;z=13&amp;output=embed">Directions</iframe>
+                </div>
+                <div class="visible-xs-block">
+                	<iframe title="mall map" width="100%" height="300" frameborder="0" scrolling="no" marginheight="0" marginwidth="0"  src="https://maps.google.nl/maps?q={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;hl=en&amp;ie=UTF8&amp;t=v&amp;hnear={{address1}} {{city}} {{Country}} {{province_state}} {{postal_code}}&amp;z=13&amp;output=embed">Directions</iframe>
+                </div>
+            </script>
+        </div>
+    </div>
     <div class="page_content"></div>
 </div>
 <script>
     $(document).ready(function(e){
         init(e);
         function renderAll(){
+            
+            
             var pathArray = window.location.pathname.split( '/' );
             var slug = pathArray[pathArray.length-1];
             var prefix = get_prefix();
@@ -13,6 +27,11 @@
             $.getJSON(pages_json).done(function(data) {
                 $('.page_headers').html(data.title);
                 $('.page_content').html(data.body);
+                if(slug == "carlingwood-directions") {
+                    var prop_details = getPropertyDetails();
+                    renderAddress('#address_container', '#address_template', prop_details);
+                    $("#directions").show();
+                }
             }).fail(function(jqXHR) {
                 if (jqXHR.status == 404) {
                     $("#404_msg").fadeIn("fast");
