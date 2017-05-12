@@ -1,30 +1,11 @@
 function init() {
+    
     function search_site(){
         if($("#SearchTerms").val() != ""){
             window.location.href = "/search?query=" + $("#SearchTerms").val();
         }
     }
-    
-    // $(".btn-nav").hover(function() {
-    //     var id = $(this).attr('id'); 
-    //     // animate_dropdown(id);
-        
-    //     $(".dd_animated").slideUp();
-    // });
-    
-    // function animate_dropdown(id){
-    //     if ($("#" + id + "-dropdown").is(":visible")){
-    //         $("#" + id + "-dropdown").slideUp();
-    //     } else {
-    //         if ($(".dd_animated").is(":visible")){
-    //             $(".dd_animated").slideUp();
-    //             $("#" + id + "-dropdown").slideDown();
-    //         } else {
-        
-    //             $("#" + id + "-dropdown").slideDown(); 
-    //         }
-    //     }
-    // }
+   
     function subscribe_email(){ 
         if (isValidEmailAddress($("#subscribe_email").val())){            
             var data = {}
