@@ -307,7 +307,7 @@
             
         <div class="row">
             <div class="features_container hidden-phone">
-                <div class="col-md-8">
+                <div class="col-sm-8">
                     <div class="feature_boxes"> 
                         <span class ="hour_box_label label_sub">QUICK LINKS</span> 
                         <div id="home_feature_item_container">
@@ -323,7 +323,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4">
+                <div class="col-sm-4">
                     <div class="hour_box hidden-phone">
                         <span class="hour_box_label label_sub">MALL HOURS</span>
                         <p id="home_hours_container">
@@ -354,7 +354,7 @@
             </div>
         </div>
         <div class="row">
-            <div class="event_container col-md-4">
+            <div class="event_container col-sm-4">
                 <span class="container_labels label_sub">LATEST EVENTS</span>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
             
@@ -379,7 +379,7 @@
                     </script>
                 </div>
             </div>
-            <div class="event_container col-md-4">
+            <div class="event_container col-sm-4">
                 <span class="container_labels label_sub">LATEST PROMOTIONS</span>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                     <div class="feed_box" id="home_promo_container">
@@ -404,7 +404,7 @@
                         </script>
                     </div>
                 </div>
-            <div class="social_feed col-md-4">
+            <div class="social_feed col-sm-4">
                 <span class="container_labels label_sub">SOCIAL FEED</span>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                 <div class="fb-page" data-href="https://www.facebook.com/Carlingwood" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="false"><blockquote cite="https://www.facebook.com/Carlingwood" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/Carlingwood">Carlingwood Shopping Centre</a></blockquote></div>
