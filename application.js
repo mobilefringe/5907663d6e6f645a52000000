@@ -337,7 +337,6 @@ function renderPromotions(container, template, collection){
     $.each( collection , function( key, val ) {
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
-            console.log(store_details);
             val.store_slug = store_details.slug ;
             val.store_name = store_details.name;
             val.image_url = val.promo_image_url_abs;
