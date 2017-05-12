@@ -184,7 +184,7 @@
                                 <input title="search" class="input_text" id="SearchTerms" placeholder="Search" 
                                 onkeydown="if (event.keyCode ==13) document.getElementById('search_button').click()"/>                    
                                 <button id="search_button" class="search_button" onclick="search_site();"> 
-                                    <img alt="search button" class="search button" src="https://www.mallmaverick.com/system/site_images/photos/000/002/047/original/search_icon.png?1395175100"> 
+                                    <img alt="search button" class="search button" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598794000/search_icon.png"> 
                                 </button>
                             </div>
                             <div class="input submit"></div>
