@@ -361,7 +361,7 @@
             </div>
             <div class="side_newsletter_box">
                 <p class="subscribe_label" style="font-size:11px;padding-left:5px">SUBSCRIBE AND GET UPDATES</p>
-                <form style="margin-left: 2px;" action="http://mobilefringe.createsend.com/t/d/s/yujthl/" method="post" onsubmit="return validate_newsletter_bottom();">
+                <form style="margin-left: 2px;" action="//mobilefringe.createsend.com/t/d/s/yujthl/" method="post" onsubmit="return validate_newsletter_bottom();">
                     <input title="email" style="width:95%" name="cm-yujthl-yujthl" class="sub_input_text" id="side_subscribe_email" placeholder="Your Email" required/>                                                   
                     <p style="color:#fff;font-size: 11px;">
                         <input title="agree terms" style="margin-top:-3px;margin-right:5px;" type="checkbox" id="agree-newsletter_bottom">
