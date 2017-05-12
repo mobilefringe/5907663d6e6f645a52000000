@@ -306,7 +306,7 @@
         </div>
             
         <div class="row">
-            <div class="features_container hidden-phone">
+            <div class="features_container">
                 <div class="col-sm-8">
                     <div class="feature_boxes"> 
                         <span class ="hour_box_label label_sub">QUICK LINKS</span> 
