@@ -1,5 +1,9 @@
 function init() {
     
+    
+    $("#search_button").click(function() {
+        search_site();    
+    });
     function search_site(){
         if($("#SearchTerms").val() != ""){
             window.location.href = "/search?query=" + $("#SearchTerms").val();
