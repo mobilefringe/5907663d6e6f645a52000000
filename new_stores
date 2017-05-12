@@ -127,7 +127,7 @@
             var window_width = $( window ).width();
             console.log(window_width);
             if (window_width > 769) {
-                // $("#mapsvg").show();
+                $("#mapsvg").show();
             }
             
             regions = {}
