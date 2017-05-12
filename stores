@@ -76,7 +76,7 @@
                     <script id="category_template" type="x-tmpl-mustache/text">
                         <span class="cat_btn">
                             <a href="#{{id}}" class="btn-secondary">{{name}}</a>
-                            <span class="category_divider hidden-phone"> | </span>
+                            <span class="category_divider"> | </span>
                         </span>
                     </script>
                 </div>
