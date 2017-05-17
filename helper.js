@@ -118,7 +118,7 @@ function blog_searcher(){
             $('#close_search').hide();
         }
         else{
-            // $('#close_search').show();
+            $('#close_search').show();
             $('#search_results_stores').html('');
             $('#search_results_events').html('');
             $('#search_results_promotions').html('');
