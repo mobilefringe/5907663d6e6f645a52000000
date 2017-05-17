@@ -181,7 +181,8 @@
                         </div>
                         <div class="site_searcher_div" >
                             <label class="top_form_control no_margin">
-                                <i class="custom_i fa fa-search"></i>
+                                <!--<i class="custom_i fa fa-search"></i>-->
+                                <img alt="search button" class="search button" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598794000/search_icon.png"> 
                                 <input type="text" placeholder="Search" id="site_search" />
                                 <i id="close_search" class="fa fa-times-circle"></i>
                             </label>
