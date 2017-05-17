@@ -17,7 +17,8 @@ function init() {
     function toggle_dropdown(){
         $(".dropdown-menu").toggle();
     }
-
+    
+    blog_searcher();
    
     function subscribe_email(){ 
         if (isValidEmailAddress($("#subscribe_email").val())){            
