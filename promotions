@@ -29,7 +29,7 @@
             var repo = getRepoDetailsByName("Promotions Header").images;
             renderGeneral("#promo_header_container", "#promo_header_template", repo)
             
-            var promos = getPromotionsList();
+            var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
             renderPromotions('#promos_container','#promos_template', promos);
             
             show_content();
