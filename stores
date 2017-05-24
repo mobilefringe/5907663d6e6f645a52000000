@@ -136,10 +136,11 @@
                 } else {
                     var assets_url = val.store_front_url_abs;  
                 }
+                var store_slug = "/stores/" + val.slug
                 if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
                     obj = {};
                     obj["tooltip"] = "<img class='tooltip_img' src='" + assets_url + "'/><label class='store_name_map'>" + val.name + "</label><div class='map_contact'><div class='map_contact_section'><img class='map_contact_phone_icon' src='//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493843868000/icon_phone20x22.png'><label class='map_contact_label'>" + val.phone + "</label><label class='map_label_right'>CLICK FOR MORE DETAILS</label></div></div>"
-                    obj["attr"] = {"/stores/" + val.slug }
+                    obj["attr"] = { store_slug }
                     regions[val.svgmap_region] = obj
                 }
             });
