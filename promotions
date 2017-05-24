@@ -16,7 +16,7 @@
                 </a>
                 <span class="promo_page_store_name label_sub">{{name}}</span>
                 <span class="promo_page_date label_sub">{{dates}}</span>
-                <span class="promo_page_desc label_sub">{{{rich_description}}}</span>
+                <span class="promo_page_desc label_sub">{{{description}}}</span>
             </div>
             <img src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png" class="promo_page_line" alt="">
         </script>
