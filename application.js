@@ -399,7 +399,7 @@ function renderPromoDetails(container, template, collection){
             console.log(store_details);
             val.store_detail_btn = store_details.slug;
             val.store_name = store_details.name;
-            val.image_url = val.store_front_url_abs;
+            val.image_url = tore_details.store_front_url_abs;
         }
         else{
             val.store_name = "Lansdowne Place";
