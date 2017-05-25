@@ -93,7 +93,8 @@ function show_content() {
     renderSimple("#home_details_container", "#home_details_template", prop_details);
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
-    // var feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
+    var side_feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
+    console.log(side_feature_items);
 }
 
 function blog_searcher(){
