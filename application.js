@@ -396,7 +396,6 @@ function renderPromoDetails(container, template, collection){
     $.each( item_list , function( key, val ) {
         if (val.promotionable_type == "Store") {
             var store_details = getStoreDetailsByID(val.promotionable_id);
-            console.log(store_details);
             val.store_detail_btn = store_details.slug;
             val.store_name = store_details.name;
             val.image_url = "background-image: url(" + store_details.store_front_url_abs + ")";
