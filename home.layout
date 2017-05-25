@@ -356,7 +356,7 @@
         </div>
         <div class="row hidden-xs">
             <div class="event_container col-sm-4">
-                <span class="container_labels label_sub">LATEST EVENTS</span>
+                <a href="/events"><span class="container_labels label_sub">LATEST EVENTS</span></a>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
             
                 <div class="feed_box" id="home_events_container">
