@@ -95,8 +95,7 @@ function show_content() {
     
     var side_feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
     var sorted_items = side_feature_items.sortBy(function(o){ return o.name })[0];
-    console.log(side_feature_items);
-    renderGeneral("#side_feature_items_container", "#side_feature_items_template", side_feature_items);
+    renderGeneral("#side_feature_items_container", "#side_feature_items_template", sorted_items);
 }
 
 function blog_searcher(){
