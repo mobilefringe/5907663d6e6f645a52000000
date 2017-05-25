@@ -313,8 +313,8 @@
             <div id="side_feature_items_container">
                 <script id="side_feature_items_template" type="x-tmpl-mustache/text">
                 {%raw%}
-                    <a href="/events">
-                        <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_Events.jpg" alt=""/>
+                    <a href="{{url}}">
+                        <img class="side_bar_image" src="{{photo_url_abs}}" alt=""/>
                     </a>
                 {%endraw%}    
                 </script> 
