@@ -94,7 +94,7 @@ function show_content() {
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
     var side_feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
-    var sorted_items = side_feature_items.sortBy(function(o){ return o.name })[0];
+    var sorted_items = side_feature_items.sortBy(function(o){ return o.name });
     renderGeneral("#side_feature_items_container", "#side_feature_items_template", sorted_items);
 }
 
