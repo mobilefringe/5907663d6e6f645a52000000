@@ -381,7 +381,7 @@
                 </div>
             </div>
             <div class="event_container col-sm-4">
-                <span class="container_labels label_sub">LATEST PROMOTIONS</span>
+                <a href="/promotions"><span class="container_labels label_sub">LATEST PROMOTIONS</span></a>
                 <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
                     <div class="feed_box" id="home_promo_container">
                         <script id="home_promo_template" type="x-tmpl-mustache/text">
