@@ -316,17 +316,22 @@
                     <a href="/events">
                         <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_Events.jpg" alt=""/>
                     </a>
-                    <a href="/new_stores">
-                        <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_New.jpg" alt=""/>
-                    </a>
-                    <a href="/pages/ ">
-                        <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_GiftCards.jpg" alt=""/>
-                    </a>  
-                    <a href="/stores">
-                        <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_Stores.jpg" alt=""/>
-                    </a>
                 {%endraw%}    
-                </script>
+                </script> 
+                
+                    <!--<a href="/events">-->
+                    <!--    <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_Events.jpg" alt=""/>-->
+                    <!--</a>-->
+                    <!--<a href="/new_stores">-->
+                    <!--    <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_New.jpg" alt=""/>-->
+                    <!--</a>-->
+                    <!--<a href="/pages/ ">-->
+                    <!--    <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_GiftCards.jpg" alt=""/>-->
+                    <!--</a>  -->
+                    <!--<a href="/stores">-->
+                    <!--    <img class="side_bar_image" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/jpeg/1494528884000/spring_horizontal_Stores.jpg" alt=""/>-->
+                    <!--</a>-->
+                
             </div>
             <div class="side_newsletter_box">
                 <p class="subscribe_label" style="font-size:11px;padding-left:5px">SUBSCRIBE AND GET UPDATES</p>
