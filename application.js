@@ -586,7 +586,7 @@ function renderStoreDetails(container, template, collection, slug){
         val.store_detail_url = getImageURL(store_detail_img);
         
         var cat_list = getCategoryDetails(val.categories);
-        if(cat_list != null || cat_list != undefeined) {
+        if(cat_list != null || cat_list != undefined) {
             val.category_list = cat_list.name;
         }
         
