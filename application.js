@@ -586,7 +586,9 @@ function renderStoreDetails(container, template, collection, slug){
         val.store_detail_url = getImageURL(store_detail_img);
         
         var cat_list = getCategoryDetails(val.categories);
-        val.category_list = cat_list.name;
+        if(cat_list != null || cat_list != undefeined) {
+            val.category_list = cat_list.name;
+        }
         
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:inline-block";
