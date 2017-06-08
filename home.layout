@@ -372,7 +372,7 @@
                         </div>
                         <p class="feed_box_date">{{dates}}</p>
                         <div class="feed_box_desc">{{description}}</div>
-                        <a href="/events/{{slug}}">
+                        <a href="/events">
                             <div class="read_more">read more</div>
                         </a>
                         <img alt="line" class="feed_line_img" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493732815000/black_line.png">
