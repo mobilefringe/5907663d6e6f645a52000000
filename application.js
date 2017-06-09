@@ -588,13 +588,7 @@ function renderStoreDetails(container, template, collection, slug){
         } else {
             val.store_detail_img = "";    
         }
-        // var store_detail_img = val.assets[0].url;
-        // if(store_details_img != undefined){
-        //     val.store_detail_url = getImageURL(store_detail_img);
-        // } else {
-        //     val.store_detail_img = "";
-        // }
-        
+
         var cat_list = getCategoryDetails(val.categories);
         if(cat_list != null || cat_list != undefined) {
             val.category_list = cat_list.name;
