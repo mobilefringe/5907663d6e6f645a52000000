@@ -582,6 +582,12 @@ function renderStoreDetails(container, template, collection, slug){
             val.alt_store_front_url = "background-image: url(" + getImageURL(val.store_front_url) + ");"; 
         }
         
+        if(val.assets[0].url != undefined) {
+            var store_detail_img = val.assets[0].url;
+            val.store_detail_url = getImageURL(store_detail_img);
+        } else {
+            val.store_detail_img = "";    
+        }
         // var store_detail_img = val.assets[0].url;
         // if(store_details_img != undefined){
         //     val.store_detail_url = getImageURL(store_detail_img);
