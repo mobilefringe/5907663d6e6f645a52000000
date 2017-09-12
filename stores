@@ -152,20 +152,20 @@
                 }
             });
             
-            var map = $('#mapsvg').mapSvg({
-                source: getSVGMapURL(),    // Path to SVG map
-                colors: {stroke: '#aaaaaa', selected: -20, hover: "#000"},
-                disableAll: false,
-                regions: regions,
-                tooltipsMode:'custom',
-                loadingText: "loading...",
-                zoom: true,
-                zoomButtons: {'show': true,'location': 'right' },
-                pan:true,
-                cursor:'pointer',
-                responsive:true,
-                zoomLimit: [0, 10],
-            });
+            // var map = $('#mapsvg').mapSvg({
+            //     source: getSVGMapURL(),    // Path to SVG map
+            //     colors: {stroke: '#aaaaaa', selected: -20, hover: "#000"},
+            //     disableAll: false,
+            //     regions: regions,
+            //     tooltipsMode:'custom',
+            //     loadingText: "loading...",
+            //     zoom: true,
+            //     zoomButtons: {'show': true,'location': 'right' },
+            //     pan:true,
+            //     cursor:'pointer',
+            //     responsive:true,
+            //     zoomLimit: [0, 10],
+            // });
             
             show_content();
             
