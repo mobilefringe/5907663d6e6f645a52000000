@@ -1,0 +1,35 @@
+<div class="hours_page">
+    <label class="page_headers">Mall Hours</label>
+    <div class="hour_table" id="hours_container">
+        <script id="hours_template" type="x-tmpl-mustache/text">
+            <div class="hour_row">
+                <span class="hour_time pull-right">{{h}}</span>
+                <span class="hour_date">{{day}}</span>            
+            </div>
+        </script>
+    </div>
+    <div class="line_break ">&nbsp;</div>
+    <label class="page_headers">Carlingwood Holiday Hours</label>
+    <div class="hour_table" id="holiday_container">
+        <script id="holiday_template" type="x-tmpl-mustache/text">
+            <div class="hour_row">    
+                <span class="hour_time pull-right">{{h}}</span>
+                <span class="hour_date">{{holiday_name}}, {{formatted_date}}</span>  
+            </div>
+        </script>
+    </div>
+</div>
+<script>
+    $(document).ready(function(){
+        init();
+        function renderPage(){
+            var hours = getPropertyRegularHours();
+            renderHours('#hours_container','#hours_template', hours, 'reg_hours');
+            var holiday_hours = getPropertyHolidayHours().sortBy(function(o){ return o.holiday_date });
+            renderHours('#holiday_container','#holiday_template', holiday_hours, 'holiday_hours'); 
+            
+            show_content();
+        }
+        loadMallDataCached(renderPage);
+    });
+</script>
