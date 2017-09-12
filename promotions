@@ -27,14 +27,14 @@
     $(document).ready(function(){
         init();
         function renderPage(){
-            var repo = getRepoDetailsByName("Promotions Header").images;
-            console.log(repo)
-            var banner_url = repo.image_url;
-            console.log(banner_url)
-            renderGeneral("#promo_header_container", "#promo_header_template", banner_url)
+            // var repo = getRepoDetailsByName("Promotions Header").images[0];
+            // console.log(repo)
+            // var banner_url = repo.image_url;
+            // console.log(banner_url)
+            // renderGeneral("#promo_header_container", "#promo_header_template", banner_url)
             
-            // var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
-            // renderPromotions('#promos_container','#promos_template', promos);
+            var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
+            renderPromotions('#promos_container','#promos_template', promos);
             
             show_content();
         }
