@@ -3,6 +3,9 @@
 <div class="store_promotions" style="width:100%">
     <!-- events -->
     <span class="page_headers label_sub">MALL EVENTS</span>
+    <div id="no_events" class="hidden_now">
+        <p>There are no Mall Events scheduled at this time. Please check back later.</p>
+    </div>
     <div id="events_container">
         <script id="events_template" type="x-tmpl-mustache/text">
             <div id="carlingwood-faces-of-canada-contest" class="promo_page_box">
