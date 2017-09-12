@@ -572,7 +572,8 @@ function renderStoreDetails(container, template, collection, slug){
         if ((val.store_front_url).indexOf('missing.png') > -1){
             val.alt_store_front_url = "";
         } else {
-            val.alt_store_front_url = "background-image: url(" + getImageURL(val.store_front_url) + ");"; 
+            var store_front_url = getImageURL(val.store_front_url);
+            val.alt_store_front_url = "background-image: url('" + store_front_url + "');"; 
         }
         
         if(val.assets != undefined) {
