@@ -581,7 +581,7 @@ function renderStoreDetails(container, template, collection, slug){
         } else {
             val.store_detail_url = "//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png";    
         }
-        console.log(val.store_detail_img)
+
         var cat_list = getCategoryDetails(val.categories);
         if(cat_list != null || cat_list != undefined) {
             val.category_list = cat_list.name;
@@ -589,8 +589,7 @@ function renderStoreDetails(container, template, collection, slug){
         
         if (val.phone != null && val.phone.length > 0){
             val.phone_show = "display:inline-block";
-        }
-        else{
+        } else {
             val.phone_show = "display:none";
         }
         
