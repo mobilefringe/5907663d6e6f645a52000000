@@ -573,7 +573,7 @@ function renderStoreDetails(container, template, collection, slug){
             val.alt_store_front_url = "";
         } else {
             var store_front_url = getImageURL(val.store_front_url);
-            val.alt_store_front_url = "background-image: url('" + store_front_url + "')"; 
+            val.alt_store_front_url = "background-image: url(" + store_front_url + ")"; 
         }
         
         if(val.assets != undefined) {
