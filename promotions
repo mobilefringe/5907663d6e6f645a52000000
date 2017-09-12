@@ -27,7 +27,7 @@
     $(document).ready(function(){
         init();
         function renderPage(){
-            var repo = getRepoDetailsByName("Promotions Header").images;
+            var repo = getRepoDetailsByName("Promotions Header").images[0];
             console.log(repo)
             renderGeneral("#promo_header_container", "#promo_header_template", repo)
             
