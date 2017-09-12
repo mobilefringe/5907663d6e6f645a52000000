@@ -1,0 +1,198 @@
+<div class="store_list">
+    <img alt="Map Legend" class="legend" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493906844000/map_legend.png">
+    <div class="hidden-phone" id="legend_button">
+        <input id="legend_label" value="SHOW LEGEND" type="button">
+    </div>
+    <div id="tabs" class="tabbable">
+        <ul class="nav nav-tabs store_tabs">
+            <li class="active tab_color store_tab">
+                <a href="" data-toggle="tab">
+                    <span> STORES A-Z </span>                    
+                </a>
+            </li>
+            <li class="category_tab">
+                <a href="" data-toggle="tab">
+                    <span>CATEGORIES</span>
+                </a>                
+            </li>
+        </ul>
+        <div class="tab-content">
+            <div id="list" class="tab-pane active">
+                <div class="alphabet_bg">
+                    <a href="#A" class="btn-secondary">A</a>
+                    <a href="#B" class="btn-secondary">B</a>
+                    <a href="#C" class="btn-secondary">C</a>
+                    <a href="#D" class="btn-secondary">D</a>
+                    <a href="#E" class="btn-secondary">E</a>
+                    <a href="#F" class="btn-secondary">F</a>
+                    <a href="#G" class="btn-secondary">G</a>
+                    <a href="#H" class="btn-secondary">H</a>
+                    <a href="#I" class="btn-secondary">I</a>
+                    <a href="#J" class="btn-secondary">J</a>
+                    <a href="#K" class="btn-secondary">K</a>
+                    <a href="#L" class="btn-secondary">L</a>
+                    <a href="#M" class="btn-secondary">M</a>
+                    <a href="#N" class="btn-secondary">N</a>
+                    <a href="#O" class="btn-secondary">O</a>
+                    <a href="#P" class="btn-secondary">P</a>
+                    <a href="#Q" class="btn-secondary">Q</a>
+                    <a href="#R" class="btn-secondary">R</a>
+                    <a href="#S" class="btn-secondary">S</a>
+                    <a href="#T" class="btn-secondary">T</a>
+                    <a href="#U" class="btn-secondary">U</a>
+                    <a href="#V" class="btn-secondary">V</a>
+                    <a href="#W" class="btn-secondary">W</a>
+                    <a href="#X" class="btn-secondary">X</a>
+                    <a href="#Y" class="btn-secondary">Y</a>
+                    <a href="#Z" class="btn-secondary">Z</a>
+                </div>
+                <div class="" id="store_list_alpha_container">
+                    <script id="store_list_alpha_template" type="x-tmpl-mustache/text">
+        				<div class="col-md-12 stores_table_headers" style="{{show}}">
+                	    	<a id="{{initial}}"></a>{{initial}}
+                            <a href="#tabs" class="pull-right">Go to Top</a>
+            			</div>
+            			<div class="row-fluid stores_row">
+            				<div class="col-xs-8 col-sm-6 store_row_name">
+                                <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                            </div>
+                            <div class="col-xs-2 stores_row_phone">
+                                <span style="{{promotion_exist}}">
+                                    <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png"/>
+                                </span>
+                            </div>
+            				<div class="col-xs-2 col-sm-4 stores_row_phone"> 
+                                <span class="hidden-phone">{{phone}}</span>
+                                <a class="visible-phone store_list_phone pull-right" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845760000/icon_call_stores.png" />
+                                </a>                        
+                            </div>                				
+                    	</div>
+                    </script>
+                </div>
+            </div>
+            <div id="category" class="tab-pane">
+                <div class="alphabet_bg" id="category_container">
+                    <script id="category_template" type="x-tmpl-mustache/text">
+                        <span class="cat_btn">
+                            <a href="#{{id}}" class="btn-secondary">{{name}}</a>
+                            <span class="category_divider"> | </span>
+                        </span>
+                    </script>
+                </div>
+                <div class="" id="store_list_cat_container">
+                    <script id="store_list_cat_template" type="x-tmpl-mustache/text">
+        				<div class="col-md-12 stores_table_headers" style="{{show}}">
+                	    	<a id="{{block}}"></a>{{header}}
+                            <a href="#tabs" class="pull-right">Go to Top</a>
+            			</div>
+            			<div class="row-fluid stores_row">
+            				<div class="col-xs-8 col-sm-6 store_row_name">
+                                <a href="/stores/{{slug}}">{{name}}</a> <br/>
+                            </div>
+                            <div class="col-xs-2 stores_row_phone">
+                                <span style="{{promotion_exist}}">
+                                    <img ALT="store_promo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845753000/btn_promo.png"/>
+                                </span>
+                            </div>
+            				<div class="col-xs-2 col-sm-4 stores_row_phone"> 
+                                <span class="hidden-phone">{{phone}}</span>
+                                <a class="visible-phone store_list_phone pull-right" href="tel:{{phone}}">
+                                    <img ALT="store.phone" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493845760000/icon_call_stores.png" />
+                                </a>                        
+                            </div>                				
+                    	</div>
+                    </script>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<script src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.js"></script>
+<script src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/raphael.js"></script>
+<script src="//mallmaverick.cdn.speedyrails.net/javascripts/mapsvg/jquery.mousewheel.js"></script>
+<script src="//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/005/107/original/mallmaverick_svgmap.js?1412885524"></script>
+<script>
+    $(document).ready(function(){
+        init();
+        function renderPage(){
+            var categories = getStoreCategories();
+            var category_list = [];
+            $.each( categories, function( key, val ){
+                if (val.store_ids != null) {
+                    category_list.push(val);
+                } 
+            });
+            renderGeneral('#category_container', '#category_template', category_list);
+            var stores = getStoresList();
+            renderStoreList('#store_list_alpha_container','#store_list_alpha_template', stores, "stores");
+            renderStoreListCatetories('#store_list_cat_container','#store_list_cat_template', category_list, stores);
+            
+            var window_width = $( window ).width();
+            if (window_width > 769) {
+                $("#mapsvg").show();
+            }
+            
+            regions = {}
+            $.each(stores, function(key, val) {
+                if(val.assets != undefined) {
+                    var assets_img = val.assets[0].url;
+                    var assets_url = getImageURL(assets_img);
+                } else {
+                    var assets_url = val.store_front_url_abs;  
+                }
+                
+                if(val.svgmap_region != null && typeof(val.svgmap_region)  != 'undefined'){
+                    obj = {};
+                    obj["tooltip"] = "<img class='tooltip_img' src='" + assets_url + "'/><label class='store_name_map'>" + val.name + "</label><div class='map_contact'><div class='map_contact_section'><img class='map_contact_phone_icon' src='//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1493843868000/icon_phone20x22.png'><label class='map_contact_label'>" + val.phone + "</label><label class='map_label_right'>CLICK FOR MORE DETAILS</label></div></div>"
+                    obj["attr"] = {}
+                    obj["attr"]["href"] = "/stores/" + val.slug;
+                    regions[val.svgmap_region] = obj
+                }
+            });
+            
+            var map = $('#mapsvg').mapSvg({
+                source: getSVGMapURL(),    // Path to SVG map
+                colors: {stroke: '#aaaaaa', selected: -20, hover: "#000"},
+                disableAll: false,
+                regions: regions,
+                tooltipsMode:'custom',
+                loadingText: "loading...",
+                zoom: true,
+                zoomButtons: {'show': true,'location': 'right' },
+                pan:true,
+                cursor:'pointer',
+                responsive:true,
+                zoomLimit: [0, 10],
+            });
+            
+            show_content();
+            
+            $("#legend_label").click(function() {
+                show_legend();
+            });
+            
+            $(".store_tab").click(function() {
+                $("#category").removeClass("active");
+                $("#list").addClass("active");
+            });
+            $(".category_tab").click(function() {
+                $("#list").removeClass("active");
+                $("#category").addClass("active");
+            });
+        }
+        
+        function show_legend() { 
+            if($(".legend").is(":hidden")){
+                $(".legend").slideDown();
+                $("#legend_label").val('HIDE LEGEND');
+            } else {
+                $(".legend").slideUp();
+                $("#legend_label").val('SHOW LEGEND');
+            }
+        }
+        
+        loadMallDataCached(renderPage);
+    });
+</script>
