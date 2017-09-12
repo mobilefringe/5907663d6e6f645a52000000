@@ -27,7 +27,7 @@
     $(document).ready(function(){
         init();
         function renderPage(){
-            var repo = getRepoDetailsByName("Promotions Header").images[0];
+            var repo = getRepoDetailsByName("Promotions Header").images;
             console.log(repo)
             var banner_url = repo.image_url;
             console.log(banner_url)
