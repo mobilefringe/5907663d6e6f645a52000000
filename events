@@ -25,7 +25,7 @@
         function renderPage(){
             var events = getEventsList();
             console.log(events)
-            if(events != null || events.length > 0){
+            if(events != null && events.length > 0){
                 renderEvents('#events_container','#events_template', events);
             } else {
                 $("#no_events").show();
