@@ -29,8 +29,8 @@
         function renderPage(){
             var repo = getRepoDetailsByName("Promotions Header").images[0];
             console.log(repo)
-            // var banner_url = getImageURL(repo);
-            // renderGeneral("#promo_header_container", "#promo_header_template", banner_url)
+            var banner_url = getImageURL(repo.image_url);
+            renderGeneral("#promo_header_container", "#promo_header_template", banner_url)
             
             var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
             renderPromotions('#promos_container','#promos_template', promos);
