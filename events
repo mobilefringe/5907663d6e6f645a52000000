@@ -25,7 +25,11 @@
         function renderPage(){
             var events = getEventsList();
             console.log(events)
-            renderEvents('#events_container','#events_template', events);
+            if(events != null){
+                renderEvents('#events_container','#events_template', events);
+            } else {
+                $("#no_events").show();
+            }
             
             show_content();
         }
