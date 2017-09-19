@@ -579,7 +579,7 @@ function renderStoreDetails(container, template, collection, slug){
         
         if(val.assets != undefined) {
             var store_detail_img = getAssetURL(val.id);
-            var store_detail_img = val.assets[0].url;
+            // var store_detail_img = val.assets[0].url;
             val.store_detail_url = getImageURL(store_detail_img);
         } else {
             val.store_detail_url = "//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png";      
