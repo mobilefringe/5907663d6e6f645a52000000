@@ -573,16 +573,14 @@ function renderStoreDetails(container, template, collection, slug){
             val.alt_store_front_url = "//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png"
         } else {
             var store_front_url = getImageURL(val.store_front_url);
-            console.log(store_front_url)
             val.alt_store_front_url = "background-image: url('" + val.store_front_url_abs + "')"; 
         }
         
         if(val.assets != undefined) {
             var store_detail_img = getAssetURL(val.id);
-            // var store_detail_img = val.assets[0].url;
             val.store_detail_url = getImageURL(store_detail_img);
         } else {
-            val.store_detail_url = "//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png";      
+            val.store_detail_url = "//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png";     
         }
         
         
