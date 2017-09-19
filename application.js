@@ -578,6 +578,7 @@ function renderStoreDetails(container, template, collection, slug){
         }
         
         if(val.assets != undefined) {
+            var store_detail_img = getAssetURL(val.id);
             var store_detail_img = val.assets[0].url;
             val.store_detail_url = getImageURL(store_detail_img);
         } else {
