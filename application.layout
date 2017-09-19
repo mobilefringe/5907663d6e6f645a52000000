@@ -337,7 +337,7 @@
                 <script id="side_feature_items_template" type="x-tmpl-mustache/text">
                 {%raw%}
                     <a href="{{url}}">
-                        <img class="side_bar_image" src="{{photo_url_abs}}" alt=""/>
+                        <img class="side_bar_image" src="{{image_url}}" alt=""/>
                     </a>
                 {%endraw%}    
                 </script> 
