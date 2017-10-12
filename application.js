@@ -100,7 +100,7 @@ function renderEventDetails(container, template, collection){
                 val.image_url = store_details.store_front_url_abs;
             }
         } else {
-            val.store_name = "Lansdowne Place";
+            val.store_name = "Carlingwood";
             val.image_url = val.event_image_url_abs; 
         }
         
@@ -296,7 +296,7 @@ function renderJobs(container, template, collection){
             val.store_slug = getStoreDetailsByID(val.jobable_id).slug;
         }
         else{
-            val.store_name = "Lansdowne Place";
+            val.store_name = "Carlingwood";
         }
         
         var start = moment(val.start_date).tz(getPropertyTimeZone());
@@ -328,7 +328,7 @@ function renderJobDetails(container, template, collection){
             val.store_name = store_details.name;
         }
         else{
-            val.store_name = "Lansdowne Place";
+            val.store_name = "Carlingwood";
             val.store_slug = "";
         }
         
@@ -401,7 +401,7 @@ function renderPromoDetails(container, template, collection){
             val.image_url = "background-image: url(" + store_details.store_front_url_abs + ")";
         }
         else{
-            val.store_name = "Lansdowne Place";
+            val.store_name = "Carlingwood";
             val.image_url = "//codecloud.cdn.speedyrails.net/sites/58f66c9b6e6f647d46000000/image/jpeg/1492633527000/img_default.jpg";
         }
         
