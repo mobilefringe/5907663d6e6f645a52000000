@@ -284,9 +284,9 @@
                                     <li>
                                         <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
                                     </li>
-                                    <li>
-                                        <a class="nav_a" href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
-                                    </li>
+                                    <!--<li>-->
+                                    <!--    <a class="nav_a" href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                -->
+                                    <!--</li>-->
                                 </ul>
                             </li>  
                         </ul>
