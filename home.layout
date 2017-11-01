@@ -157,9 +157,9 @@
                         <div class="mobile_menu_item">
                             <a href='/pages/carlingwood-speciality-leasing'>Speciality Leasing</a>
                         </div>
-                        <div class="mobile_menu_item">
-                            <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>
-                        </div>
+                        <!--<div class="mobile_menu_item">-->
+                        <!--    <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>-->
+                        <!--</div>-->
                     </ul>
                 </div>
             </div>
