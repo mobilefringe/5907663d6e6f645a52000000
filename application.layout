@@ -149,9 +149,9 @@
                         <div class="mobile_menu_item">
                             <a href='/pages/carlingwood-speciality-leasing'>Speciality Leasing</a>
                         </div>
-                        <div class="mobile_menu_item">
-                            <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>
-                        </div>
+                        <!--<div class="mobile_menu_item">-->
+                        <!--    <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037'>20 VIC Leasing</a>-->
+                        <!--</div>-->
                     </ul>
                 </div>
             </div>
@@ -276,9 +276,9 @@
                                     <li>
                                         <a class="nav_a" href='/pages/carlingwood-speciality-leasing' target='_self'><span>Speciality Leasing</span></a>
                                     </li>
-                                    <li>
-                                        <a class="nav_a" href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                
-                                    </li>
+                                    <!--<li>-->
+                                    <!--    <a class="nav_a" href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'><span>20 VIC Leasing</span></a>                                -->
+                                    <!--</li>-->
                                 </ul>
                             </li>  
                         </ul>
@@ -441,9 +441,9 @@
                                 <div align="left" class="bottom_nav_list">
                                     <a href='/pages/carlingwood-speciality-leasing' target='_self'>Speciality Leasing</a>
                                 </div>
-                                <div align="left" class="bottom_nav_list">
-                                    <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>
-                                </div>
+                                <!--<div align="left" class="bottom_nav_list">-->
+                                <!--    <a href='//mallmaverick.cdn.speedyrails.net/system/site_images/photos/000/009/661/original/Carlingwood_Information_from_20VIC_Website.pdf?1433429037' target='_blank'>20 VIC Leasing</a>-->
+                                <!--</div>-->
                             </div>                  
                         </div>
                     </div>   
