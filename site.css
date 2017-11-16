@@ -588,7 +588,7 @@ h8 {
     top: 44px;
     left: 0px;
     border: none;
-    color:white;
+    color:white !important;
     border-radius: 0;
     width: 100%;
     min-width: 0;
