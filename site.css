@@ -578,6 +578,7 @@ h8 {
     font-size:16px;
     color:white;
     background-color:#941b19 !important;
+    color:white;
 }
 #site_nav li button.btn_nav:last-child{
     padding-right: 0px;
