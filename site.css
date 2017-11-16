@@ -580,6 +580,10 @@ h8 {
     background-color:#941b19 !important;
     color:white;
 }
+.custom_dropdown .dropdown-menu li>a, .dropdown-menu li>a, .dropdown-submenu>a {
+    margin: 3px;
+    color: white;
+}
 #site_nav li button.btn_nav:last-child{
     padding-right: 0px;
 }
