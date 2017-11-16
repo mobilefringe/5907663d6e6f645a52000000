@@ -85,7 +85,7 @@
             <!-- iphone header -->
             <div class="mobile_header visible-phone top_nav row-fluid" >                
                 <a id="mobile_logo" href="/">
-                    <img  alt="mobile logo" class="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png" />
+                    <img  alt="mobile logo" class="mobile_logo" src="//codecloud.cdn.speedyrails.net/sites/59b7fe3f6e6f640e040c0000/image/png/1510850780000/Carlingwood_Logo_New.png" />
                 </a>
                 <div class="background_bar">
                     <button id="mobile_menu" type="button" class="pull-right">
@@ -209,7 +209,7 @@
                     <div class="row-fluid" id="site_nav">  
                         <div class="logo_container">
                             <a href="/">
-                                <img alt="logo centre" id="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png"/>
+                                <img alt="logo centre" id="centre_logo" src="//codecloud.cdn.speedyrails.net/sites/59b7fe3f6e6f640e040c0000/image/png/1510850780000/Carlingwood_Logo_New.png"/>
                             </a>
                         </div>
                         <ul>                
