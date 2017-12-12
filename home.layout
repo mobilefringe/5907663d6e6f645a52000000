@@ -559,7 +559,7 @@
         </div>
         <!--Footer -->
         <div class="footer trim_screen">
-            <span>&copy; <span id="current_year" class="current_year" style="padding:0"></span> Carlingwood | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a></span>
+            <span>&copy; <span id="current_year" class="current_year" style="padding:0;display: inline-block;"></span> Carlingwood | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a></span>
             <span><a href="//carlingwood.mallmaverick.com/retail_users/sign_in" target="_blank">Tenant Login</a></span>
             <a class="hidden-xs hidden-sm" target="_blank" href="//get.adobe.com/reader/">&nbsp;&nbsp;Get Acrobat Reader</a>
         </div>
