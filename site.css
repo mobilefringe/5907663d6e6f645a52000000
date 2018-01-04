@@ -99,7 +99,7 @@ p{
 }
 
 .read_more{
-    color:#941b19;
+    color:#233970;
     font-size:10px;
     margin:0;
     padding:0;
@@ -258,7 +258,7 @@ display:block;
         font-size: 14px;
         margin: 0;
         border-bottom: 1px solid #ccc;
-        color: #941b19;
+        color: #233970;
     }
     a {
         display: block;
@@ -340,7 +340,7 @@ display:block;
 }
 
 .page_content a{
-    color:#941b19;
+    color:#233970;
     text-decoration:underline;
 }
 
@@ -459,7 +459,7 @@ h8 {
 .store_name_map{
     font-family:verdana;
     font-weight:bold;
-    background:#941b19;
+    background:#233970;
     color:white;
     text-align:center;
     font-size:16px;
@@ -495,7 +495,7 @@ h8 {
     font-size:10px;
     font-family:verdana;
     font-weight:bold;
-    color:#941b19;
+    color:#233970;
     text-align:right;
     padding:0;
     margin:0;
@@ -577,7 +577,7 @@ h8 {
     font-family: verdana;
     font-size:16px;
     color:white;
-    background-color:#941b19 !important;
+    background-color:#233970 !important;
     color:white;
 }
 .custom_dropdown .dropdown-menu li>a, .dropdown-menu li>a, .dropdown-submenu>a {
@@ -589,7 +589,7 @@ h8 {
 }
 #site_nav ul.dropdown-menu{
     border-radius: 0;
-    background-color: #941b19;
+    background-color: #233970;
     top: 44px;
     left: 0px;
     border: none;
@@ -632,7 +632,7 @@ h8 {
     background-color: black;    
     padding:0px;
     min-height:0;
-    border-top:3pt solid #941b19
+    border-top:3pt solid #233970
 }
 
 .bottom_nav .container-fluid{
@@ -829,7 +829,7 @@ h8 {
     border: 1px solid rgb(94, 196, 219);
 }
 .stores_table_headers{
-    background-color:#941b19; 
+    background-color:#233970; 
     color:white;
     font-family: verdana;
     font-size: 11pt;
@@ -906,7 +906,7 @@ h8 {
 }
 
 .stores_table{
-    border:thin double #941b19;
+    border:thin double #233970;
 }
 
 ul.store_tabs li{
@@ -1206,7 +1206,7 @@ a.btn-prime {
 /************ Feature items *****************/
 
 .hour_box_label {
-    background-color: #941b19;
+    background-color: #233970;
     margin-bottom: 0;
     margin-top: 0px;
     color: white;
@@ -1250,7 +1250,7 @@ a.btn-prime {
     margin:0px;
     color: white;
     padding:10px 4% 7px;    
-    background-color:#941b19;
+    background-color:#233970;
     height:20px;   
     font-family: inherit;
     font-size:2em;
@@ -1368,7 +1368,7 @@ a.btn-prime {
 }
 .hour_info {
     padding-left: 10px;
-    color: #941b19;
+    color: #233970;
     display: block;
     font-family: verdana;
     font-size: 16pt;
@@ -1382,7 +1382,7 @@ a.btn-prime {
 .check_hours{
     font-size:1.5em;
     font-size:1.2em\9;    
-    color: #941b19;
+    color: #233970;
     display: block;
     padding: 0 0 20px 10px; 
     font-family: verdana;
@@ -1447,7 +1447,7 @@ margin-top:10px;
 
 .container_labels {
     padding-top: 5px; 
-    color: #941b19;
+    color: #233970;
     font-family: verdana;
     font-size: 20px;
     text-align: left;   
@@ -1458,7 +1458,7 @@ margin-top:10px;
 }
 
 .feed_link {
-color:#941b19;
+color:#233970;
 font-size:10px;
 }
 .feed_box {
@@ -1504,7 +1504,7 @@ font-size:10px;
 }
 .feed_box_date {
     margin-top: 12px;
-    color: #941b19;
+    color: #233970;
     font-family: verdana;
     font-size: 14px;
     text-transform: uppercase;
@@ -1529,7 +1529,7 @@ overflow:hidden;
 }
 .store_detail_feed_box_date{
     margin-top: 5px;
-    color: #941b19;
+    color: #233970;
     font-family: verdana;
     font-size: 12px;
     text-transform: uppercase;
@@ -1718,7 +1718,7 @@ overflow:hidden;
 }
 
 .store_detail_cat_label{
-    color:#941b19;
+    color:#233970;
     font-family: verdana;
     font-weight:bold;
     font-size:16px;
@@ -1728,7 +1728,7 @@ overflow:hidden;
 .store_detail_section{
     width:50%;
     height:100%;
-    background-color:#941b19;
+    background-color:#233970;
     float:left;
 }
 
@@ -1788,7 +1788,7 @@ overflow:hidden;
     margin: 10px 0;
 }
 .store_detail_job_header{
-    background: #941b19;
+    background: #233970;
     height: 40px;
 }
 
@@ -1892,7 +1892,7 @@ overflow:hidden;
 }
 .promo_page_store_name{
     font-family: verdana;    
-    color: #941b19;
+    color: #233970;
     margin-top: 0;
     text-transform: uppercase;
 }
@@ -2091,7 +2091,7 @@ td.stores_pin{
 #contest_form input#submit{
     width:90%;
     margin-top:20px;
-    background:#941b19;
+    background:#233970;
     height:40px;
     display:block;
     margin: 20px auto auto;
@@ -2166,7 +2166,7 @@ td.stores_pin{
 
 .mobile_header .background_bar{
     height: 50px;
-    background-color: #941b19;
+    background-color: #233970;
 }
 
 .mobile_header li {
@@ -2207,7 +2207,7 @@ td.stores_pin{
 }
 
 .mobile_menu_header{
-    background:#941b19;
+    background:#233970;
     color:white;
 }
 .mobile_menu_header, .mobile_menu_item{
@@ -2275,7 +2275,7 @@ td.stores_pin{
     }
     
     .store_detail_mobile_subtitle{
-        color:#941b19;
+        color:#233970;
         float: left;
         font-family: verdana;
         font-size:12px;
@@ -2307,7 +2307,7 @@ td.stores_pin{
     }
     
     .hour_title{
-        color: #941b19;   
+        color: #233970;   
     }
     
     .hour_info{
@@ -2424,7 +2424,7 @@ td.stores_pin{
     
     .check_hours{
         font-size: 16pt;
-        color:#941b19;
+        color:#233970;
     }
     .alphabet_bg .btn-secondary{
         text-align: left;
