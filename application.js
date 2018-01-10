@@ -570,7 +570,7 @@ function renderStoreDetails(container, template, collection, slug){
     item_list.push(collection);
     $.each( item_list , function( key, val ) {
         if (val.store_front_url == null || (val.store_front_url).indexOf('missing.png') > -1){
-            val.alt_store_front_url = "https://codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png"
+            val.alt_store_front_url = background-image: url('https://codecloud.cdn.speedyrails.net/sites/5907663d6e6f645a52000000/image/png/1494598712000/Carlingwood_Logo_New.png')"
         } else {
             var store_front_url = getImageURL(val.store_front_url);
             val.alt_store_front_url = "background-image: url('" + val.store_front_url_abs + "')"; 
