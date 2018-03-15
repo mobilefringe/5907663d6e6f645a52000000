@@ -504,7 +504,7 @@
         <!--Footer -->
         <div class="footer trim_screen">
         <div  class="col-sm-6" id="cushman_logo">
-            <img src="//codecloud.cdn.speedyrails.net/sites/59b7fe3f6e6f640e040c0000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Whitelogo copy.png" class="" alt="">
+            <img src="//codecloud.cdn.speedyrails.net/sites/59b7fe3f6e6f640e040c0000/image/png/1509376362000/CW Asset Services_Logo_BW_CW_Whitelogo copy.png" class="" alt="" style="height: 45px;padding: 0;">
         </div>
         <div  class="col-sm-6">
             <span>&copy; <span id="current_year" class="current_year" style="padding:0;display: inline-block;"></span> Carlingwood | Powered By <a href="//www.mallmaverick.com/" target="_blank">Mall Maverick</a></span>
