@@ -788,6 +788,7 @@ h8 {
     border:none;
     text-transform:uppercase;
     padding: 10px 0px;
+    overflow: hidden;
 }
 
 .footer a{
