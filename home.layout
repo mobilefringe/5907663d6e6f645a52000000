@@ -317,9 +317,9 @@
             <p id="mobile_home_hours_container">
                 <script id="mobile_home_hours_template" type="x-tmpl-mustache/text">
                     {%raw%}
-                    <p class="hour_title">
-                        <p class="hour_title">TODAYS HOURS</p>
-                        <p class="day_label">{{day}}</p>
+                    <span class="hour_title">
+                        <span class="hour_title label_sub" style="color: #000">TODAYS HOURS</span>
+                        <span class="day_label">{{day}}</span>
                     </p>
                     <span class="hour_info">{{h}}</span>
                     {%endraw%}
