@@ -89,6 +89,7 @@ function show_content() {
     
     var todays_hours = getTodaysHours();
     renderHomeHours("#home_hours_container", "#home_hours_template", todays_hours);
+    renderHomeHours("#mobile_home_hours_container", "#mobile_home_hours_template", todays_hours);
     renderHomeHours("#side_hours_container", "#side_hours_template", todays_hours);
     
     var prop_details = getPropertyDetails();
