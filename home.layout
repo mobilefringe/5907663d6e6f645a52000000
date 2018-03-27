@@ -325,20 +325,21 @@
                     {%endraw%}
                 </script>
             </p>
-                        
-                        
-            <!--<p>       -->
-            <!--    <span class="hour_title">-->
-            <!--        <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>-->
-            <!--        <span>MONDAY</span>-->
-            <!--    </span>-->
-            <!--    <span class="hour_info">9:30am -  9:00pm</span>-->
-            <!--</p>-->
-            <p>
-                <span class="hour_title" style="color:black">CALL US</span>
-                <span class="hour_info hidden-phone">613.725.1551</span>
-                <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>
+            <p id="mobile_home_details_container">
+                <script id="mobile_home_details_template" type="x-tmpl-mustache/text">
+                    {%raw%}
+                    <span class="hour_title"><br>CALL US</span>
+                    <span class="hour_info visible-phone">
+                        <a href="tel:{contact_{phone}}">{{contact_phone}}</a>    
+                    </span>
+                    {%endraw%}
+                </script>
             </p>
+            <!--<p>-->
+            <!--    <span class="hour_title" style="color:black">CALL US</span>-->
+            <!--    <span class="hour_info hidden-phone">613.725.1551</span>-->
+            <!--    <span class="hour_info visible-phone"><a href="tel:613.725.1551">613.725.1551</a></span>-->
+            <!--</p>-->
             <a href="/hours"><span class="check_hours label_sub">FULL MALL HOURS</span></a>
         </div>
             
