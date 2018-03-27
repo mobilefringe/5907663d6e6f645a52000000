@@ -94,6 +94,7 @@ function show_content() {
     
     var prop_details = getPropertyDetails();
     renderSimple("#home_details_container", "#home_details_template", prop_details);
+    renderSimple("#mobile_home_details_container", "#mobile_home_details_template", prop_details);
     renderSimple("#prop_details_container", "#prop_details_template", prop_details);
     
     var side_feature_items = getRepoDetailsByName("Side Bar Feature Items").images;
