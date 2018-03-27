@@ -314,13 +314,26 @@
         
         <div class="hour_box visible-phone">
             <span class="hour_box_label label_sub" style="font-size: 12pt;">MALL HOURS</span>
-            <p>       
-                <span class="hour_title">
-                    <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>
-                    <span>MONDAY</span>
-                </span>
-                <span class="hour_info">9:30am -  9:00pm</span>
+            <p id="mobile_home_hours_container">
+                <script id="mobile_home_hours_template" type="x-tmpl-mustache/text">
+                    {%raw%}
+                    <p class="hour_title">
+                        <p class="hour_title">TODAYS HOURS</p>
+                        <p class="day_label">{{day}}</p>
+                    </p>
+                    <span class="hour_info">{{h}}</span>
+                    {%endraw%}
+                </script>
             </p>
+                        
+                        
+            <!--<p>       -->
+            <!--    <span class="hour_title">-->
+            <!--        <span class="hour_title label_sub" style="color:black">TODAY'S HOURS</span>-->
+            <!--        <span>MONDAY</span>-->
+            <!--    </span>-->
+            <!--    <span class="hour_info">9:30am -  9:00pm</span>-->
+            <!--</p>-->
             <p>
                 <span class="hour_title" style="color:black">CALL US</span>
                 <span class="hour_info hidden-phone">613.725.1551</span>
