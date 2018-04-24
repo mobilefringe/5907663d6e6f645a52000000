@@ -35,8 +35,6 @@
             // renderPromotions('#promos_container','#promos_template', promos);
             
             var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
-
-            show_cat_stores()
             var published_promos = [];
             $.each( promotions , function( key, val ){
                 today = moment();
