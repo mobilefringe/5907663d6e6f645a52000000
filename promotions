@@ -34,7 +34,7 @@
             // var promos = getPublishedPromotionsList().sortBy(function(o){ return o.end_date });
             // renderPromotions('#promos_container','#promos_template', promos);
             
-            var promos = getPromotionsList().sortBy(function(o){ return o.end_date });
+            var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
             $.each( promotions , function( key, val ){
                 today = moment();
@@ -44,7 +44,7 @@
                 } 
             });
             if(published_promos.length > 0){
-                renderPromotions('#promos_container','#promos_template', promos);
+                renderPromotions('#promos_container','#promos_template', published_promos);
             } else {
                 $('#no_promos').show()
             }
