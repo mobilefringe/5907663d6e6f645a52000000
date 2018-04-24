@@ -30,7 +30,10 @@
             var repo = getRepoDetailsByName("Promotions Header").images[0];
             var banner_url = repo.image_url;
             renderSimple("#promo_header_container", "#promo_header_template", banner_url)
-
+            
+            // var promos = getPublishedPromotionsList().sortBy(function(o){ return o.end_date });
+            // renderPromotions('#promos_container','#promos_template', promos);
+            
             var promotions = getPromotionsList().sortBy(function(o){ return o.end_date });
             var published_promos = [];
             $.each( promotions , function( key, val ){
