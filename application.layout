@@ -98,7 +98,7 @@
                             <a href='' >WHAT'S NEW</a>
                         </div>
                         <div class="mobile_menu_item">
-                            <a href='/promotions'>Store Sales</a>
+                            <a href='/promotions'>Promotions</a>
                         </div>
                         <div class="mobile_menu_item">
                             <a href='/events'>Mall Events</a>
@@ -107,7 +107,7 @@
                             <a href='/new_stores'>New Stores</a>
                         </div>
                         <div class="mobile_menu_item">
-                            <a href='/posts'> Get the Look</a>
+                            <a href='/posts'> Blog</a>
                         </div>
                         <div class="mobile_menu_header" >
                             <a href='' >SHOPPING</a>
@@ -226,7 +226,7 @@
                                         <a class="nav_a" href='/new_stores' target='_self'><span>New Stores</span></a>                               
                                     </li>
                                     <li>
-                                        <a class="nav_a" href='/posts' target='_self'><span>Get the Look</span></a>                                
+                                        <a class="nav_a" href='/posts' target='_self'><span>Blog</span></a>                                
                                     </li>
                                 </ul>
                             </li>  
@@ -405,7 +405,7 @@
                                     <a href='/new_stores' target='_self'>New Stores</a>
                                 </div>
                                 <div class="bottom_nav_list">
-                                    <a href='/posts' target='_self'>Get the Look</a>
+                                    <a href='/posts' target='_self'>Blog</a>
                                 </div>
                             </div>                  
                             <div class="site_map_table">
