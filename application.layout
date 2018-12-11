@@ -217,7 +217,7 @@
                                 <button id="new" class="btn-nav">WHAT'S NEW</button>                                                     
                                 <ul class="dropdown-menu dd_animated" id="new-dropdown">                            
                                     <li>
-                                        <a class="nav_a" href='/promotions' target='_self'><span>Store Sales</span></a>                              
+                                        <a class="nav_a" href='/promotions' target='_self'><span>Promotions</span></a>                              
                                     </li>
                                     <li>
                                         <a class="nav_a" href='/events' target='_self'><span>Mall Events</span></a>                                
@@ -396,7 +396,7 @@
                             <div class="site_map_table">
                                 <div align="left" class="bottom_nav_header">WHAT'S NEW</div>
                                 <div class="bottom_nav_list">
-                                    <a href='/promotions' target='_self'>Store Sales</a>
+                                    <a href='/promotions' target='_self'>Promotions</a>
                                 </div>
                                 <div class="bottom_nav_list">
                                     <a href='/events' target='_self'>Mall Events</a>
